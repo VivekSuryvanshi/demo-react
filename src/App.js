@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <>
-     Hello world
+     Hello world I am now live on Netlify
     </>
   );
 }
