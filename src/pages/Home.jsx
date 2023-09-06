@@ -1406,7 +1406,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="form">
+            {/* <div className="form">
               <form
                 action="forms/contact.php"
                 method="post"
@@ -1465,7 +1465,7 @@ function Home() {
                   <button type="submit">Send Message</button>
                 </div>
               </form>
-            </div>
+            </div> */}
           </div>
         </section>
         {/* <!-- End Contact Section --> */}
