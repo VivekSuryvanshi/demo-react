@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
@@ -12,89 +13,89 @@ function Home() {
           <div className="row justify-content-center align-items-center">
             <div className="col-xl-11 d-flex align-items-center justify-content-between">
               <h1 className="logo">
-                <a href="index.html">BizPage</a>
+                <NavLink to="index.html">BizPage</NavLink>
               </h1>
               {/* <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid"/></a>--> */}
+          <!-- <NavLink to="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid"/></NavLink>--> */}
 
               <nav id="navbar" className="navbar">
                 <ul>
                   <li>
-                    <a className="nav-link scrollto active" href="#hero">
+                    <NavLink className="nav-link scrollto active" to="#hero">
                       Home
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="nav-link scrollto" href="#about">
+                    <NavLink className="nav-link scrollto" to="#about">
                       About
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="nav-link scrollto" href="#services">
+                    <NavLink className="nav-link scrollto" to="#services">
                       Services
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="nav-link scrollto " href="#portfolio">
+                    <NavLink className="nav-link scrollto " to="#portfolio">
                       Portfolio
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="nav-link scrollto" href="#team">
+                    <NavLink className="nav-link scrollto" to="#team">
                       Team
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="nav-link  " href="blog.html">
+                    <NavLink className="nav-link  " to="blog.html">
                       Blog
-                    </a>
+                    </NavLink>
                   </li>
                   <li className="dropdown">
-                    <a href="#">
+                    <NavLink to="#">
                       <span>Drop Down</span> <i className="bi bi-chevron-down"></i>
-                    </a>
+                    </NavLink>
                     <ul>
                       <li>
-                        <a href="#">Drop Down 1</a>
+                        <NavLink to="#">Drop Down 1</NavLink>
                       </li>
                       <li className="dropdown">
-                        <a href="#">
+                        <NavLink to="#">
                           <span>Deep Drop Down</span>{" "}
                           <i className="bi bi-chevron-right"></i>
-                        </a>
+                        </NavLink>
                         <ul>
                           <li>
-                            <a href="#">Deep Drop Down 1</a>
+                            <NavLink to="#">Deep Drop Down 1</NavLink>
                           </li>
                           <li>
-                            <a href="#">Deep Drop Down 2</a>
+                            <NavLink to="#">Deep Drop Down 2</NavLink>
                           </li>
                           <li>
-                            <a href="#">Deep Drop Down 3</a>
+                            <NavLink to="#">Deep Drop Down 3</NavLink>
                           </li>
                           <li>
-                            <a href="#">Deep Drop Down 4</a>
+                            <NavLink to="#">Deep Drop Down 4</NavLink>
                           </li>
                           <li>
-                            <a href="#">Deep Drop Down 5</a>
+                            <NavLink to="#">Deep Drop Down 5</NavLink>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="#">Drop Down 2</a>
+                        <NavLink to="#">Drop Down 2</NavLink>
                       </li>
                       <li>
-                        <a href="#">Drop Down 3</a>
+                        <NavLink to="#">Drop Down 3</NavLink>
                       </li>
                       <li>
-                        <a href="#">Drop Down 4</a>
+                        <NavLink to="#">Drop Down 4</NavLink>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a className="nav-link scrollto" href="#contact">
+                    <NavLink className="nav-link scrollto" to="#contact">
                       Contact
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
                 <i className="bi bi-list mobile-nav-toggle"></i>
@@ -133,12 +134,12 @@ function Home() {
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <a
-                      href="#featured-services"
+                    <NavLink
+                      to="#featured-services"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -159,12 +160,12 @@ function Home() {
                       repellendus. Temporibus autem quibusdam et aut officiis
                       debitis aut.
                     </p>
-                    <a
-                      href="#featured-services"
+                    <NavLink
+                      to="#featured-services"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -185,12 +186,12 @@ function Home() {
                       voluptatem sequi nesciunt omnis iste natus error sit
                       voluptatem accusantium.
                     </p>
-                    <a
-                      href="#featured-services"
+                    <NavLink
+                      to="#featured-services"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -211,12 +212,12 @@ function Home() {
                       aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
                       nostrum.
                     </p>
-                    <a
-                      href="#featured-services"
+                    <NavLink
+                      to="#featured-services"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -236,20 +237,20 @@ function Home() {
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                       ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <a
-                      href="#featured-services"
+                    <NavLink
+                      to="#featured-services"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
             </div>
 
-            <a
+            <NavLink
               className="carousel-control-prev"
-              href="#heroCarousel"
+              to="#heroCarousel"
               role="button"
               data-bs-slide="prev"
             >
@@ -257,11 +258,11 @@ function Home() {
                 className="carousel-control-prev-icon bi bi-chevron-left"
                 aria-hidden="true"
               ></span>
-            </a>
+            </NavLink>
 
-            <a
+            <NavLink
               className="carousel-control-next"
-              href="#heroCarousel"
+              to="#heroCarousel"
               role="button"
               data-bs-slide="next"
             >
@@ -269,7 +270,7 @@ function Home() {
                 className="carousel-control-next-icon bi bi-chevron-right"
                 aria-hidden="true"
               ></span>
-            </a>
+            </NavLink>
           </div>
         </div>
       </section>
@@ -283,7 +284,7 @@ function Home() {
               <div className="col-lg-4 box">
                 <i className="bi bi-briefcase"></i>
                 <h4 className="title">
-                  <a href="">Lorem Ipsum Delino</a>
+                  <NavLink to="">Lorem Ipsum Delino</NavLink>
                 </h4>
                 <p className="description">
                   Voluptatum deleniti atque corrupti quos dolores et quas
@@ -294,7 +295,7 @@ function Home() {
               <div className="col-lg-4 box box-bg">
                 <i className="bi bi-card-checklist"></i>
                 <h4 className="title">
-                  <a href="">Dolor Sitema</a>
+                  <NavLink to="">Dolor Sitema</NavLink>
                 </h4>
                 <p className="description">
                   Minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -305,7 +306,7 @@ function Home() {
               <div className="col-lg-4 box">
                 <i className="bi bi-binoculars"></i>
                 <h4 className="title">
-                  <a href="">Sed ut perspiciatis</a>
+                  <NavLink to="">Sed ut perspiciatis</NavLink>
                 </h4>
                 <p className="description">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -344,7 +345,7 @@ function Home() {
                     </div>
                   </div>
                   <h2 className="title">
-                    <a href="#">Our Mission</a>
+                    <NavLink to="#">Our Mission</NavLink>
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
@@ -368,7 +369,7 @@ function Home() {
                     </div>
                   </div>
                   <h2 className="title">
-                    <a href="#">Our Plan</a>
+                    <NavLink to="#">Our Plan</NavLink>
                   </h2>
                   <p>
                     Sed ut perspiciatis unde omnis iste natus error sit
@@ -392,7 +393,7 @@ function Home() {
                     </div>
                   </div>
                   <h2 className="title">
-                    <a href="#">Our Vision</a>
+                    <NavLink to="#">Our Vision</NavLink>
                   </h2>
                   <p>
                     Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
@@ -430,7 +431,7 @@ function Home() {
                   <i className="bi bi-briefcase"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Lorem Ipsum</a>
+                  <NavLink to="">Lorem Ipsum</NavLink>
                 </h4>
                 <p className="description">
                   Voluptatum deleniti atque corrupti quos dolores et quas
@@ -446,7 +447,7 @@ function Home() {
                   <i className="bi bi-card-checklist"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Dolor Sitema</a>
+                  <NavLink to="">Dolor Sitema</NavLink>
                 </h4>
                 <p className="description">
                   Minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -462,7 +463,7 @@ function Home() {
                   <i className="bi bi-bar-chart"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Sed ut perspiciatis</a>
+                  <NavLink to="">Sed ut perspiciatis</NavLink>
                 </h4>
                 <p className="description">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -478,7 +479,7 @@ function Home() {
                   <i className="bi bi-binoculars"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Magni Dolores</a>
+                  <NavLink to="">Magni Dolores</NavLink>
                 </h4>
                 <p className="description">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -494,7 +495,7 @@ function Home() {
                   <i className="bi bi-brightness-high"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Nemo Enim</a>
+                  <NavLink to="">Nemo Enim</NavLink>
                 </h4>
                 <p className="description">
                   At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -510,7 +511,7 @@ function Home() {
                   <i className="bi bi-calendar4-week"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Eiusmod Tempor</a>
+                  <NavLink to="">Eiusmod Tempor</NavLink>
                 </h4>
                 <p className="description">
                   Et harum quidem rerum facilis est et expedita distinctio. Nam
@@ -533,9 +534,9 @@ function Home() {
               cupidatat non proident, sunt in culpa qui officia deserunt mollit
               anim id est laborum.
             </p>
-            <a className="cta-btn" href="#">
+            <NavLink className="cta-btn" to="#">
               Call To Action
-            </a>
+            </NavLink>
           </div>
         </section>
         {/* <!-- End Call To Action Section --> */}
@@ -707,26 +708,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/app1.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/app1.jpg"
                       data-lightbox="portfolio"
                       data-title="App 1"
                       className="link-preview"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">App 1</a>
+                      <NavLink to="portfolio-details.html">App 1</NavLink>
                     </h4>
                     <p>App</p>
                   </div>
@@ -741,26 +742,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/web3.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/web3.jpg"
                       className="link-preview portfolio-lightbox"
                       data-gallery="portfolioGallery"
                       title="Web 3"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">Web 3</a>
+                      <NavLink to="portfolio-details.html">Web 3</NavLink>
                     </h4>
                     <p>Web</p>
                   </div>
@@ -775,26 +776,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/app2.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/app2.jpg"
                       className="link-preview portfolio-lightbox"
                       data-gallery="portfolioGallery"
                       title="App 2"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">App 2</a>
+                      <NavLink to="portfolio-details.html">App 2</NavLink>
                     </h4>
                     <p>App</p>
                   </div>
@@ -809,26 +810,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/card2.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/card2.jpg"
                       className="link-preview portfolio-lightbox"
                       data-gallery="portfolioGallery"
                       title="Card 2"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">Card 2</a>
+                      <NavLink to="portfolio-details.html">Card 2</NavLink>
                     </h4>
                     <p>Card</p>
                   </div>
@@ -843,26 +844,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/web2.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/web2.jpg"
                       className="link-preview portfolio-lightbox"
                       data-gallery="portfolioGallery"
                       title="Web 2"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">Web 2</a>
+                      <NavLink to="portfolio-details.html">Web 2</NavLink>
                     </h4>
                     <p>Web</p>
                   </div>
@@ -877,26 +878,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/app3.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/app3.jpg"
                       className="link-preview portfolio-lightbox"
                       data-gallery="portfolioGallery"
                       title="App 3"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">App 3</a>
+                      <NavLink to="portfolio-details.html">App 3</NavLink>
                     </h4>
                     <p>App</p>
                   </div>
@@ -911,26 +912,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/card1.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/card1.jpg"
                       className="link-preview portfolio-lightbox"
                       data-gallery="portfolioGallery"
                       title="Card 1"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">Card 1</a>
+                      <NavLink to="portfolio-details.html">Card 1</NavLink>
                     </h4>
                     <p>Card</p>
                   </div>
@@ -945,26 +946,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/card3.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/card3.jpg"
                       className="link-preview portfolio-lightbox"
                       data-gallery="portfolioGallery"
                       title="Card 3"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">Card 3</a>
+                      <NavLink to="portfolio-details.html">Card 3</NavLink>
                     </h4>
                     <p>Card</p>
                   </div>
@@ -979,26 +980,26 @@ function Home() {
                       className="img-fluid"
                       alt=""
                     />
-                    <a
-                      href="assets/img/portfolio/web1.jpg"
+                    <NavLink
+                      to="assets/img/portfolio/web1.jpg"
                       className="link-preview portfolio-lightbox"
                       data-gallery="portfolioGallery"
                       title="Web 1"
                     >
                       <i className="bi bi-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </NavLink>
+                    <NavLink
+                      to="portfolio-details.html"
                       className="link-details"
                       title="More Details"
                     >
                       <i className="bi bi-link"></i>
-                    </a>
+                    </NavLink>
                   </figure>
 
                   <div className="portfolio-info">
                     <h4>
-                      <a href="portfolio-details.html">Web 1</a>
+                      <NavLink to="portfolio-details.html">Web 1</NavLink>
                     </h4>
                     <p>Web</p>
                   </div>
@@ -1264,18 +1265,18 @@ function Home() {
                       <h4>Walter White</h4>
                       <span>Chief Executive Officer</span>
                       <div className="social">
-                        <a href="">
+                        <NavLink to="">
                           <i className="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-linkedin"></i>
-                        </a>
+                        </NavLink>
                       </div>
                     </div>
                   </div>
@@ -1290,18 +1291,18 @@ function Home() {
                       <h4>Sarah Jhonson</h4>
                       <span>Product Manager</span>
                       <div className="social">
-                        <a href="">
+                        <NavLink to="">
                           <i className="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-linkedin"></i>
-                        </a>
+                        </NavLink>
                       </div>
                     </div>
                   </div>
@@ -1316,18 +1317,18 @@ function Home() {
                       <h4>William Anderson</h4>
                       <span>CTO</span>
                       <div className="social">
-                        <a href="">
+                        <NavLink to="">
                           <i className="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-linkedin"></i>
-                        </a>
+                        </NavLink>
                       </div>
                     </div>
                   </div>
@@ -1342,18 +1343,18 @@ function Home() {
                       <h4>Amanda Jepson</h4>
                       <span>Accountant</span>
                       <div className="social">
-                        <a href="">
+                        <NavLink to="">
                           <i className="bi bi-twitter"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-facebook"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-instagram"></i>
-                        </a>
-                        <a href="">
+                        </NavLink>
+                        <NavLink to="">
                           <i className="bi bi-linkedin"></i>
-                        </a>
+                        </NavLink>
                       </div>
                     </div>
                   </div>
@@ -1389,7 +1390,7 @@ function Home() {
                   <i className="bi bi-phone"></i>
                   <h3>Phone Number</h3>
                   <p>
-                    <a href="tel:+155895548855">+1 5589 55488 55</a>
+                    <NavLink to="tel:+155895548855">+1 5589 55488 55</NavLink>
                   </p>
                 </div>
               </div>
@@ -1399,7 +1400,7 @@ function Home() {
                   <i className="bi bi-envelope"></i>
                   <h3>Email</h3>
                   <p>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <NavLink to="mailto:info@example.com">info@example.com</NavLink>
                   </p>
                 </div>
               </div>
