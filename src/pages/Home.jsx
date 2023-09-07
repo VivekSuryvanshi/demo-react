@@ -317,7 +317,7 @@ function Home() {
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
             <div class="bg_img_1 bg_style"></div>
-            <div id="carousel_title" class="carousel-caption d-none d-md-block">
+            <div id="carousel_title" class="carousel-caption d-md-block">
               <h1>COMMODITIES AND FOOD PRODUCTS</h1>
               <p>
               Ship all over the world / The quality complies with the requirements
@@ -326,7 +326,7 @@ function Home() {
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <div class="bg_img_2 bg_style"></div>
-            <div id="carousel_title" class="carousel-caption d-none d-md-block">
+            <div id="carousel_title" class="carousel-caption d-md-block">
               <h1>PETROLEUM AND BIO FUEL</h1>
               <p>
               Ship all over the world / The quality complies with the requirements
