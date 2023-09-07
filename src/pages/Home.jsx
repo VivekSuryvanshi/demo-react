@@ -12,9 +12,9 @@ function Home() {
         aria-label="Offcanvas navbar large"
       >
         <div class="container-fluid">
-          <a class="navbar-brand logo" href="#">
+          <a class="navbar-brand logo" to="#">
             <img
-              src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
+              src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png" alt="logo"
               width="80px"
             />
           </a>
@@ -48,7 +48,7 @@ function Home() {
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <a class="nav-link active" aria-current="page" to="#">
                     Home
                   </a>
                 </li>
