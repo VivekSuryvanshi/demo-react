@@ -5,110 +5,108 @@ function Home() {
   return (
     <>
       {/* <!-- ======= Header ======= --> */}
-      <header
-        id="header"
-        className="fixed-top d-flex align-items-center header-transparent"
-      >
-        <div className="container-fluid">
-          <div className="row justify-content-center align-items-center">
-            <div className="col-xl-11 d-flex align-items-center justify-content-between">
-              <h1 className="logo">
-                <NavLink to="index.html">BizPage</NavLink>
-              </h1>
-              {/* <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <NavLink to="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid"/></NavLink>--> */}
 
-              <nav id="navbar" className="navbar">
-                <ul>
-                  <li>
-                    <NavLink className="nav-link scrollto active" to="#hero">
-                      Home
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link scrollto" to="#about">
-                      About
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link scrollto" to="#services">
-                      Services
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link scrollto " to="#portfolio">
-                      Portfolio
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link scrollto" to="#team">
-                      Team
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link  " to="blog.html">
-                      Blog
-                    </NavLink>
-                  </li>
-                  <li className="dropdown">
-                    <NavLink to="#">
-                      <span>Drop Down</span> <i className="bi bi-chevron-down"></i>
-                    </NavLink>
-                    <ul>
-                      <li>
-                        <NavLink to="#">Drop Down 1</NavLink>
-                      </li>
-                      <li className="dropdown">
-                        <NavLink to="#">
-                          <span>Deep Drop Down</span>{" "}
-                          <i className="bi bi-chevron-right"></i>
-                        </NavLink>
-                        <ul>
-                          <li>
-                            <NavLink to="#">Deep Drop Down 1</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="#">Deep Drop Down 2</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="#">Deep Drop Down 3</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="#">Deep Drop Down 4</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="#">Deep Drop Down 5</NavLink>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <NavLink to="#">Drop Down 2</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to="#">Drop Down 3</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to="#">Drop Down 4</NavLink>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <NavLink className="nav-link scrollto" to="#contact">
-                      Contact
-                    </NavLink>
-                  </li>
-                </ul>
-                <i className="bi bi-list mobile-nav-toggle"></i>
-              </nav>
-              {/* <!-- .navbar --> */}
+      {/* demo */}
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-light"
+        aria-label="Offcanvas navbar large"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">
+            <img
+              src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
+              width="80px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar2"
+            aria-controls="offcanvasNavbar2"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbar2Label"
+          >
+            <div class="offcanvas-header">
+              <img
+                src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
+                width="80px"
+              />
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    About Us
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Action
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Another action
+                      </a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        Something else here
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Services
+                  </a>
+                </li>{" "}
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </header>
+      </nav>
       {/* <!-- End Header --> */}
 
       {/* <!-- ======= hero Section ======= --> */}
-      <section id="hero">
+      {/* <section id="hero">
         <div className="hero-container">
           <div
             id="heroCarousel"
@@ -273,7 +271,114 @@ function Home() {
             </NavLink>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      {/* demo */}
+
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+           <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+           <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div class="bg_img_1 bg_style"></div>
+            <div id="carousel_title" class="carousel-caption d-none d-md-block">
+              <h1>COMMODITIES AND FOOD PRODUCTS</h1>
+              <p>
+              Ship all over the world / The quality complies with the requirements
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="bg_img_2 bg_style"></div>
+            <div id="carousel_title" class="carousel-caption d-none d-md-block">
+              <h1>PETROLEUM AND BIO FUEL</h1>
+              <p>
+              Ship all over the world / The quality complies with the requirements
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg_img_3 bg_style"></div>
+            <div id="carousel_title" class="carousel-caption d-none d-md-block">
+              <h1>MINERALS AND ORES</h1>
+              <p>
+              Ship all over the world / The quality complies with the requirements
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg_img_4 bg_style"></div>
+            <div id="carousel_title" class="carousel-caption d-none d-md-block">
+              <h1>CHEMICALS AND CATTLE FIELD FERTILIZER</h1>
+              <p>
+              Ship all over the world / The quality complies with the requirements              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg_img_5 bg_style"></div>
+            <div id="carousel_title" class="carousel-caption d-none d-md-block">
+              <h1>BUILDING MATERIALS AND CHEMICALS</h1>
+              <p>
+              Ship all over the world / The quality complies with the requirements
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       {/* <!-- End Hero Section --> */}
 
       <main id="main">
@@ -542,7 +647,7 @@ function Home() {
         {/* <!-- End Call To Action Section --> */}
 
         {/* <!-- ======= Skills Section ======= --> */}
-        <section id="skills">
+        {/* <section id="skills">
           <div className="container" data-aos="fade-up">
             <header className="section-header">
               <h3>Our Skills</h3>
@@ -612,11 +717,12 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <!-- End Skills Section --> */}
 
         {/* <!-- ======= Facts Section ======= --> */}
-        <section id="facts">
+
+        {/* <section id="facts">
           <div className="container" data-aos="fade-up">
             <header className="section-header">
               <h3>Facts</h3>
@@ -672,11 +778,12 @@ function Home() {
               <img src="assets/img/facts-img.png" alt="" className="img-fluid" />
             </div>
           </div>
-        </section>
+        </section> */}
+
         {/* <!-- End Facts Section --> */}
 
         {/* <!-- ======= Portfolio Section ======= --> */}
-        <section id="portfolio" className="section-bg">
+        {/* <section id="portfolio" className="section-bg">
           <div className="container" data-aos="fade-up">
             <header className="section-header">
               <h3 className="section-title">Our Portfolio</h3>
@@ -1007,11 +1114,11 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <!-- End Portfolio Section --> */}
 
         {/* <!-- ======= Our Clients Section ======= --> */}
-        <section id="clients">
+        {/* <section id="clients">
           <div className="container" data-aos="zoom-in">
             <header className="section-header">
               <h3>Our Clients</h3>
@@ -1079,14 +1186,14 @@ function Home() {
               <div className="swiper-pagination"></div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <!-- End Our Clients Section --> */}
 
         {/* <!-- ======= Testimonials Section ======= --> */}
         <section id="testimonials" className="section-bg">
           <div className="container" data-aos="fade-up">
             <header className="section-header">
-              <h3>Testimonials</h3>
+              {/* <h3>Testimonials</h3> */}
             </header>
 
             <div
@@ -1095,7 +1202,7 @@ function Home() {
               data-aos-delay="100"
             >
               <div className="swiper-wrapper">
-                <div className="swiper-slide">
+                {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-1.jpg"
@@ -1121,10 +1228,11 @@ function Home() {
                       />
                     </p>
                   </div>
-                </div>
+                </div> */}
+
                 {/* <!-- End testimonial item --> */}
 
-                <div className="swiper-slide">
+                {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-2.jpg"
@@ -1150,10 +1258,11 @@ function Home() {
                       />
                     </p>
                   </div>
-                </div>
+                </div> */}
+
                 {/* <!-- End testimonial item --> */}
 
-                <div className="swiper-slide">
+                {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-3.jpg"
@@ -1178,10 +1287,11 @@ function Home() {
                       />
                     </p>
                   </div>
-                </div>
+                </div> */}
+
                 {/* <!-- End testimonial item --> */}
 
-                <div className="swiper-slide">
+                {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-4.jpg"
@@ -1207,10 +1317,11 @@ function Home() {
                       />
                     </p>
                   </div>
-                </div>
+                </div> */}
+
                 {/* <!-- End testimonial item --> */}
 
-                <div className="swiper-slide">
+                {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-5.jpg"
@@ -1236,7 +1347,7 @@ function Home() {
                       />
                     </p>
                   </div>
-                </div>
+                </div> */}
                 {/* <!-- End testimonial item --> */}
               </div>
               <div className="swiper-pagination"></div>
@@ -1246,7 +1357,7 @@ function Home() {
         {/* <!-- End Testimonials Section --> */}
 
         {/* <!-- ======= Team Section ======= --> */}
-        <section id="team">
+        {/* <section id="team">
           <div className="container" data-aos="fade-up">
             <div className="section-header">
               <h3>Team</h3>
@@ -1362,11 +1473,11 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <!-- End Team Section --> */}
 
         {/* <!-- ======= Contact Section ======= --> */}
-        <section id="contact" className="section-bg">
+        {/* <section id="contact" className="section-bg">
           <div className="container" data-aos="fade-up">
             <div className="section-header">
               <h3>Contact Us</h3>
@@ -1405,69 +1516,8 @@ function Home() {
                 </div>
               </div>
             </div>
-
-            {/* <div className="form">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                className="php-email-form"
-              >
-                <div className="row">
-                  <div className="form-group col-md-6">
-                    <input
-                      type="text"
-                      name="name"
-                      className="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div className="form-group col-md-6">
-                    <input
-                      type="email"
-                      className="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div className="form-group">
-                  <input
-                    type="text"
-                    className="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div className="form-group">
-                  <textarea
-                    className="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div className="my-3">
-                  <div className="loading">Loading</div>
-                  <div className="error-message"></div>
-                  <div className="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div className="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
-            </div> */}
           </div>
-        </section>
+        </section> */}
         {/* <!-- End Contact Section --> */}
       </main>
       {/* <!-- End #main --> */}
