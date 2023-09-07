@@ -441,7 +441,7 @@ function Home() {
                 <div className="about-col">
                   <div className="img">
                     <img
-                      src="assets/img/about-mission.jpg"
+                      src="https://img.freepik.com/free-photo/global-business-graph-growth-finance-stock-market-concept_53876-21148.jpg?w=996&t=st=1694088471~exp=1694089071~hmac=6e1576d8fef77951a97468a1cecafb8e2a25472f69b05fe79ea138f0433cca25"
                       alt=""
                       className="img-fluid"
                     />
@@ -450,7 +450,7 @@ function Home() {
                     </div>
                   </div>
                   <h2 className="title">
-                    <NavLink to="#">Our Mission</NavLink>
+                    <NavLink to="#">Global Merchant Trader</NavLink>
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
@@ -465,7 +465,7 @@ function Home() {
                 <div className="about-col">
                   <div className="img">
                     <img
-                      src="assets/img/about-plan.jpg"
+                      src="https://img.freepik.com/free-photo/aerial-view-cargo-ship-with-cargo-container-sea_335224-1372.jpg?w=996&t=st=1694088608~exp=1694089208~hmac=4cb280805ac8d08cccf0b8cfdf661f45f69f07d193fc0db610d71bd9b2e8666e"
                       alt=""
                       className="img-fluid"
                     />
@@ -474,7 +474,7 @@ function Home() {
                     </div>
                   </div>
                   <h2 className="title">
-                    <NavLink to="#">Our Plan</NavLink>
+                    <NavLink to="#">We Serve Globally</NavLink>
                   </h2>
                   <p>
                     Sed ut perspiciatis unde omnis iste natus error sit
@@ -489,7 +489,7 @@ function Home() {
                 <div className="about-col">
                   <div className="img">
                     <img
-                      src="assets/img/about-vision.jpg"
+                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-helmet_23-2149426484.jpg?size=626&ext=jpg&uid=R115557865&ga=GA1.2.1388915471.1694001144&semt=ais"
                       alt=""
                       className="img-fluid"
                     />
@@ -498,7 +498,7 @@ function Home() {
                     </div>
                   </div>
                   <h2 className="title">
-                    <NavLink to="#">Our Vision</NavLink>
+                    <NavLink to="#">Professional Excellence</NavLink>
                   </h2>
                   <p>
                     Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
