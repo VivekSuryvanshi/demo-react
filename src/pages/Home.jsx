@@ -12,12 +12,12 @@ function Home() {
         aria-label="Offcanvas navbar large"
       >
         <div class="container-fluid">
-          <a class="navbar-brand logo" to="#">
+          <NavLink class="navbar-brand logo" to="/">
             <img
               src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png" alt="logo"
               width="80px"
             />
-          </a>
+          </NavLink>
           <button
             class="navbar-toggler"
             type="button"
@@ -60,7 +60,7 @@ function Home() {
                 <li class="nav-item dropdown">
                   <NavLink
                     class="nav-link dropdown-toggle"
-                    to="#"
+                    to="/"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
