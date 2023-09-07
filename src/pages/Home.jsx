@@ -48,55 +48,55 @@ function Home() {
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" to="#">
+                  <NavLink class="nav-link active" aria-current="page" to="#">
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <NavLink class="nav-link" to="#">
                     About Us
-                  </a>
+                  </NavLink>
                 </li>
                 <li class="nav-item dropdown">
-                  <a
+                  <NavLink
                     class="nav-link dropdown-toggle"
-                    href="#"
+                    to="#"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Products
-                  </a>
+                  </NavLink>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <NavLink class="dropdown-item" to="/">
                         Action
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <NavLink class="dropdown-item" to="/">
                         Another action
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
                       <hr class="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <NavLink class="dropdown-item" to="/">
                         Something else here
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <NavLink class="nav-link" to="/">
                     Services
-                  </a>
+                  </NavLink>
                 </li>{" "}
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <NavLink class="nav-link" to="/">
                     Contact Us
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
