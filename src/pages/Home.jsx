@@ -35,7 +35,7 @@ function Home() {
           >
             <div class="offcanvas-header">
               <img
-                src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
+                src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png" alt="logo"
                 width="80px"
               />
               <button
