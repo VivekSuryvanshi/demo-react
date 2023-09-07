@@ -468,6 +468,9 @@ h6 {
 }
 
 @media only screen and (min-width:320px) and (max-width:768px){
+  #carousel_title{
+    bottom: 28% !important;
+  }
   .sm_device_title{
     display: block !important;
   }
