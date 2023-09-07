@@ -420,11 +420,11 @@ h6 {
   color: white;
 }
 
-.carousel-caption {
+/* .carousel-caption {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-}
+} */
 
 .carousel-dark .carousel-caption {
   color: white !important;
