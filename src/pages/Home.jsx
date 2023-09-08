@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Example from "../components/ProgressBar";
 
 function Home() {
   return (
@@ -12,10 +13,11 @@ function Home() {
         aria-label="Offcanvas navbar large"
       >
         <div class="container-fluid">
-          <NavLink class="navbar-brand logo" to="/">
+          <NavLink class="navbar-brand logo responsive_logo" to="/">
             <img
-              src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png" alt="logo"
-              width="80px"
+              src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
+              alt="logo"
+              width="110px"
             />
           </NavLink>
           <button
@@ -35,7 +37,8 @@ function Home() {
           >
             <div class="offcanvas-header">
               <img
-                src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png" alt="logo"
+                src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
+                alt="logo"
                 width="80px"
               />
               <button
@@ -301,13 +304,13 @@ function Home() {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
-           <button
+          <button
             type="button"
             data-bs-target="#carouselExampleDark"
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
-           <button
+          <button
             type="button"
             data-bs-target="#carouselExampleDark"
             data-bs-slide-to="4"
@@ -320,7 +323,8 @@ function Home() {
             <div id="carousel_title" class="carousel-caption sm_device_title">
               <h1>COMMODITIES AND FOOD PRODUCTS</h1>
               <p>
-              Ship all over the world / The quality complies with the requirements
+                Ship all over the world / The quality complies with the
+                requirements
               </p>
             </div>
           </div>
@@ -329,7 +333,8 @@ function Home() {
             <div id="carousel_title" class="carousel-caption sm_device_title">
               <h1>PETROLEUM AND BIO FUEL</h1>
               <p>
-              Ship all over the world / The quality complies with the requirements
+                Ship all over the world / The quality complies with the
+                requirements
               </p>
             </div>
           </div>
@@ -338,7 +343,8 @@ function Home() {
             <div id="carousel_title" class="carousel-caption sm_device_title">
               <h1>MINERALS AND ORES</h1>
               <p>
-              Ship all over the world / The quality complies with the requirements
+                Ship all over the world / The quality complies with the
+                requirements
               </p>
             </div>
           </div>
@@ -347,7 +353,9 @@ function Home() {
             <div id="carousel_title" class="carousel-caption sm_device_title">
               <h1>CHEMICALS AND CATTLE FIELD FERTILIZER</h1>
               <p>
-              Ship all over the world / The quality complies with the requirements              </p>
+                Ship all over the world / The quality complies with the
+                requirements{" "}
+              </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -355,7 +363,8 @@ function Home() {
             <div id="carousel_title" class="carousel-caption sm_device_title">
               <h1>BUILDING MATERIALS AND CHEMICALS</h1>
               <p>
-              Ship all over the world / The quality complies with the requirements
+                Ship all over the world / The quality complies with the
+                requirements
               </p>
             </div>
           </div>
@@ -1190,18 +1199,18 @@ function Home() {
         {/* <!-- End Our Clients Section --> */}
 
         {/* <!-- ======= Testimonials Section ======= --> */}
-        <section id="testimonials" className="section-bg">
+        {/* <section id="testimonials" className="section-bg">
           <div className="container" data-aos="fade-up">
-            <header className="section-header">
+            <header className="section-header"> */}
               {/* <h3>Testimonials</h3> */}
-            </header>
+            {/* </header>
 
             <div
               className="testimonials-slider swiper"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <div className="swiper-wrapper">
+              <div className="swiper-wrapper"> */}
                 {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
@@ -1349,11 +1358,11 @@ function Home() {
                   </div>
                 </div> */}
                 {/* <!-- End testimonial item --> */}
-              </div>
+              {/* </div>
               <div className="swiper-pagination"></div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <!-- End Testimonials Section --> */}
 
         {/* <!-- ======= Team Section ======= --> */}
@@ -1519,6 +1528,12 @@ function Home() {
           </div>
         </section> */}
         {/* <!-- End Contact Section --> */}
+
+        {/* Progress bar starts */}
+        <div data-aos="fade-up">
+          <Example data-aos-delay="1000" />
+        </div>
+        {/* Progress bar ends */}
       </main>
       {/* <!-- End #main --> */}
     </>
