@@ -174,7 +174,7 @@ h6 {
   padding: 0;
   display: flex;
   list-style: none;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .navbar li {
@@ -195,7 +195,27 @@ h6 {
   text-transform: uppercase;
   transition: 0.3s;
 }
+@media only screen and (min-width:320px) and (max-width:768px){
+  .navbar a,
+.navbar a:focus {
+  padding: 0px 0 22px 5px;
+}
+.btn-close:focus{
+  box-shadow:none !important;
+}
+}
 
+.navbar-toggler:focus{
+  box-shadow:none !important;
+}
+
+.btn-close {
+  width: 2.5em !important;
+  color: black;
+  background-color: bisque !important;
+  padding: 10px 0 10px 0 !important;
+  margin-bottom: 0 !important;
+}
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -289,10 +309,6 @@ h6 {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
-  }
-
-  .navbar ul {
-    display: none;
   }
 }
 

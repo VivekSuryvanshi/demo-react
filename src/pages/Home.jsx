@@ -9,7 +9,7 @@ function Home() {
 
       {/* demo */}
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-light"
+        class="navbar navbar-expand-lg navbar-light sticky-top bg-light"
         aria-label="Offcanvas navbar large"
       >
         <div class="container-fluid">
@@ -18,6 +18,7 @@ function Home() {
               src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
               alt="logo"
               width="110px"
+              loading="lazy"
             />
           </NavLink>
           <button
@@ -30,7 +31,7 @@ function Home() {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="offcanvas offcanvas-end text-bg-dark"
+            class="offcanvas offcanvas-end text-bg-light"
             tabindex="-1"
             id="offcanvasNavbar2"
             aria-labelledby="offcanvasNavbar2Label"
@@ -39,7 +40,8 @@ function Home() {
               <img
                 src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
                 alt="logo"
-                width="80px"
+                width="110px"
+                loading="lazy"
               />
               <button
                 type="button"
@@ -319,7 +321,7 @@ function Home() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
-            <div class="bg_img_1 bg_style"></div>
+            <div class="bg_img_1 bg_style" loading="lazy"></div>
             <div id="carousel_title" class="carousel-caption sm_device_title">
               <h1>COMMODITIES AND FOOD PRODUCTS</h1>
               <p>

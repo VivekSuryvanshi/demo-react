@@ -17,7 +17,7 @@ const Example = () => {
             </p>
           </header>
           <div className="bars">
-          <h6 className="title">On Time Delivery</h6>
+          <h6 className="title indicator">On Time Delivery</h6>
             <ProgressBar
               completed={100}
               animateOnRender={true}
@@ -28,7 +28,7 @@ const Example = () => {
             />
           </div>
           <div className="bars">
-          <h6 className="title">Success Rate</h6>
+          <h6 className="title indicator">Success Rate</h6>
             <ProgressBar
               completed={98}
               animateOnRender={true}
@@ -39,7 +39,7 @@ const Example = () => {
             />
           </div>
           <div className="bars">
-          <h6 className="title">Availability of Goods</h6>
+          <h6 className="title indicator">Availability of Goods</h6>
             <ProgressBar
               completed={87}
               animateOnRender={true}
@@ -50,7 +50,7 @@ const Example = () => {
             />
           </div>
           <div className="bars">
-          <h6 className="title">Communication</h6>
+          <h6 className="title indicator">Communication</h6>
             <ProgressBar
               completed={89}
               animateOnRender={true}
