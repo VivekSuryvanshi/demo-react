@@ -1,0 +1,47 @@
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #15227e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    line-height: 0;
+    animation: gototop 1s linear infinite alternate-reverse;
+  }
+  
+  .back-to-top:hover {
+    background: #5ca595;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  @keyframes gototop {
+    0%{
+        transform: translateY(-0.1rem);
+    }
+    100%{
+        transform: translateY(0.7rem);
+    }
+  }

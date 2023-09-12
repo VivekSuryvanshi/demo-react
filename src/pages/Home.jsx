@@ -10,7 +10,7 @@ function Home() {
 
       {/* demo */}
       <nav
-        class="navbar navbar-expand-lg navbar-light sticky-top bg-light"
+        class="navbar navbar-expand-lg navbar-light sticky_header bg-light"
         aria-label="Offcanvas navbar large"
       >
         <div class="container-fluid">
@@ -1540,9 +1540,6 @@ function Home() {
         <Products/>
       </main>
       {/* <!-- End #main --> */}
-      {/* <div class="back-to-top d-flex align-items-center justify-content-center">
-      <NavLink to="#"><i class="bi bi-arrow-up-short"></i></NavLink>
-      </div> */}
     </>
   );
 }
