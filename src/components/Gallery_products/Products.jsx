@@ -68,7 +68,7 @@ function Products() {
           our customers to identify and develop solutions which work best for
           them, helping them manage physical risk and optimise opportunities.
         </p>
-        <ul>
+        <ul className="portfolio_ul">
           {list.map((item) => (
             <PortfolioList
               title={item.title}

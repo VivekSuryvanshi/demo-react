@@ -76,20 +76,38 @@ function Home() {
                   <ul class="dropdown-menu">
                     <li>
                       <NavLink class="dropdown-item" to="/">
-                        Action
+                      Products And Commodities
                       </NavLink>
                     </li>
                     <li>
                       <NavLink class="dropdown-item" to="/">
-                        Another action
+                      Edible & Non Edible Oil (Crude)
                       </NavLink>
                     </li>
                     <li>
-                      <hr class="dropdown-divider" />
+                      <NavLink class="dropdown-item" to="/">
+                      Fuel
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink class="dropdown-item" to="/">
-                        Something else here
+                      Cattlefeed & Fertilizers
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink class="dropdown-item" to="/">
+                      Minerals & Ores
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink class="dropdown-item" to="/">
+                      Metals
+                      </NavLink>
+                    </li>
+
+                    <li>
+                      <NavLink class="dropdown-item" to="/">
+                      Building Materials & Chemicals
                       </NavLink>
                     </li>
                   </ul>
