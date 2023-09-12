@@ -71,7 +71,7 @@ function Home() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Products
+                    <div>Products <i class="bi bi-chevron-down fw-bold"></i></div>
                   </NavLink>
                   <ul class="dropdown-menu">
                     <li>
