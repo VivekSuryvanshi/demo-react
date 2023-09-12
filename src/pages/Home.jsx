@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Example from "../components/ProgressBar";
+import Example from "../components/Progress Bar/ProgressBar";
+import Products from "../components/Gallery_products/Products";
 
 function Home() {
   return (
@@ -1536,8 +1537,12 @@ function Home() {
           <Example data-aos-delay="1000" />
         </div>
         {/* Progress bar ends */}
+        <Products/>
       </main>
       {/* <!-- End #main --> */}
+      {/* <div class="back-to-top d-flex align-items-center justify-content-center">
+      <NavLink to="#"><i class="bi bi-arrow-up-short"></i></NavLink>
+      </div> */}
     </>
   );
 }

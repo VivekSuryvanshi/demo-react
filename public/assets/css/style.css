@@ -16,17 +16,20 @@ body {
 }
 
 a {
-  color: #5ca595;
+  color: #15227e;
   transition: 0.5s;
   text-decoration: none;
 }
 
-a:hover,
-a:active,
-a:focus {
-  color: #18d36e;
-  outline: none;
-  text-decoration: none;
+@media only screen and (min-width:768px) {
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: #5ca595;
+    outline: none;
+    text-decoration: none;
+  }
 }
 
 p {
@@ -195,18 +198,21 @@ h6 {
   text-transform: uppercase;
   transition: 0.3s;
 }
-@media only screen and (min-width:320px) and (max-width:768px){
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+
   .navbar a,
-.navbar a:focus {
-  padding: 10px 0 0px 5px;
-}
-.btn-close:focus{
-  box-shadow:none !important;
-}
+  .navbar a:focus {
+    padding: 10px 0 0px 5px;
+  }
+
+  .btn-close:focus {
+    box-shadow: none !important;
+  }
 }
 
-.navbar-toggler:focus{
-  box-shadow:none !important;
+.navbar-toggler:focus {
+  box-shadow: none !important;
 }
 
 .btn-close {
@@ -216,6 +222,7 @@ h6 {
   padding: 10px 0 10px 0 !important;
   margin-bottom: 0 !important;
 }
+
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -394,9 +401,11 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-.navbar-nav .nav-link.active{
+
+.navbar-nav .nav-link.active {
   color: #15227e !important;
 }
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -421,7 +430,7 @@ h6 {
 
 .carousel-item::before {
   content: "";
-  background-color: rgba(92,165,149,0.4);
+  background-color: rgba(92, 165, 149, 0.4);
 }
 
 .carousel-indicators button {
@@ -459,18 +468,22 @@ h6 {
 .bg_img_3 {
   background-image: url('https://img.freepik.com/free-photo/smooth-pebble-stack-wet-from-ocean-wave-generated-by-ai_188544-25791.jpg?t=st=1694076554~exp=1694080154~hmac=ac629e8e6ebb4e9e114cbcdb8439ddc97a35466ee68853f2453b091dca0afe02&w=1060') !important;
 }
+
 .bg_img_4 {
   background-image: url('https://img.freepik.com/free-photo/plant-growing-soil-with-sun-shining-it_1340-38891.jpg?t=st=1694084163~exp=1694087763~hmac=6f050ef906d5c16bdccfad11911961197131b51131f52cd9b452e8070b9f17b8&w=996') !important;
 }
+
 .bg_img_5 {
   background-image: url('https://img.freepik.com/free-photo/group-steel-rod-tight-by-chain-lift-up-construction-site_1150-10135.jpg?w=996&t=st=1694083492~exp=1694084092~hmac=46027ac9501837d7792fede90e5fcc6d7423840345019da465d05dcaa2d1b6e4') !important;
 }
+
 .bg_style {
-  height:84.5vh;
+  height: 84.5vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #carousel_title {
   position: absolute;
   right: 15%;
@@ -480,15 +493,16 @@ h6 {
   padding-bottom: 0.5rem;
   font-size: 1.5rem;
   color: #fff;
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
-@media only screen and (min-width:320px) and (max-width:768px){
-  #carousel_title{
+@media only screen and (min-width:320px) and (max-width:768px) {
+  #carousel_title {
     bottom: 28% !important;
   }
-  .sm_device_title{
+
+  .sm_device_title {
     display: block !important;
   }
 }
@@ -684,9 +698,16 @@ section {
 }
 
 .section-header p {
-  text-align: center;
+  text-align: justify;
+  font-size: 18px;
   padding-bottom: 30px;
   color: #333;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+  .section-header p {
+    padding: 15px 10px;
+  }
 }
 
 /* Section with background
@@ -850,14 +871,6 @@ section {
   transition: 0.3s;
 }
 
-#about .about-col:hover .icon {
-  background-color: #fff;
-}
-
-#about .about-col:hover i {
-  color: #5ca595;
-}
-
 #about .about-col h2 {
   color: #000;
   text-align: center;
@@ -871,8 +884,22 @@ section {
   color: #15227e;
 }
 
-#about .about-col h2 a:hover {
-  color: #5ca595;
+@media only screen and (min-width:768px) {
+  #about .about-col:hover .icon {
+    background-color: #fff;
+  }
+
+  #about .about-col:hover i {
+    color: #5ca595;
+  }
+
+  #about .about-col h2 a:hover {
+    color: #5ca595;
+  }
+
+  #services .box:hover .title a {
+    color: #5ca595;
+  }
 }
 
 #about .about-col p {
@@ -915,10 +942,6 @@ section {
 
 #services .title a {
   color: #15227e;
-}
-
-#services .box:hover .title a {
-  color: #5ca595;
 }
 
 #services .description {
@@ -1047,7 +1070,13 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  padding: 60px 0;
+  padding: 30px 0;
+}
+
+@media screen and (max-width:768px) {
+  #portfolio {
+    padding: 5px 0;
+  }
 }
 
 #portfolio #portfolio-flters {
