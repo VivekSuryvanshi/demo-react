@@ -9,7 +9,6 @@ import 'swiper/css/navigation';
 
 import  { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-
 import slide_image_1 from '../../../src/assets/images/img_1.jpg';
 import slide_image_2 from '../../../src/assets/images/img_2.jpg';
 import slide_image_3 from '../../../src/assets/images/img_3.jpg';
