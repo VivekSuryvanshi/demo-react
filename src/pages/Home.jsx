@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Example from "../components/Progress Bar/ProgressBar";
 import Products from "../components/Gallery_products/Products";
+import Carousel from "../components/Carousel_products/Carousel";
 
 function Home() {
   return (
@@ -1549,13 +1550,14 @@ function Home() {
           </div>
         </section> */}
         {/* <!-- End Contact Section --> */}
-
+        <Carousel/>
         {/* Progress bar starts */}
         <div data-aos="fade-up">
           <Example data-aos-delay="1000" />
         </div>
         {/* Progress bar ends */}
         <Products/>
+        
       </main>
       {/* <!-- End #main --> */}
     </>
