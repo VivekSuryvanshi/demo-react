@@ -7,7 +7,7 @@ import Carousel from "../components/Carousel_products/Carousel";
 function Home() {
   return (
     <>
-      {/* <!-- ======= Header ======= --> */}
+      {/* <!-- ======= Header ====== --> */}
 
       {/* demo */}
       <nav
