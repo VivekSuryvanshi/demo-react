@@ -53,6 +53,7 @@ function Carousel() {
             grabCursor={true}
             centeredSlides={true}
             loop={true}
+            allowTouchMove={true}
             slidesPerView={'auto'}
             coverflowEffect={{
               rotate: 0,
