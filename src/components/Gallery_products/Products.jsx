@@ -57,7 +57,7 @@ function Products() {
         data-aos-delay="1000"
       >
         <header className="section-header">
-          <h3>Trading Portfolio</h3>
+          <h3>Trading <br/> Portfolio</h3>
         </header>
         <p className="portfolio_text">
           Our business is founded on the long-term relationships we've built
