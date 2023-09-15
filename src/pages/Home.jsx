@@ -212,11 +212,6 @@ function Home() {
                         </div>
                       </NavLink>
                       <ul class="dropdown-menu">
-                        <li>
-                          <NavLink class="dropdown-item" to="/">
-                            Polymers
-                          </NavLink>
-                        </li>
                         <li class="nav-item dropdown">
                           <NavLink
                             class="nav-link dropdown-toggle"
@@ -226,39 +221,131 @@ function Home() {
                             aria-expanded="false"
                           >
                             <div>
-                              Cattlefeed & Fertilizers{" "}
+                              Cattlefeed & Animal FEED{" "}
                               <i class="bi bi-chevron-down fw-bold"></i>
                             </div>
                           </NavLink>
                           <ul class="dropdown-menu">
                             <li>
                               <NavLink class="dropdown-item" to="/">
-                                Polymers
+                                Rice Husk
                               </NavLink>
                             </li>
                             <li>
                               <NavLink class="dropdown-item" to="/">
-                                Solvents
+                                Yellow Maize
                               </NavLink>
                             </li>
                             <li>
                               <NavLink class="dropdown-item" to="/">
-                                Chemicals & Intermediates
+                                Soyabean
                               </NavLink>
                             </li>
                             <li>
                               <NavLink class="dropdown-item" to="/">
-                                Speciality Chemicals
+                                NON GMO
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Raw materials & other feed
+                              </NavLink>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                          <NavLink
+                            class="nav-link dropdown-toggle"
+                            to="/"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            <div>
+                              Fertilizers{" "}
+                              <i class="bi bi-chevron-down fw-bold"></i>
+                            </div>
+                          </NavLink>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Urea N46 – Granular / Prilled
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                DAP & MAP
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Complex & Soluble Fertilizers
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Potash & NPK
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Bio NPK & Bio DAP
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Bio PROM
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                UREA GAS / LIQUID
                               </NavLink>
                             </li>
                           </ul>
                         </li>
                       </ul>
                     </li>
-                    <li>
-                      <NavLink class="dropdown-item" to="/">
-                        Cattlefeed & Fertilizers
+                    <li class="nav-item dropdown">
+                      <NavLink
+                        class="nav-link dropdown-toggle"
+                        to="/"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <div>
+                          Bio Fuels <i class="bi bi-chevron-down fw-bold"></i>
+                        </div>
                       </NavLink>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                          BioDiesel
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                          Ethanol
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                          BIO LNG
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                          Fatty Acids & Sterne.
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                          Palm Oil & used Cooking Oil
+                          </NavLink>
+                        </li>
+                      </ul>
                     </li>
                     <li>
                       <NavLink class="dropdown-item" to="/">
