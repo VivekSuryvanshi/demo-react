@@ -51,7 +51,7 @@ function Products() {
   return (
     <>
       <div
-        className="portfolio"
+        className="portfolio container"
         id="portfolio"
         data-aos="fade-up"
         data-aos-delay="1000"

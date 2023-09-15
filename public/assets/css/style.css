@@ -263,7 +263,7 @@ h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 2560px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -272,7 +272,11 @@ h6 {
     left: -100%;
   }
 }
-
+@media only screen and (min-width:320px) and (max-width:768px){
+  .navbar .dropdown .dropdown:hover>ul {
+    left: 20%;
+  }
+}
 /**
 * Mobile Navigation 
 */

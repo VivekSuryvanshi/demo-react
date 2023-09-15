@@ -72,43 +72,208 @@ function Home() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <div>Products <i class="bi bi-chevron-down fw-bold"></i></div>
+                    <div>
+                      Products <i class="bi bi-chevron-down fw-bold"></i>
+                    </div>
                   </NavLink>
                   <ul class="dropdown-menu">
                     <li>
                       <NavLink class="dropdown-item" to="/">
-                      Products And Commodities
+                        Agro Commodities
                       </NavLink>
                     </li>
                     <li>
                       <NavLink class="dropdown-item" to="/">
-                      Edible & Non Edible Oil (Crude)
+                        Edible & Non Edible Oil (Crude)
+                      </NavLink>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <NavLink
+                        class="nav-link dropdown-toggle"
+                        to="/"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <div>
+                          Chemicals <i class="bi bi-chevron-down fw-bold"></i>
+                        </div>
+                      </NavLink>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Polymers
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Solvents
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Chemicals & Intermediates
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Speciality Chemicals
+                          </NavLink>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <NavLink
+                        class="nav-link dropdown-toggle"
+                        to="/"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <div>
+                          Petroleum & Oil Products{" "}
+                          <i class="bi bi-chevron-down fw-bold"></i>
+                        </div>
+                      </NavLink>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Aviation Fuel (JetFuel)
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            D2 Gas Oil
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            D6 Diesel Bunker Fuel
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            EN-590 Diesel ULSD
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Fuel Oil
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Crude Oil
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Mazut
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Liquefied Petroleum Gas
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Liquefied Natural Gas
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Petroleum Coke (PETCOKE)
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Bitumen (Asphalt)
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Naphtha
+                          </NavLink>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <NavLink
+                        class="nav-link dropdown-toggle"
+                        to="/"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <div>
+                          Cattlefeed & Fertilizers{" "}
+                          <i class="bi bi-chevron-down fw-bold"></i>
+                        </div>
+                      </NavLink>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <NavLink class="dropdown-item" to="/">
+                            Polymers
+                          </NavLink>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <NavLink
+                            class="nav-link dropdown-toggle"
+                            to="/"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            <div>
+                              Cattlefeed & Fertilizers{" "}
+                              <i class="bi bi-chevron-down fw-bold"></i>
+                            </div>
+                          </NavLink>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Polymers
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Solvents
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Chemicals & Intermediates
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink class="dropdown-item" to="/">
+                                Speciality Chemicals
+                              </NavLink>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <NavLink class="dropdown-item" to="/">
+                        Cattlefeed & Fertilizers
                       </NavLink>
                     </li>
                     <li>
                       <NavLink class="dropdown-item" to="/">
-                      Fuel
+                        Minerals & Ores
                       </NavLink>
                     </li>
                     <li>
                       <NavLink class="dropdown-item" to="/">
-                      Cattlefeed & Fertilizers
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink class="dropdown-item" to="/">
-                      Minerals & Ores
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink class="dropdown-item" to="/">
-                      Metals
+                        Metals
                       </NavLink>
                     </li>
 
                     <li>
                       <NavLink class="dropdown-item" to="/">
-                      Building Materials & Chemicals
+                        Building Materials & Chemicals
                       </NavLink>
                     </li>
                   </ul>
@@ -1224,8 +1389,8 @@ function Home() {
         {/* <section id="testimonials" className="section-bg">
           <div className="container" data-aos="fade-up">
             <header className="section-header"> */}
-              {/* <h3>Testimonials</h3> */}
-            {/* </header>
+        {/* <h3>Testimonials</h3> */}
+        {/* </header>
 
             <div
               className="testimonials-slider swiper"
@@ -1233,7 +1398,7 @@ function Home() {
               data-aos-delay="100"
             >
               <div className="swiper-wrapper"> */}
-                {/* <div className="swiper-slide">
+        {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-1.jpg"
@@ -1261,9 +1426,9 @@ function Home() {
                   </div>
                 </div> */}
 
-                {/* <!-- End testimonial item --> */}
+        {/* <!-- End testimonial item --> */}
 
-                {/* <div className="swiper-slide">
+        {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-2.jpg"
@@ -1291,9 +1456,9 @@ function Home() {
                   </div>
                 </div> */}
 
-                {/* <!-- End testimonial item --> */}
+        {/* <!-- End testimonial item --> */}
 
-                {/* <div className="swiper-slide">
+        {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-3.jpg"
@@ -1320,9 +1485,9 @@ function Home() {
                   </div>
                 </div> */}
 
-                {/* <!-- End testimonial item --> */}
+        {/* <!-- End testimonial item --> */}
 
-                {/* <div className="swiper-slide">
+        {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-4.jpg"
@@ -1350,9 +1515,9 @@ function Home() {
                   </div>
                 </div> */}
 
-                {/* <!-- End testimonial item --> */}
+        {/* <!-- End testimonial item --> */}
 
-                {/* <div className="swiper-slide">
+        {/* <div className="swiper-slide">
                   <div className="testimonial-item">
                     <img
                       src="assets/img/testimonial-5.jpg"
@@ -1379,8 +1544,8 @@ function Home() {
                     </p>
                   </div>
                 </div> */}
-                {/* <!-- End testimonial item --> */}
-              {/* </div>
+        {/* <!-- End testimonial item --> */}
+        {/* </div>
               <div className="swiper-pagination"></div>
             </div>
           </div>
@@ -1550,14 +1715,13 @@ function Home() {
           </div>
         </section> */}
         {/* <!-- End Contact Section --> */}
-        <Carousel/>
+        <Carousel />
         {/* Progress bar starts */}
         <div data-aos="fade-up">
           <Example data-aos-delay="1000" />
         </div>
         {/* Progress bar ends */}
-        <Products/>
-        
+        <Products />
       </main>
       {/* <!-- End #main --> */}
     </>
