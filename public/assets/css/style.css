@@ -777,9 +777,9 @@ section {
 }
 
 #featured-services h4 {
-  font-weight: 400;
+  font-weight: 600;
   margin: 15px 0;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #featured-services h4 a {
@@ -791,7 +791,7 @@ section {
 }
 
 #featured-services p {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #fff;
   margin-bottom: 0;

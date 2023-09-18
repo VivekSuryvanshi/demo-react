@@ -322,27 +322,27 @@ function Home() {
                       <ul class="dropdown-menu">
                         <li>
                           <NavLink class="dropdown-item" to="/">
-                          BioDiesel
+                            BioDiesel
                           </NavLink>
                         </li>
                         <li>
                           <NavLink class="dropdown-item" to="/">
-                          Ethanol
+                            Ethanol
                           </NavLink>
                         </li>
                         <li>
                           <NavLink class="dropdown-item" to="/">
-                          BIO LNG
+                            BIO LNG
                           </NavLink>
                         </li>
                         <li>
                           <NavLink class="dropdown-item" to="/">
-                          Fatty Acids & Sterne.
+                            Fatty Acids & Sterne.
                           </NavLink>
                         </li>
                         <li>
                           <NavLink class="dropdown-item" to="/">
-                          Palm Oil & used Cooking Oil
+                            Palm Oil & used Cooking Oil
                           </NavLink>
                         </li>
                       </ul>
@@ -670,9 +670,10 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-lg-4 box">
-                <i className="bi bi-briefcase"></i>
+                <img src="./assets/img/icons/trade.png" alt="" />
+                {/* <i className="bi bi-briefcase"></i> */}
                 <h4 className="title">
-                  <NavLink to="">Lorem Ipsum Delino</NavLink>
+                  <NavLink to="">INTERNATIONAL TRADE</NavLink>
                 </h4>
                 <p className="description">
                   Voluptatum deleniti atque corrupti quos dolores et quas
@@ -681,9 +682,10 @@ function Home() {
               </div>
 
               <div className="col-lg-4 box box-bg">
-                <i className="bi bi-card-checklist"></i>
+                <img src="./assets/img/icons/certified.png" alt="" />
+                {/* <i className="bi bi-card-checklist"></i> */}
                 <h4 className="title">
-                  <NavLink to="">Dolor Sitema</NavLink>
+                  <NavLink to="">100% Certified</NavLink>
                 </h4>
                 <p className="description">
                   Minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -692,9 +694,10 @@ function Home() {
               </div>
 
               <div className="col-lg-4 box">
-                <i className="bi bi-binoculars"></i>
+                <img src="./assets/img/icons/transportation.png" alt="" />
+                {/* <i className="bi bi-binoculars"></i> */}
                 <h4 className="title">
-                  <NavLink to="">Sed ut perspiciatis</NavLink>
+                  <NavLink to="">International Transport and Logistics</NavLink>
                 </h4>
                 <p className="description">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
