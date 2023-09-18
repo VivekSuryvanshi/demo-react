@@ -182,16 +182,18 @@ h6 {
     z-index: 1020;
   }
 }
-
+.navbar-toggler{
+  font-size: 2rem !important;
+}
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
 
 .btn-close {
-  width: 2.5em !important;
+  width: 4rem !important;
   color: black;
   background-color: bisque !important;
-  padding: 10px 0 10px 0 !important;
+  padding: 15px 0 15px 0 !important;
   margin-bottom: 0 !important;
 }
 
