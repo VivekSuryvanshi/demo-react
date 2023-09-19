@@ -44,7 +44,7 @@ function Carousel() {
       }, []);
       return (
         <div className="container container_for_swiper section-header">
-          <h3 className="">Products <br/> We Serve</h3>
+          <h3 className="">Products  We <br/> Serves</h3>
           <Swiper
             // effect="slide"
             lazy={true}

@@ -61,7 +61,10 @@ body {
 
 .container_for_swiper {
   max-width: 124rem;
-  padding: 4rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
   margin: 0 auto;
 }
 
@@ -75,9 +78,8 @@ body {
   transform: translate3d(0,0,0);
   transition-timing-function: ease-in-out;
   transition-duration: 0.5s;
-
   height: 52rem;
-  padding: 2rem 0;
+  padding: 1.8rem 0;
   position: relative;
 }
 
@@ -90,6 +92,7 @@ body {
 @media (max-width: 500px) {
   .swiper_container {
     height: 47rem;
+
   }
   .swiper-slide {
     width: 28rem !important;

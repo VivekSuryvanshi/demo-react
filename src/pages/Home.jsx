@@ -670,7 +670,7 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-lg-4 box">
-                <img src="./assets/img/icons/trade.png" alt="" />
+                <img src="./assets/img/icons/trade.png" alt="international trade icon" width="80px"/>
                 {/* <i className="bi bi-briefcase"></i> */}
                 <h4 className="title">
                   <NavLink to="">INTERNATIONAL TRADE</NavLink>
@@ -682,7 +682,7 @@ function Home() {
               </div>
 
               <div className="col-lg-4 box box-bg">
-                <img src="./assets/img/icons/certified.png" alt="" />
+                <img src="./assets/img/icons/certified.png" alt="certified icon" width="75px"/>
                 {/* <i className="bi bi-card-checklist"></i> */}
                 <h4 className="title">
                   <NavLink to="">100% Certified</NavLink>
@@ -694,7 +694,7 @@ function Home() {
               </div>
 
               <div className="col-lg-4 box">
-                <img src="./assets/img/icons/transportation.png" alt="" />
+                <img src="./assets/img/icons/transportation.png" alt="transport icon" width="75px"/>
                 {/* <i className="bi bi-binoculars"></i> */}
                 <h4 className="title">
                   <NavLink to="">International Transport and Logistics</NavLink>
