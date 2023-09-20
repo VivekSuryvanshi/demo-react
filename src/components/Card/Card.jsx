@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <>
       <main id="main">
-        <section id="about">
+        <div id="about">
           <div className="container" data-aos="fade-up">
             <header className="section-header">
               <h3>Polymers</h3>
@@ -173,7 +173,7 @@ const Card = () => {
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </main>
     </>
   );
