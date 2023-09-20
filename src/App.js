@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products/chemicals/polymers" element={<Card />} />
+        <Route path="/polymers" element={<Card />} />
       </Routes>
       <GoToTop/>
     </BrowserRouter>

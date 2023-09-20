@@ -101,7 +101,7 @@ function Home() {
                       </NavLink>
                       <ul class="dropdown-menu">
                         <li>
-                          <NavLink class="dropdown-item" to="/products/chemicals/polymers">
+                          <NavLink class="dropdown-item" to="/polymers">
                             Polymers
                           </NavLink>
                         </li>
