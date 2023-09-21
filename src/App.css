@@ -2337,3 +2337,8 @@ body {
         transform: translate(0, -10px);
       }
   }
+
+
+.offcanvas-backdrop.show{
+  opacity: 0 !important;
+}
