@@ -47,7 +47,7 @@ function Card (props) {
                 </h2>
               </div>
               <div class="col-5">
-                <p className="pt-3">1234567890</p>
+                <p className="pt-3">{props.cas}</p>
               </div>
             </div>
             <div class="d-flex">
@@ -65,7 +65,8 @@ function Card (props) {
               </div>
               <div class="col-5">
                 <p className="pt-3">
-                  (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub>
+                {props.formula}
+                  {/* (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub> */}
                 </p>
               </div>
             </div>

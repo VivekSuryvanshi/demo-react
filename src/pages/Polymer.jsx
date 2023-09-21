@@ -25,7 +25,8 @@ const Polymer = () => {
                 return <Card 
                     img={val.img}
                     title={val.title}
-
+                    cas={val.cas}
+                    formula={val.formula}
                 />;
               })}
             </div>
@@ -46,7 +47,8 @@ const Polymer = () => {
                 return <Card 
                     img={val.img}
                     title={val.title}
-
+                    cas={val.cas}
+                    formula={val.formula}
                 />;
               })}
             </div>
@@ -67,7 +69,8 @@ const Polymer = () => {
                 return <Card 
                     img={val.img}
                     title={val.title}
-
+                    cas={val.cas}
+                    formula={val.formula}
                 />;
               })}
             </div>
