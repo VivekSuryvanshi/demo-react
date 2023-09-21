@@ -1,112 +1,98 @@
 import React from "react";
-// import "../../../public/assets/css/style.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./card.css";
 import { NavLink } from "react-router-dom";
 
-const Card = () => {
+function Card (props) {
   return (
     <>
-      <main id="main">
-        <div id="about">
-          <div className="container" data-aos="fade-up">
-            <header className="section-header">
-              <h3>Polymers</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </header>
-
-            <div className="row about-cols">
-              <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <div className="about-col hover-item">
-                  <div className="img">
-                    <img
-                      src="https://img.freepik.com/free-vector/colorful-realistic-science-background_52683-35755.jpg?w=1060&t=st=1695119643~exp=1695120243~hmac=dd0ff0382ba2bafdc7cff751f8b13f8b14cf8318437e07b67d14106aa31e79a2"
-                      alt=""
-                      className="img-fluid"
-                    />
-                    <div className="icon">
-                      <i class="bi bi-hexagon-half"></i>
-                    </div>
-                  </div>
-                  <div class="container">
-                    <div class="d-flex">
-                      <div class="col-2 d-flex align-items-center justify-content-center pt-5">
-                        <img
-                          src="../../assets/img/icons/molecule.png"
-                          alt="icon"
-                          width="30px"
-                        />
-                      </div>
-                      <div class="col-10">
-                        <h2 className="title float-start">
-                          <NavLink to="#">Ethylene Vinyl Acetate (EVA)</NavLink>
-                        </h2>
-                      </div>
-                    </div>
-                    <div class="d-flex">
-                      <div class="col-2 d-flex align-items-center justify-content-center pt-2">
-                        <img
-                          src="../../assets/img/icons/grid.png"
-                          alt="icon"
-                          width="30px"
-                        />
-                      </div>
-                      <div class="col-5">
-                        <h2 className="custom_title">
-                          <NavLink to="#"> CAS Number -</NavLink>
-                        </h2>
-                      </div>
-                      <div class="col-5">
-                        <p className="pt-3">1234567890</p>
-                      </div>
-                    </div>
-                    <div class="d-flex">
-                      <div class="col-2 d-flex align-items-center justify-content-center">
-                        <img
-                          src="../../assets/img/icons/formula.png"
-                          alt="icon"
-                          width="30px"
-                        />
-                      </div>
-                      <div class="col-5">
-                        <h2 className="custom_title">
-                          <NavLink to="#"> Formula -</NavLink>
-                        </h2>
-                      </div>
-                      <div class="col-5">
-                        <p className="pt-3">
-                          (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="d-flex">
-                      <div class="col-2 d-flex align-items-center justify-content-center">
-                        <img
-                          src="../../assets/img/icons/check-list.png"
-                          alt="icon"
-                          width="30px"
-                        />
-                      </div>
-                      <div class="col-5">
-                        <h2 className="custom_title">
-                          <NavLink to="#">Other Names-</NavLink>
-                        </h2>
-                      </div>
-                      <div class="col-5">
-                        <p className="pt-3">
-                          (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div className="about-col hover-item">
+          <div className="img">
+            <img
+              src={props.img}
+              alt=""
+              className="img-fluid"
+            />
+            <div className="icon">
+              <i class="bi bi-hexagon-half"></i>
+            </div>
+          </div>
+          <div class="container">
+            <div class="d-flex">
+              <div class="col-2 d-flex align-items-center justify-content-center pt-5">
+                <img
+                  src="../../assets/img/icons/molecule.png"
+                  alt="icon"
+                  width="30px"
+                />
               </div>
+              <div class="col-10">
+                <h2 className="title float-start">
+                  <NavLink to="#">{props.title}</NavLink>
+                </h2>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-2 d-flex align-items-center justify-content-center pt-2">
+                <img
+                  src="../../assets/img/icons/grid.png"
+                  alt="icon"
+                  width="30px"
+                />
+              </div>
+              <div class="col-5">
+                <h2 className="custom_title">
+                  <NavLink to="#"> CAS Number -</NavLink>
+                </h2>
+              </div>
+              <div class="col-5">
+                <p className="pt-3">1234567890</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-2 d-flex align-items-center justify-content-center">
+                <img
+                  src="../../assets/img/icons/formula.png"
+                  alt="icon"
+                  width="30px"
+                />
+              </div>
+              <div class="col-5">
+                <h2 className="custom_title">
+                  <NavLink to="#"> Formula -</NavLink>
+                </h2>
+              </div>
+              <div class="col-5">
+                <p className="pt-3">
+                  (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub>
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="col-2 d-flex align-items-center justify-content-center">
+                <img
+                  src="../../assets/img/icons/check-list.png"
+                  alt="icon"
+                  width="30px"
+                />
+              </div>
+              <div class="col-5">
+                <h2 className="custom_title">
+                  <NavLink to="#">Other Names-</NavLink>
+                </h2>
+              </div>
+              <div class="col-5">
+                <p className="pt-3">
+                  (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      {/* 
               <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
                 <div className="about-col hover-item">
                   <div className="img">
@@ -170,11 +156,7 @@ const Card = () => {
                     quia dolor sit amet.
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
+              </div> */}
     </>
   );
 };
