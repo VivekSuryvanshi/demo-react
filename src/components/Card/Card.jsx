@@ -28,7 +28,7 @@ function Card (props) {
                 />
               </div>
               <div class="col-10">
-                <h2 className="title float-start">
+                <h2 className="title float-start polymer-title">
                   <NavLink to="#">{props.title}</NavLink>
                 </h2>
               </div>
@@ -42,12 +42,12 @@ function Card (props) {
                 />
               </div>
               <div class="col-5">
-                <h2 className="custom_title">
+                <h2 className="custom_title polymer-title">
                   <NavLink to="#"> CAS Number -</NavLink>
                 </h2>
               </div>
               <div class="col-5">
-                <p className="pt-3">{props.cas}</p>
+                <p className="pt-3 polymer-desc">{props.cas}</p>
               </div>
             </div>
             <div class="d-flex">
@@ -59,12 +59,12 @@ function Card (props) {
                 />
               </div>
               <div class="col-5">
-                <h2 className="custom_title">
+                <h2 className="custom_title polymer-title">
                   <NavLink to="#"> Formula -</NavLink>
                 </h2>
               </div>
               <div class="col-5">
-                <p className="pt-3">
+                <p className="pt-3 polymer-desc">
                 {props.formula}
                   {/* (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub> */}
                 </p>
@@ -79,12 +79,12 @@ function Card (props) {
                 />
               </div>
               <div class="col-5">
-                <h2 className="custom_title">
+                <h2 className="custom_title polymer-title">
                   <NavLink to="#">Other Names-</NavLink>
                 </h2>
               </div>
               <div class="col-5">
-                <p className="pt-3">
+                <p className="pt-3 polymer-desc">
                   (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub>
                 </p>
               </div>
