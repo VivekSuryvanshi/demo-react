@@ -397,9 +397,9 @@ const Header = () => {
         <div class="container-fluid">
           <NavLink class="navbar-brand logo responsive_logo" to="/">
             <img
-              src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
+              src="./assets/images/logos/bbvmg_logo.webp"
               alt="logo"
-              width="110px"
+              width="100px"
               loading="lazy"
             />
           </NavLink>
@@ -421,9 +421,9 @@ const Header = () => {
           >
             <div class="offcanvas-header ">
               <img
-                src="http://bbvmg.com/media/image-and-png/bbvmg_logo_new_final.png"
+                src="./assets/images/logos/bbvmg_logo.webp"
                 alt="logo"
-                width="110px"
+                width="100px"
                 loading="lazy"
               />
               <button

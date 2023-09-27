@@ -425,24 +425,24 @@ body {
   }
   
   .bg_img_1 {
-    background-image: url('https://img.freepik.com/free-photo/sacks-healthy-legumes-grains_53876-65444.jpg?size=626&ext=jpg&ga=GA1.1.1388915471.1694001144&semt=ais') !important;
+    background-image: url('../public/assets/images/Home-page-img/hero-section/sacks-healthy-legumes-grains.webp');
   }
   
   .bg_img_2 {
-    background-image: url('http://bbvmg.com/media/image-and-png/bio-fuel-image.png') !important;
+    background-image: url('../public/assets/images/Home-page-img/hero-section/bio-fuel-image.webp') !important;
   
   }
   
   .bg_img_3 {
-    background-image: url('https://img.freepik.com/free-photo/smooth-pebble-stack-wet-from-ocean-wave-generated-by-ai_188544-25791.jpg?t=st=1694076554~exp=1694080154~hmac=ac629e8e6ebb4e9e114cbcdb8439ddc97a35466ee68853f2453b091dca0afe02&w=1060') !important;
+    background-image: url('../public/assets/images/Home-page-img/hero-section/smooth-pebble-stack-wet.webp') !important;
   }
   
   .bg_img_4 {
-    background-image: url('https://img.freepik.com/free-photo/plant-growing-soil-with-sun-shining-it_1340-38891.jpg?t=st=1694778192~exp=1694781792~hmac=934810edc13195160f258c0f417c5b8c35c91cec0f8193c52daf6765f1ba9c90&w=1380') !important;
+    background-image: url('../public/assets/images/Home-page-img/hero-section/plant-growing-soil-with-sun-shining-it.webp') !important;
   }
   
   .bg_img_5 {
-    background-image: url('https://img.freepik.com/free-photo/group-steel-rod-tight-by-chain-lift-up-construction-site_1150-10135.jpg?w=996&t=st=1694083492~exp=1694084092~hmac=46027ac9501837d7792fede90e5fcc6d7423840345019da465d05dcaa2d1b6e4') !important;
+    background-image: url('../public/assets/images/Home-page-img/hero-section/group-steel-rod.webp') !important;
   }
   
   .bg_style {

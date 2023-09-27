@@ -23,7 +23,7 @@ const Example = () => {
               animateOnRender={true}
               transitionDuration="10000ms"
               bgColor="teal"
-              height="2rem"
+              height="3.5rem"
               borderRadius="0"
             />
           </div>
@@ -34,7 +34,7 @@ const Example = () => {
               animateOnRender={true}
               transitionDuration="10000ms"
               bgColor="#15227e"
-              height="2rem"
+              height="3.5rem"
               borderRadius="0"
             />
           </div>
@@ -45,7 +45,7 @@ const Example = () => {
               animateOnRender={true}
               transitionDuration="10000ms"
               bgColor="#ffc107"
-              height="2rem"
+              height="3.5rem"
               borderRadius="0"
             />
           </div>
@@ -56,7 +56,7 @@ const Example = () => {
               animateOnRender={true}
               transitionDuration="10000ms"
               bgColor="#dc3545"
-              height="2rem"
+              height="3.5rem"
               borderRadius="0"
             />
           </div>

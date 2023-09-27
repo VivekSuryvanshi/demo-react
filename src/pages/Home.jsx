@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       {/* <!-- ======= Header ====== --> */}
-     
+
       {/* <!-- ====== End Header ===== --> */}
       {/* <!-- Starts Hero Section --> */}
       <div
@@ -130,7 +130,7 @@ function Home() {
             <div className="row">
               <div className="col-lg-4 box">
                 <img
-                  src="./assets/img/icons/trade.png"
+                  src="./assets/images/icons/trade.png"
                   alt="international trade icon"
                   width="80px"
                 />
@@ -146,7 +146,7 @@ function Home() {
 
               <div className="col-lg-4 box box-bg">
                 <img
-                  src="./assets/img/icons/certified.png"
+                  src="./assets/images/icons/certified.png"
                   alt="certified icon"
                   width="75px"
                 />
@@ -162,7 +162,7 @@ function Home() {
 
               <div className="col-lg-4 box">
                 <img
-                  src="./assets/img/icons/transportation.png"
+                  src="./assets/images/icons/transportation.png"
                   alt="transport icon"
                   width="75px"
                 />
@@ -198,7 +198,7 @@ function Home() {
                 <div className="about-col">
                   <div className="img">
                     <img
-                      src="https://img.freepik.com/free-photo/global-business-graph-growth-finance-stock-market-concept_53876-21148.jpg?w=996&t=st=1694088471~exp=1694089071~hmac=6e1576d8fef77951a97468a1cecafb8e2a25472f69b05fe79ea138f0433cca25"
+                      src="./assets/images/Home-page-img/about-us/global-business-graph.webp"
                       alt=""
                       className="img-fluid"
                     />
@@ -213,7 +213,7 @@ function Home() {
                     Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
                     tempor ut labore et dolore magna aliqua. Ut enim ad minim
                     veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
+                    aliquip ex ea.
                   </p>
                 </div>
               </div>
@@ -222,7 +222,7 @@ function Home() {
                 <div className="about-col">
                   <div className="img">
                     <img
-                      src="https://img.freepik.com/free-photo/aerial-view-cargo-ship-with-cargo-container-sea_335224-1372.jpg?w=996&t=st=1694088608~exp=1694089208~hmac=4cb280805ac8d08cccf0b8cfdf661f45f69f07d193fc0db610d71bd9b2e8666e"
+                      src="./assets/images/Home-page-img/about-us/cargo-ship-with-cargo-container.webp"
                       alt=""
                       className="img-fluid"
                     />
@@ -246,7 +246,7 @@ function Home() {
                 <div className="about-col">
                   <div className="img">
                     <img
-                      src="https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-helmet_23-2149426484.jpg?size=626&ext=jpg&uid=R115557865&ga=GA1.2.1388915471.1694001144&semt=ais"
+                      src="./assets/images/Home-page-img/about-us/man-wearing-helmet.webp"
                       alt=""
                       className="img-fluid"
                     />

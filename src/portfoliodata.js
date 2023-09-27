@@ -2,17 +2,17 @@ export const featuredPortfoilio = [
   {
     id: 1,
     title: "Crude Oil",
-    img: "https://img.freepik.com/free-photo/aerial-view-cargo-ship-with-cargo-container-sea_335224-1372.jpg?w=996&t=st=1694088608~exp=1694089208~hmac=4cb280805ac8d08cccf0b8cfdf661f45f69f07d193fc0db610d71bd9b2e8666e",
+    img: "./assets/images/Home-page-img/about-us/cargo-ship-with-cargo-container.webp",
   },
   {
     id: 2,
     title: "Crude Oil",
-    img: "https://image.shutterstock.com/image-photo/industry-oil-barrels-chemical-drums-260nw-1096671455.jpg",
+    img: "./assets/images/Products-all-img/chemicals/solvent/solvent-58.webp",
   },
   {
     id: 3,
     title: "Crude Oil",
-    img: "https://image.shutterstock.com/image-photo/oil-pump-industrial-equipment-260nw-736755775.jpg",
+    img: "./assets/images/Home-page-img/portfolio/crude-oil/barrels-oil-high-seas-created.webp",
   },
   {
     id: 4,

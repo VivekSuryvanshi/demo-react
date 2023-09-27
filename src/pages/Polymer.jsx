@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // import { NavLink } from "react-router-dom";
 import Card from "../components/Card/Card";
-import {polymers,solvents,chemicalsAndIntermediates} from "../chemicalsdata";
+import {polymers,solvents,chemicalsAndIntermediates,specialityChemicals} from "../chemicalsdata";
 
 const Polymer = () => {
   return (
@@ -32,7 +32,7 @@ const Polymer = () => {
             </div>
           </div>
           <div className="container" data-aos="fade-up">
-            <header className="section-header">
+            <header className="section-header pt-5">
               <h3>Solvents</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -54,7 +54,7 @@ const Polymer = () => {
             </div>
           </div>
           <div className="container" data-aos="fade-up">
-            <header className="section-header">
+            <header className="section-header pt-5">
               <h3>  Chemicals And <br/> Intermediates</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -66,6 +66,28 @@ const Polymer = () => {
 
             <div className="row about-cols">
               {chemicalsAndIntermediates.map((val) => {
+                return <Card 
+                    img={val.img}
+                    title={val.title}
+                    cas={val.cas}
+                    formula={val.formula}
+                />;
+              })}
+            </div>
+          </div>
+          <div className="container" data-aos="fade-up">
+            <header className="section-header pt-5">
+              <h3>SPECIALITY CHEMICALS</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </header>
+
+            <div className="row about-cols">
+              {specialityChemicals.map((val) => {
                 return <Card 
                     img={val.img}
                     title={val.title}

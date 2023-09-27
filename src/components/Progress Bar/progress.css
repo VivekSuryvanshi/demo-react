@@ -4,6 +4,7 @@
 }
 .indicator{
     position: absolute;
+    font-size: 2rem;
     color: white;
     align-content: center;
     padding: 5px 0 4px 10px;

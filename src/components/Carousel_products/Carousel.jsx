@@ -1,22 +1,19 @@
 import React, { useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import  { EffectCoverflow, Pagination, Navigation } from 'swiper';
+import slide_image_1 from '../../../src/assets/images/img_1.webp';
+import slide_image_2 from '../../../src/assets/images/img_2.webp';
+import slide_image_3 from '../../../src/assets/images/img_3.webp';
+import slide_image_4 from '../../../src/assets/images/img_4.webp';
+import slide_image_5 from '../../../src/assets/images/img_5.webp';
+import slide_image_6 from '../../../src/assets/images/img_6.webp';
+import slide_image_7 from '../../../src/assets/images/img_7.webp';
+import slide_image_8 from '../../../src/assets/images/img_8.webp';
+import slide_image_9 from '../../../src/assets/images/img_9.webp';
 import './carousel.css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-import  { EffectCoverflow, Pagination, Navigation } from 'swiper';
-
-import slide_image_1 from '../../../src/assets/images/img_1.jpg';
-import slide_image_2 from '../../../src/assets/images/img_2.jpg';
-import slide_image_3 from '../../../src/assets/images/img_3.jpg';
-import slide_image_4 from '../../../src/assets/images/img_4.jpg';
-import slide_image_5 from '../../../src/assets/images/img_5.jpg';
-import slide_image_6 from '../../../src/assets/images/img_6.jpg';
-import slide_image_7 from '../../../src/assets/images/img_7.jpg';
-import slide_image_8 from '../../../src/assets/images/img_8.jpg';
-import slide_image_9 from '../../../src/assets/images/img_9.jpg';
 
 const preloadImages = () => {
   const images = [
@@ -49,10 +46,10 @@ function Carousel() {
             lazy={true}
             speed={500}
             effect={'coverflow'}
-            grabCursor={true}
+            // grabCursor={true}
             centeredSlides={true}
             loop={true}
-            allowTouchMove={true}
+            allowTouchMove={false}
             slidesPerView={'auto'}
             coverflowEffect={{
               rotate: 0,
@@ -60,7 +57,7 @@ function Carousel() {
               depth: 100,
               modifier: 2.5,
             }}
-            pagination={{ el: '.swiper-pagination', clickable: true }}
+            pagination={{ el: '.swiper-pagination',  }}
             navigation={{
               nextEl: '.swiper-button-next',
               prevEl: '.swiper-button-prev',

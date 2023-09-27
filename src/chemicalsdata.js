@@ -2,7 +2,7 @@ export const polymers = [
     {
       id: 1,
       title: "Ethylene Vinyl Acetate (EVA)",
-      img: "https://img.freepik.com/free-vector/colorful-realistic-science-background_52683-35755.jpg?w=1060&t=st=1695119643~exp=1695120243~hmac=dd0ff0382ba2bafdc7cff751f8b13f8b14cf8318437e07b67d14106aa31e79a2",
+      img: "./assets/images/Products-all-img/chemicals/polymers/polymer-1.webp",
       cas:"24937-78-8",
       formula:"(C2H4)n(C4H6O2)m",
       othernames:"",
@@ -10,7 +10,7 @@ export const polymers = [
     {
       id: 2,
       title: "Polyethelyne Terephthalate (PET Resin)",
-      img: "https://img.freepik.com/free-photo/researching-laboratory_1384-138.jpg?w=1060&t=st=1695119686~exp=1695120286~hmac=a9fd6ac335eebfb1a33b1096cf671b35e3d34a8d02029dc659ca0620b4a4c298",
+      img: "./assets/images/Products-all-img/chemicals/polymers/polymer-2.webp",
       cas:"25038-59-9",
       formula:"(C10H8O4)n",
       othernames:"",
@@ -19,42 +19,18 @@ export const polymers = [
     {
       id: 3,
       title: "Polyvinyl Chloride Resin (PVC Resin)",
-      img:"https://img.freepik.com/premium-photo/abstract-molecular-structures-unveiled-exploring-scientific-essence-3d-dna-molecules-biotechnology_938416-1621.jpg?w=1380",
+      img:"./assets/images/Products-all-img/chemicals/polymers/polymer-3.webp",
       cas:"9002-86-2",
       formula:"(C2H3Cl)n",
       othernames:"",
     },
-    {
-    id: 4,
-      title: "Ethylene Vinyl Acetate (EVA)",
-      img: "https://img.freepik.com/free-vector/colorful-realistic-science-background_52683-35755.jpg?w=1060&t=st=1695119643~exp=1695120243~hmac=dd0ff0382ba2bafdc7cff751f8b13f8b14cf8318437e07b67d14106aa31e79a2",
-      cas:"24937-78-8",
-      formula:"(C2H4)n(C4H6O2)m",
-      othernames:"",
-    },
-    {
-      id: 5,
-      title: "Polyethelyne Terephthalate (PET Resin)",
-      img: "https://img.freepik.com/free-photo/researching-laboratory_1384-138.jpg?w=1060&t=st=1695119686~exp=1695120286~hmac=a9fd6ac335eebfb1a33b1096cf671b35e3d34a8d02029dc659ca0620b4a4c298",
-      cas:"25038-59-9",
-      formula:"(C10H8O4)n",
-      othernames:"",
-
-    },
-    {
-      id: 6,
-      title: "Polyvinyl Chloride Resin (PVC Resin)",
-      img:"https://img.freepik.com/premium-photo/abstract-molecular-structures-unveiled-exploring-scientific-essence-3d-dna-molecules-biotechnology_938416-1621.jpg?w=1380",
-      cas:"9002-86-2",
-      formula:"(C2H3Cl)n",
-      othernames:"",
-    },
+    
   ];
   export const solvents = [
       {
         id: 1,
         title: "Acetone",
-        img:"https://img.freepik.com/free-photo/experiments-chemistry-lab-conducting-experiment-laboratory_155003-1401.jpg?w=1060&t=st=1695298527~exp=1695299127~hmac=f2a732bb34a8eae9134fde508363fff68fd496fb8f56e8b2ba434aa72a192707",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-1.webp",
         cas:"67-64-1",
         formula:"C3H6O or CH3COCH3",
         othernames:"",
@@ -62,7 +38,7 @@ export const polymers = [
       {
         id: 2,
         title: "Acetic Acid",
-        img:"https://img.freepik.com/free-photo/closeup-shot-different-flasks-with-colorful-liquids-white-surface-lab_181624-43901.jpg?w=1060&t=st=1695298562~exp=1695299162~hmac=5f30205d0854b78d8c9bd9af87eb2a505b9e922df306168b5b7214c03e60c579",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-2.webp",
         cas:"64-19-7",
         formula:"C2H4O2 or CH3COOH",
         othernames:"",
@@ -70,7 +46,7 @@ export const polymers = [
       {
         id: 3,
         title: "Acrylonitrile",
-        img:"https://img.freepik.com/free-photo/close-up-view-science-concept-with-copy-space_23-2148623726.jpg?w=1380&t=st=1695298585~exp=1695299185~hmac=05b71893a516ce28ab34bf93c0c5d98aa48360fe892532b3272b991b84e7b85d",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-3.webp",
         cas:"107-13-1",
         formula:"C3H3N or H2C(CH)CN",
         othernames:"",
@@ -78,7 +54,7 @@ export const polymers = [
       {
         id: 4,
         title: "Butyl Acetate",
-        img:"https://img.freepik.com/free-photo/molecules-connect-scientific-discovery-symbolizing-progress-generated-by-ai_188544-16444.jpg?t=st=1695298606~exp=1695302206~hmac=e7aab54dcbb2eebf242c6634d376910c050f614e505c28565ed89a22f568813f&w=1380",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-4.webp",
         cas:"79-06-1",
         formula:"C6H12O2 or CH3COO(CH2)3CH3",
         othernames:"",
@@ -87,7 +63,7 @@ export const polymers = [
       {
         id: 5,
         title: "Butyl Glycol",
-        img:"https://img.freepik.com/free-photo/modern-laboratory-interior_1098-17082.jpg?w=1060&t=st=1695298632~exp=1695299232~hmac=bb69b0967065101eea7072c7a052648a5b6a924a79f33543bcf82d217d6f3d3d",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-5.webp",
         cas:"111-76-2",
         formula:"C6H14O2",
         othernames:"",
@@ -96,7 +72,7 @@ export const polymers = [
       {
         id: 6,
         title: "C -IX",
-        img:"https://img.freepik.com/premium-photo/collection-medical-flasksscience-glass-flask-blue-chemistry-laboratoryconcept-medicine_666266-26.jpg?w=1060",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-6.webp",
         cas:"64742-95-6",
         formula:"C9H12",
         othernames:"",
@@ -104,7 +80,7 @@ export const polymers = [
       {
         id: 7,
         title: "Cyclohexanone",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-7.webp",
         cas:"108-94-1",
         formula:"C6H10O",
         othernames:"",
@@ -112,7 +88,7 @@ export const polymers = [
       {
         id: 8,
         title: "Ethylene Di Chloride",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-8.webp",
         cas:"107-06-2",
         formula:"ClCH2CH2Cl or C2H4Cl2",
         othernames:"",
@@ -120,7 +96,7 @@ export const polymers = [
       {
         id: 9,
         title: "Iso Propyl Alcohol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-9.webp",
         cas:"67-63-0",
         formula:"C3H8O",
         othernames:"",
@@ -128,7 +104,7 @@ export const polymers = [
       {
         id: 10,
         title: "Iso Butanol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-10.webp",
         cas:"78-83-1",
         formula:"C4H10O or (CH3)2CHCH2OH",
         othernames:"",
@@ -136,7 +112,7 @@ export const polymers = [
       {
         id: 11,
         title: "Methanol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-11.webp",
         cas:"67-56-1",
         formula:"CH4O or CH3OH",
         othernames:"",
@@ -144,7 +120,7 @@ export const polymers = [
       {
         id: 12,
         title: "Methylene Di Chloride",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-12.webp",
         cas:"75-09-2",
         formula:"CH2Cl2",
         othernames:"",
@@ -152,7 +128,7 @@ export const polymers = [
       {
         id: 13,
         title: "Methyl Ethyl Ketone",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-13.webp",
         cas:"78-93-3",
         formula:"C4H8O",
         othernames:"",
@@ -160,7 +136,7 @@ export const polymers = [
       {
         id: 14,
         title: "Methy Iso Butyl Ketone",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-14.webp",
         cas:"108-10-1",
         formula:"C6H12O",
         othernames:"",
@@ -168,7 +144,7 @@ export const polymers = [
       {
         id: 15,
         title: "N Butanol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-15.webp",
         cas:"71-36-3",
         formula:"C4H10O",
         othernames:"",
@@ -176,7 +152,7 @@ export const polymers = [
       {
         id: 16,
         title:"N - Hexane",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-16.webp",
         cas:"110-54-3",
         formula:"C6H14",
         othernames:"",
@@ -184,7 +160,7 @@ export const polymers = [
       {
         id: 17,
         title: "Phenol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-17.webp",
         cas:"108-95-2",
         formula:"C6H6O or C6H5OH",
         othernames:"",
@@ -192,7 +168,7 @@ export const polymers = [
       {
         id: 18,
         title: "Toluene",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-18.webp",
         cas:"108-88-3",
         formula:"C6H5CH3 or C7H",
         othernames:"",
@@ -200,7 +176,7 @@ export const polymers = [
       {
         id: 19,
         title: "Vinyl Acetate Monomer",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-19.webp",
         cas:"108-05-4",
         formula:"C4H6O2",
         othernames:"",
@@ -208,7 +184,7 @@ export const polymers = [
       {
         id: 20,
         title: "Xylene (Mix)",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-20.webp",
         cas:"1330-20-7",
         formula:" C24H30",
         othernames:"",
@@ -216,7 +192,7 @@ export const polymers = [
       {
         id: 21,
         title: "Xylene (Ortho)",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-21.webp",
         cas:"95-47-6",
         formula:"C6H4(CH3)2 or C8H10",
         othernames:"",
@@ -224,7 +200,7 @@ export const polymers = [
       {
         id: 22,
         title: "Acetone",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-22.webp",
         cas:"67-64-1",
         formula:"(CH3)2CO",
         othernames:"",
@@ -232,7 +208,7 @@ export const polymers = [
       {
         id: 23,
         title: "Acetic Acid",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-23.webp",
         cas:"64-19-7",
         formula:"C2H4O2",
         othernames:"",
@@ -240,7 +216,7 @@ export const polymers = [
       {
         id: 24,
         title: "Acrylonitrile",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-24.webp",
         cas:"107-13-1",
         formula:"CH2CHCN",
         othernames:"",
@@ -248,7 +224,7 @@ export const polymers = [
       {
         id: 25,
         title: "Acetonitrile",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-25.webp",
         cas:"75-05-8",
         formula:"C2H3N",
         othernames:"",
@@ -256,7 +232,7 @@ export const polymers = [
       {
         id: 26,
         title: "Butyl Acetate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-26.webp",
         cas:"123-86-4",
         formula:"C6H12O2 or CH3COO(CH2)3CH3",
         othernames:"",
@@ -264,7 +240,7 @@ export const polymers = [
       {
         id: 27,
         title: "Butyl Acrylate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-27.webp",
         cas:"141-32-2",
         formula:" C7H12O2",
         othernames:"",
@@ -272,7 +248,7 @@ export const polymers = [
       {
         id: 28,
         title: "Butyl Carbitol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-28.webp",
         cas:"112-34-5",
         formula:"C8H18O3",
         othernames:"",
@@ -280,7 +256,7 @@ export const polymers = [
       {
         id: 29,
         title: "Butyl Carbitol Acetate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-29.webp",
         cas:"111-76-2",
         formula:"C10H20O4",
         othernames:"",
@@ -288,7 +264,7 @@ export const polymers = [
       {
         id: 30,
         title: "Butyl Glycol/ Cellosolve",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-30.webp",
         cas:"111-76-2",
         formula:"C6H14O2",
         othernames:"",
@@ -296,7 +272,7 @@ export const polymers = [
       {
         id: 31,
         title: "Butyl Cellosolve Acetate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-31.webp",
         cas:"112-07-2",
         formula:"C8H16O3",
         othernames:"",
@@ -304,7 +280,7 @@ export const polymers = [
       {
         id: 32,
         title: "Chloroform",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-32.webp",
         cas:"67-66-3",
         formula:"CHCl3",
         othernames:"",
@@ -312,7 +288,7 @@ export const polymers = [
       {
         id: 33,
         title: "Disopropyl Ether (DIPE)",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-33.webp",
         cas:"108-20-3",
         formula:"C6H14O",
         othernames:"",
@@ -320,7 +296,7 @@ export const polymers = [
       {
         id: 34,
         title: "Dimethyl Acetamide",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-34.webp",
         cas:"127-19-5",
         formula:"C4H9NO or CH3CON(CH3)2",
         othernames:"",
@@ -328,7 +304,7 @@ export const polymers = [
       {
         id: 35,
         title: "Dimethyl Formamide",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-35.webp",
         cas:"68-12-2",
         formula:"C3H7NO or HCON(CH3)2",
         othernames:"",
@@ -336,7 +312,7 @@ export const polymers = [
       {
         id: 36,
         title: "Dimethyl Sulfoxide",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-36.webp",
         cas:"67-68-5",
         formula:"C2H6OS or (CH3)2SO",
         othernames:"",
@@ -344,7 +320,7 @@ export const polymers = [
       {
         id: 37,
         title: "E Ethyl Acetate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-37.webp",
         cas:"141-78-6",
         formula:"C4H8O2 or CH3COOC2H5",
         othernames:"",
@@ -352,7 +328,7 @@ export const polymers = [
       {
         id: 38,
         title: "Heptane",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-38.webp",
         cas:"142-82-5",
         formula:"C7H16 or CH3(CH2)5CH3",
         othernames:"",
@@ -360,7 +336,7 @@ export const polymers = [
       {
         id: 30,
         title: "Heptane S",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-39.webp",
         cas:"142-82-5",
         formula:"C7H16",
         othernames:"",
@@ -368,7 +344,7 @@ export const polymers = [
       {
         id: 40,
         title: "isobutanol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-40.webp",
         cas:"78-83-1",
         formula:"C4H10O or (CH3)2CHCH2OH",
         othernames:"",
@@ -376,7 +352,7 @@ export const polymers = [
       {
         id: 41,
         title: "Methyl Ethyl Ketone",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-41.webp",
         cas:"78-93-3",
         formula:"C4H8O",
         othernames:"",
@@ -384,7 +360,7 @@ export const polymers = [
       {
         id: 42,
         title: "Isopropyl Alcohol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-42.webp",
         cas:"67-63-0",
         formula:"C3H8O",
         othernames:"",
@@ -392,7 +368,7 @@ export const polymers = [
       {
         id: 43,
         title: "N Butanol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-43.webp",
         cas:"71-36-3",
         formula:"C4H10O",
         othernames:"",
@@ -400,7 +376,7 @@ export const polymers = [
       {
         id: 44,
         title: "Isopropyl Acetate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-44.webp",
         cas:"108-21-4",
         formula:"C5H10O2",
         othernames:"",
@@ -408,7 +384,7 @@ export const polymers = [
       {
         id: 45,
         title: "Methyl Ethyl Ketone",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-45.webp",
         cas:"78-93-3",
         formula:"C4H10O",
         othernames:"",
@@ -416,7 +392,7 @@ export const polymers = [
       {
         id: 46,
         title: "Methy Iso Butyl Ketone",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-46.webp",
         cas:"108-10-1",
         formula:"C6H12O",
         othernames:"",
@@ -424,7 +400,7 @@ export const polymers = [
       {
         id: 47,
         title: "Methyl Tertiary Butyl Ether (MTBE)",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-47.webp",
         cas:"1634-04-4",
         formula:"C5H12O",
         othernames:"",
@@ -432,7 +408,7 @@ export const polymers = [
       {
         id: 48,
         title: "Methylene Chloride",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-48.webp",
         cas:"75-09-2",
         formula:"CH2Cl2",
         othernames:"",
@@ -440,7 +416,7 @@ export const polymers = [
       {
         id: 49,
         title: "Monoglyme",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-49.webp",
         cas:"110-71-4",
         formula:"C4H10O2",
         othernames:"",
@@ -448,7 +424,7 @@ export const polymers = [
       {
         id: 50,
         title: "N - Methyl - 2 - Pyrrolidone (NMP)",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-50.webp",
         cas:"872-50-4",
         formula:"C5H9NO",
         othernames:"",
@@ -456,7 +432,7 @@ export const polymers = [
       {
         id: 51,
         title: "N - Pentane",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-51.webp",
         cas:"109-66-0",
         formula:"C5H12",
         othernames:"",
@@ -464,7 +440,7 @@ export const polymers = [
       {
         id: 52,
         title: "N - Propanol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-52.webp",
         cas:"71-23-8",
         formula:"C3H8O",
         othernames:"",
@@ -472,7 +448,7 @@ export const polymers = [
       {
         id: 53,
         title: "N - Propyl Acetate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-53.webp",
         cas:"109-60-4",
         formula:"C5H10O2",
         othernames:"",
@@ -480,7 +456,7 @@ export const polymers = [
       {
         id: 54,
         title: "N- Butanol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-54.webp",
         cas:"71-36-3",
         formula:"C4H10O",
         othernames:"",
@@ -488,7 +464,7 @@ export const polymers = [
       {
         id: 55,
         title: "N - Hexane 99%",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-55.webp",
         cas:"110-54-3",
         formula:"C6H14",
         othernames:"",
@@ -496,7 +472,7 @@ export const polymers = [
       {
         id: 56,
         title: "N - Heptane",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-56.webp",
         cas:"142-82-5",
         formula:"C7H16",
         othernames:"",
@@ -504,7 +480,7 @@ export const polymers = [
       {
         id: 57,
         title: "Perchloroethylene",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-57.webp",
         cas:"127-18-4",
         formula:" C2Cl4",
         othernames:"",
@@ -512,7 +488,7 @@ export const polymers = [
       {
         id: 58,
         title: "Phenol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-58.webp",
         cas:"108-95-2",
         formula:"C6H6O or C6H5OH",
         othernames:"",
@@ -520,7 +496,7 @@ export const polymers = [
       {
         id: 59,
         title: "Tertiary Butyl Acetate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-59.webp",
         cas:"540-88-5",
         formula:"C6H12O2",
         othernames:"",
@@ -528,7 +504,7 @@ export const polymers = [
       {
         id: 60,
         title: "Tetrahydrofuran",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-60.webp",
         cas:"109-99-9",
         formula:"C4H8O or (CH2)3CH2O",
         othernames:"",
@@ -536,7 +512,7 @@ export const polymers = [
       {
         id: 61,
         title: "Trichloroethylene",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/solvent/solvent-61.webp",
         cas:"79-01-6",
         formula:" C2HCl3",
         othernames:"",
@@ -547,7 +523,7 @@ export const polymers = [
       {
         id: 1,
         title: " Bromo 3- Chloropropane",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-1.webp",
         cas:": 109-70-6",
         formula:": C3H6BrCl ",
         othernames:"",
@@ -555,7 +531,7 @@ export const polymers = [
       {
         id: 2,
         title: "H Triazole",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-2.webp",
         cas:"288-88-0",
         formula:"C2H3N3 ",
         othernames:"",
@@ -563,7 +539,7 @@ export const polymers = [
       {
         id: 3,
         title: "Butanediol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-3.webp",
         cas:": 110-63-4",
         formula:"HOCH2CH2CH2CH2OH",
         othernames:"",
@@ -571,7 +547,7 @@ export const polymers = [
       {
         id: 4,
         title: "Dioxane",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-4.webp",
         cas:" 123-91-1",
         formula:"C4H4O2",
         othernames:"",
@@ -579,7 +555,7 @@ export const polymers = [
       {
         id: 5,
         title: "Hexanediol",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-5.webp",
         cas:"629-11-8",
         formula:"C6H14O2",
         othernames:"",
@@ -587,7 +563,7 @@ export const polymers = [
       {
         id: 6,
         title: "Ethyl Hexanoic acid",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-6.webp",
         cas:"149-57-5",
         formula:"CH3(CH2)3CH(C2H5)CO2H",
         othernames:"",
@@ -595,7 +571,7 @@ export const polymers = [
       {
         id: 7,
         title: "Ethyl Hexyl Acrylate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-7.webp",
         cas:"103-11-7",
         formula:"C11H20O2",
         othernames:"",
@@ -603,7 +579,7 @@ export const polymers = [
       {
         id: 8,
         title: "Methyl THF",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-8.webp",
         cas:"96-47-9",
         formula:"C5H10O",
         othernames:"",
@@ -611,7 +587,7 @@ export const polymers = [
       {
         id: 9,
         title: "Hydroxy Ethyl Mathacrylate",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-9.webp",
         cas:"868-77-9",
         formula:"C6H10O3",
         othernames:"",
@@ -619,7 +595,7 @@ export const polymers = [
       {
         id: 10,
         title: "Di Methoxy Propane",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/ci-10.webp",
         cas:"77-76-9 ",
         formula:"C5H12O2",
         othernames:"",
@@ -2135,7 +2111,7 @@ export const polymers = [
       {
         id: 1,
         title: "Di Methyl Amino Pyridine",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/specialityChemicals/sc-1.webp",
         cas:"1122-58-3",
         formula:"C7H10N2",
         othernames:"",
@@ -2143,7 +2119,7 @@ export const polymers = [
       {
         id: 2,
         title: "Piperidine",
-        img:"",
+        img:"./assets/images/Products-all-img/chemicals/specialityChemicals/sc-2.webp",
         cas:"110-89-4",
         formula:" C5H11N",
         othernames:"",

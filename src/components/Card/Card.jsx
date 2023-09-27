@@ -3,17 +3,13 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./card.css";
 import { NavLink } from "react-router-dom";
 
-function Card (props) {
+function Card(props) {
   return (
     <>
       <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
         <div className="about-col hover-item">
           <div className="img">
-            <img
-              src={props.img}
-              alt=""
-              className="img-fluid"
-            />
+            <img src={props.img} alt="chemicals" loading="lazy" className="img-fluid" />
             <div className="icon">
               <i class="bi bi-hexagon-half"></i>
             </div>
@@ -22,7 +18,7 @@ function Card (props) {
             <div class="d-flex">
               <div class="col-2 d-flex align-items-center justify-content-center pt-5">
                 <img
-                  src="../../assets/img/icons/molecule.png"
+                  src="../../assets/images/icons/molecule.png"
                   alt="icon"
                   width="30px"
                 />
@@ -36,7 +32,7 @@ function Card (props) {
             <div class="d-flex">
               <div class="col-2 d-flex align-items-center justify-content-center pt-2">
                 <img
-                  src="../../assets/img/icons/grid.png"
+                  src="../../assets/images/icons/grid.png"
                   alt="icon"
                   width="30px"
                 />
@@ -53,7 +49,7 @@ function Card (props) {
             <div class="d-flex">
               <div class="col-2 d-flex align-items-center justify-content-center">
                 <img
-                  src="../../assets/img/icons/formula.png"
+                  src="../../assets/images/icons/formula.png"
                   alt="icon"
                   width="30px"
                 />
@@ -65,7 +61,7 @@ function Card (props) {
               </div>
               <div class="col-5">
                 <p className="pt-3 polymer-desc">
-                {props.formula}
+                  {props.formula}
                   {/* (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub> */}
                 </p>
               </div>
@@ -73,7 +69,7 @@ function Card (props) {
             <div class="d-flex">
               <div class="col-2 d-flex align-items-center justify-content-center">
                 <img
-                  src="../../assets/img/icons/check-list.png"
+                  src="../../assets/images/icons/check-list.png"
                   alt="icon"
                   width="30px"
                 />
@@ -160,6 +156,6 @@ function Card (props) {
               </div> */}
     </>
   );
-};
+}
 
 export default Card;
