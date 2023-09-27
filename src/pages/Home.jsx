@@ -195,7 +195,7 @@ function Home() {
 
             <div className="row about-cols">
               <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <div className="about-col">
+                <div className="about-col hover-item">
                   <div className="img">
                     <img
                       src="./assets/images/Home-page-img/about-us/global-business-graph.webp"
@@ -219,7 +219,7 @@ function Home() {
               </div>
 
               <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                <div className="about-col">
+                <div className="about-col hover-item">
                   <div className="img">
                     <img
                       src="./assets/images/Home-page-img/about-us/cargo-ship-with-cargo-container.webp"
@@ -243,7 +243,7 @@ function Home() {
               </div>
 
               <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <div className="about-col">
+                <div className="about-col hover-item">
                   <div className="img">
                     <img
                       src="./assets/images/Home-page-img/about-us/man-wearing-helmet.webp"
