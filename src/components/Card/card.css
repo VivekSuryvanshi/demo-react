@@ -1,22 +1,30 @@
 .polymer-title{
-    font-size: 18px !important;
+    font-size: 14px !important;
+  }
+  .polymer-title a{
+    text-decoration: none !important;
+  }
+  .chemicals_card{
+    min-height: 43rem;
+    box-shadow: rgba(0,0,0,0.4) 1.95px 1.95px 2.6px !important;
   }
 .polymer-desc{
+    font-size: 14px !important;
     font-weight: 500;
     text-align: justify;
     line-height: 22px;
     color: #7d7d7d !important;
-    margin-bottom: 0;
-    padding: 0 20px 20px 20px;
+    margin-bottom: 0 !important;
+    padding: 5px 0px 0px 0px !important;
   }
   @media only screen and (min-width:320px) and (max-width:768px){
     .polymer-desc{
-        font-size: 14px !important;
+        font-size: 13px !important;
         font-weight: 500;
         text-align: justify;
         line-height: 22px;
         color: #7d7d7d;
         margin-bottom: 0;
-        padding: 0px 0px 18px 0px !important;
+        /* padding: 0px 0px 18px 0px !important; */
       }
   }

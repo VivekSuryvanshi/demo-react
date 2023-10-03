@@ -7,7 +7,7 @@ function Card(props) {
   return (
     <>
       <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
-        <div className="about-col hover-item">
+        <div className="about-col hover-item chemicals_card">
           <div className="img">
             <img src={props.img} alt="chemicals" loading="lazy" className="img-fluid" />
             <div className="icon">
@@ -20,7 +20,7 @@ function Card(props) {
                 <img
                   src="../../assets/images/icons/molecule.png"
                   alt="icon"
-                  width="30px"
+                  width="22px"
                 />
               </div>
               <div class="col-10">
@@ -30,11 +30,11 @@ function Card(props) {
               </div>
             </div>
             <div class="d-flex">
-              <div class="col-2 d-flex align-items-center justify-content-center pt-2">
+              <div class="col-2 d-flex align-items-center justify-content-center">
                 <img
                   src="../../assets/images/icons/grid.png"
                   alt="icon"
-                  width="30px"
+                  width="22px"
                 />
               </div>
               <div class="col-5">
@@ -43,7 +43,7 @@ function Card(props) {
                 </h2>
               </div>
               <div class="col-5">
-                <p className="pt-3 polymer-desc">{props.cas}</p>
+                <p className="polymer-desc">{props.cas}</p>
               </div>
             </div>
             <div class="d-flex">
@@ -51,7 +51,7 @@ function Card(props) {
                 <img
                   src="../../assets/images/icons/formula.png"
                   alt="icon"
-                  width="30px"
+                  width="22px"
                 />
               </div>
               <div class="col-5">
@@ -60,7 +60,7 @@ function Card(props) {
                 </h2>
               </div>
               <div class="col-5">
-                <p className="pt-3 polymer-desc">
+                <p className="polymer-desc">
                   {props.formula}
                   {/* (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub> */}
                 </p>
@@ -71,7 +71,7 @@ function Card(props) {
                 <img
                   src="../../assets/images/icons/check-list.png"
                   alt="icon"
-                  width="30px"
+                  width="22px"
                 />
               </div>
               <div class="col-5">
@@ -80,7 +80,7 @@ function Card(props) {
                 </h2>
               </div>
               <div class="col-5">
-                <p className="pt-3 polymer-desc">
+                <p className="polymer-desc">
                   (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub>
                 </p>
               </div>
