@@ -2341,5 +2341,7 @@ body {
 .offcanvas-backdrop.show{
   opacity: 0 !important;
 }
-
-
+/* custom css for navbar active class overwrite */
+.dropdown-item:active{
+background-color: rgba(203, 201, 201, 0.4) !important;
+}

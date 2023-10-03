@@ -380,11 +380,9 @@
 
 // export default Header;
 
-
-
-
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -413,8 +411,12 @@ const Header = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div 
-            className={openMenu ? "offcanvas offcanvas-end text-bg-light show" : "offcanvas offcanvas-end text-bg-light"}
+          <div
+            className={
+              openMenu
+                ? "offcanvas offcanvas-end text-bg-light show"
+                : "offcanvas offcanvas-end text-bg-light"
+            }
             tabindex="-1"
             id="offcanvasNavbar2"
             aria-labelledby="offcanvasNavbar2Label"
@@ -436,12 +438,21 @@ const Header = () => {
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <NavLink class="nav-NavLink active" aria-current="page" to="#" onClick={() => setOpenMenu(false)}>
+                  <NavLink
+                    class="nav-NavLink active"
+                    aria-current="page"
+                    to="#"
+                    onClick={() => setOpenMenu(false)}
+                  >
                     Home
                   </NavLink>
                 </li>
                 <li class="nav-item">
-                  <NavLink class="nav-NavLink" to="#" onClick={() => setOpenMenu(false)}>
+                  <NavLink
+                    class="nav-NavLink"
+                    to="#"
+                    onClick={() => setOpenMenu(false)}
+                  >
                     About Us
                   </NavLink>
                 </li>
@@ -482,24 +493,40 @@ const Header = () => {
                       </NavLink>
                       <ul class="dropdown-menu">
                         <li>
-                          <NavLink class="dropdown-item" to="/chemicals" onClick={() => setOpenMenu(false)}>
+                          <HashLink
+                            class="dropdown-item"
+                            to="/chemicals#polymers"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Polymers
-                          </NavLink>
+                          </HashLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/chemicals" onClick={() => setOpenMenu(false)}>
+                          <HashLink
+                            class="dropdown-item"
+                            to="/chemicals#solvents"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Solvents
-                          </NavLink>
+                          </HashLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/chemicals" onClick={() => setOpenMenu(false)}>
+                          <HashLink
+                            class="dropdown-item"
+                            to="/chemicals#intermediates"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Chemicals & Intermediates
-                          </NavLink>
+                          </HashLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/chemicals" onClick={() => setOpenMenu(false)}>
+                          <HashLink
+                            class="dropdown-item"
+                            to="/chemicals#speciality_chemicals"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Speciality Chemicals
-                          </NavLink>
+                          </HashLink>
                         </li>
                       </ul>
                     </li>
@@ -766,5 +793,3 @@ const Header = () => {
 };
 
 export default Header;
-
-

@@ -31,7 +31,7 @@ const Polymer = () => {
           </div>
         </div>
         <div id="about">
-          <div className="container" data-aos="fade-up">
+          <div id="polymers" className="container" data-aos="fade-up">
             <header className="section-header">
               <h3>Polymers</h3>
               <p>
@@ -55,7 +55,7 @@ const Polymer = () => {
               })}
             </div>
           </div>
-          <div className="container" data-aos="fade-up">
+          <div id="solvents" className="container" data-aos="fade-up">
             <header className="section-header pt-5">
               <h3>Solvents</h3>
               <p>
@@ -79,7 +79,7 @@ const Polymer = () => {
               })}
             </div>
           </div>
-          <div className="container" data-aos="fade-up">
+          <div id="intermediates" className="container" data-aos="fade-up">
             <header className="section-header pt-5">
               <h3>
                 {" "}
@@ -106,7 +106,7 @@ const Polymer = () => {
               })}
             </div>
           </div>
-          <div className="container" data-aos="fade-up">
+          <div id="speciality_chemicals" className="container" data-aos="fade-up">
             <header className="section-header pt-5">
               <h3>SPECIALITY CHEMICALS</h3>
               <p>
