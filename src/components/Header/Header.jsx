@@ -482,22 +482,22 @@ const Header = () => {
                       </NavLink>
                       <ul class="dropdown-menu">
                         <li>
-                          <NavLink class="dropdown-item" to="/polymers" onClick={() => setOpenMenu(false)}>
+                          <NavLink class="dropdown-item" to="/chemicals" onClick={() => setOpenMenu(false)}>
                             Polymers
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink class="dropdown-item" to="/chemicals" onClick={() => setOpenMenu(false)}>
                             Solvents
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink class="dropdown-item" to="/chemicals" onClick={() => setOpenMenu(false)}>
                             Chemicals & Intermediates
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink class="dropdown-item" to="/chemicals" onClick={() => setOpenMenu(false)}>
                             Speciality Chemicals
                           </NavLink>
                         </li>

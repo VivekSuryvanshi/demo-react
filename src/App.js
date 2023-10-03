@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import GoToTop from "./components/GoToTop/GoToTop";
-import Polymer from "./pages/Polymer";
+import Polymer from "./pages/Chemicals";
 import Header from "./components/Header/Header";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/polymers" element={<Polymer />} />
+        <Route path="/chemicals" element={<Polymer />} />
       </Routes>
       <GoToTop />
     </BrowserRouter>

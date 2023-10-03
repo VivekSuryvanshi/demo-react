@@ -1,13 +1,35 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // import { NavLink } from "react-router-dom";
+import "./chemical.css";
 import Card from "../components/Card/Card";
-import {polymers,solvents,chemicalsAndIntermediates,specialityChemicals} from "../chemicalsdata";
+import {
+  polymers,
+  solvents,
+  chemicalsAndIntermediates,
+  specialityChemicals,
+} from "../chemicalsdata";
 
 const Polymer = () => {
   return (
     <>
       <main id="main">
+        <div className="hero">
+          <div className="hero_bg">
+            <div
+              className="breadcrums container aos-init aos-animate"
+              data-aos="fade"
+            >
+              <h2 className="breadcrums_title">Chemicals</h2>
+              <ol className="breadcrums_subtitle">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li className="breadcrums_items">/ Chemicals</li>
+              </ol>
+            </div>
+          </div>
+        </div>
         <div id="about">
           <div className="container" data-aos="fade-up">
             <header className="section-header">
@@ -22,12 +44,14 @@ const Polymer = () => {
 
             <div className="row about-cols">
               {polymers.map((val) => {
-                return <Card 
+                return (
+                  <Card
                     img={val.img}
                     title={val.title}
                     cas={val.cas}
                     formula={val.formula}
-                />;
+                  />
+                );
               })}
             </div>
           </div>
@@ -44,18 +68,23 @@ const Polymer = () => {
 
             <div className="row about-cols">
               {solvents.map((val) => {
-                return <Card 
+                return (
+                  <Card
                     img={val.img}
                     title={val.title}
                     cas={val.cas}
                     formula={val.formula}
-                />;
+                  />
+                );
               })}
             </div>
           </div>
           <div className="container" data-aos="fade-up">
             <header className="section-header pt-5">
-              <h3>  Chemicals And <br/> Intermediates</h3>
+              <h3>
+                {" "}
+                Chemicals And <br /> Intermediates
+              </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -66,12 +95,14 @@ const Polymer = () => {
 
             <div className="row about-cols">
               {chemicalsAndIntermediates.map((val) => {
-                return <Card 
+                return (
+                  <Card
                     img={val.img}
                     title={val.title}
                     cas={val.cas}
                     formula={val.formula}
-                />;
+                  />
+                );
               })}
             </div>
           </div>
@@ -88,12 +119,14 @@ const Polymer = () => {
 
             <div className="row about-cols">
               {specialityChemicals.map((val) => {
-                return <Card 
+                return (
+                  <Card
                     img={val.img}
                     title={val.title}
                     cas={val.cas}
                     formula={val.formula}
-                />;
+                  />
+                );
               })}
             </div>
           </div>
