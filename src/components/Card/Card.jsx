@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function Card(props) {
   return (
     <>
-      <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
+      <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100">
         <div className="about-col hover-item chemicals_card">
           <div className="img">
             <img src={props.img} alt="chemicals" loading="lazy" className="img-fluid" />
