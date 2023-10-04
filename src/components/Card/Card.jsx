@@ -2,14 +2,25 @@ import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./card.css";
 import { NavLink } from "react-router-dom";
+import parse from 'html-react-parser';
 
 function Card(props) {
+  console.log(props.formula);
   return (
     <>
-      <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100">
+      <div
+        className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
         <div className="about-col hover-item chemicals_card">
           <div className="img">
-            <img src={props.img} alt="chemicals" loading="lazy" className="img-fluid" />
+            <img
+              src={props.img}
+              alt="chemicals"
+              loading="lazy"
+              className="img-fluid"
+            />
             <div className="icon">
               <i class="bi bi-hexagon-half"></i>
             </div>
@@ -61,7 +72,7 @@ function Card(props) {
               </div>
               <div class="col-5">
                 <p className="polymer-desc">
-                  {props.formula}
+                  {props.formula.map(chemicals => parse(chemicals))}
                   {/* (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub> */}
                 </p>
               </div>
@@ -81,7 +92,7 @@ function Card(props) {
               </div>
               <div class="col-5">
                 <p className="polymer-desc">
-                  (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub>
+                  {props.othernames}
                 </p>
               </div>
             </div>
