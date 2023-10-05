@@ -6,7 +6,7 @@ import {
   partneringProcedure,
   workingWithRefiners,
   middleDistillates,
-} from "../../portfoliodata";
+} from "../../data/portfoliodata";
 
 function Products() {
   const [selected, setSelected] = useState("crude oil");

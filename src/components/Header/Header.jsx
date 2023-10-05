@@ -441,7 +441,7 @@ const Header = () => {
                   <NavLink
                     class="nav-NavLink active"
                     aria-current="page"
-                    to="#"
+                    to="/"
                     onClick={() => setOpenMenu(false)}
                   >
                     Home
@@ -450,7 +450,7 @@ const Header = () => {
                 <li class="nav-item">
                   <NavLink
                     class="nav-NavLink"
-                    to="#"
+                    to="/about"
                     onClick={() => setOpenMenu(false)}
                   >
                     About Us
@@ -459,7 +459,7 @@ const Header = () => {
                 <li class="nav-item dropdown">
                   <NavLink
                     class="nav-NavLink dropdown-toggle"
-                    to="/"
+                    to="/products"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -470,7 +470,7 @@ const Header = () => {
                   </NavLink>
                   <ul class="dropdown-menu">
                     <li>
-                      <NavLink class="dropdown-item" to="/">
+                      <NavLink class="dropdown-item" to="/products/agro-commodities">
                         Agro Commodities
                       </NavLink>
                     </li>
@@ -774,12 +774,12 @@ const Header = () => {
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <NavLink class="nav-NavLink" to="/">
+                  <NavLink class="nav-NavLink" to="/services">
                     Services
                   </NavLink>
                 </li>{" "}
                 <li class="nav-item">
-                  <NavLink class="nav-NavLink" to="/">
+                  <NavLink class="nav-NavLink" to="/contact">
                     Contact Us
                   </NavLink>
                 </li>

@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Example from "../components/Progress Bar/ProgressBar";
-import Products from "../components/Gallery_products/Products";
-import Carousel from "../components/Carousel_products/Carousel";
+import Example from "../../components/Progress Bar/ProgressBar";
+import Products from "../../components/Gallery_products/Products";
+import Carousel from "../../components/Carousel_products/Carousel";
 
 function Home() {
   return (
