@@ -541,7 +541,7 @@ export const solvents = [
       title: "Perchloroethylene",
       img:"./assets/images/Products-all-img/chemicals/solvent/solvent-57.webp",
       cas:"127-18-4",
-      formula:['H<sub>2</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
+      formula:['C<sub>2</sub>CL<sub>4</sub>'],
       // formula:" C2Cl4",
       othernames:"Tetrachloroethene",
     },
@@ -677,9 +677,9 @@ export const solvents = [
     {
       id: 11,
       title: "Di Methoxy Propane",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"77-76-9 ",
-      formula:['H<sub>2</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
+      formula:['C<sub>5</sub>H<sub>12</sub>O<sub>2</sub>'],
       // formula:"C5H12O2",
       othernames:"2, 4-Dichlorobenzyl chloride",
 
@@ -687,7 +687,7 @@ export const solvents = [
     {
       id: 12,
       title: "Dichloro Benzyl Chloride",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"94-99-5",
       formula:['C<sub>7</sub>H<sub>5</sub>C<sub>13</sub>'],
       // formula:"C7H5Cl3",
@@ -697,7 +697,7 @@ export const solvents = [
     {
       id: 13,
       title: "Di Methyl Amino Pyridine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1122-58-3",
       formula:['C<sub>7</sub>H<sub>10</sub>N<sub>2</sub>'],
       // formula:"C7H10N2",
@@ -707,7 +707,7 @@ export const solvents = [
     {
       id: 14,
       title: "Hydroxy Benzaldehyde",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"123-08-0",
       formula:['C<sub>7</sub>H<sub>6</sub>O<sub>2</sub',],
       // formula:"C7H6O2",
@@ -717,7 +717,7 @@ export const solvents = [
     {
       id: 15,
       title: "Acetophenone",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"98-86-2",
       formula:['C<sub>6</sub>H<sub>5</sub>C(O)CH<sub>3</sub>'],
       // formula:"C6H5C(O)CH3",
@@ -726,7 +726,7 @@ export const solvents = [
     {
       id: 16,
       title: "Acrylamide",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"79-06-1",
       formula:['C<sub>3</sub>H<sub>5</sub>NO'],
       // formula:"C3H5NO",
@@ -735,7 +735,7 @@ export const solvents = [
     {
       id: 17,
       title: "Acrylic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"79-10-7",
       formula:['C<sub>3</sub>H<sub>4</sub>O<sub>2</sub>'],
       // formula:"C3H4O2",
@@ -744,7 +744,7 @@ export const solvents = [
     {
       id: 18,
       title: "Adipic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"124-04-9",
       formula:['C<sub>6</sub>H<sub>10</sub>O<sub>4</sub>'],
       // formula:"C6H10O4",
@@ -753,7 +753,7 @@ export const solvents = [
     {
       id: 19,
       title: "Allyl Alcohol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"107-18-6",
       formula:['C<sub>3</sub>H<sub>6</sub>O'],
       // formula:"C3H6O",
@@ -762,7 +762,7 @@ export const solvents = [
     {
       id: 20,
       title: "Alpha Naphthol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"90-15-3",
       formula:['C<sub>10</sub>H<sub>8</sub>O'],
       // formula:"C10H8O",
@@ -771,7 +771,7 @@ export const solvents = [
     {
       id: 21,
       title: "Ammonium Bi Carbonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1066-33-7",
       formula:['NH<sub>4</sub>HCO'],
       // formula:"NH4HCO",
@@ -780,7 +780,7 @@ export const solvents = [
     {
       id: 22,
       title: "Ammonium Thiocyanate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1762-95-4 ",
       formula:['NH<sub>4</sub>SCN'],
       // formula:"NH4SCN or CH4N2S",
@@ -789,7 +789,7 @@ export const solvents = [
     {
       id: 23,
       title: "Amino Ethylethanolamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"111-41-1",
       formula:['C<sub>4</sub>H<sub>12</sub>N<sub>2</sub>O'],
       // formula:"C4H12N2O",
@@ -798,7 +798,7 @@ export const solvents = [
     {
       id: 24,
       title: "Amino Guanidine Bicarbonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"2582-30-1",
       formula:['C<sub>2</sub>H<sub>8</sub>N<sub>4</sub>O<sub>3</sub>'],
       // formula:"C2H8N4O3",
@@ -807,7 +807,7 @@ export const solvents = [
     {
       id: 25,
       title: "Aniline Oil",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"62-53-3",
       formula:['C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>'],
       // formula:"C6H5NH2",
@@ -816,7 +816,7 @@ export const solvents = [
     {
       id: 26,
       title: "Benzoic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"65-85-0",
       formula:['C<sub>7</sub>H<sub>6</sub>O<sub>2</sub>', ' or ', 'C<sub>6</sub>H<sub>5</sub>COOH'],
       // formula:"C7H6O2 or C6H5COOH",
@@ -825,7 +825,7 @@ export const solvents = [
     {
       id: 27,
       title: "Benzophenone",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"119-61-9",
       formula:['C<sub>13</sub>H<sub>10</sub>'],
       // formula:"C13H10O or C6H5COC6H5",
@@ -834,7 +834,7 @@ export const solvents = [
     {
       id: 28,
       title: "Benzylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"100-46-9",
       formula:['C<sub>7</sub>H<sub>9</sub>N', ' or ', 'C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>NH<sub>2</sub>'],
       // formula:": C7H9N or C6H5CH2NH2",
@@ -843,7 +843,7 @@ export const solvents = [
     {
       id: 29,
       title: "Beta Naphthol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"135-19-3",
       formula:['C<sub>10</sub>H<sub>8</sub>O'],
       // formula:"C10H8O",
@@ -852,7 +852,7 @@ export const solvents = [
     {
       id: 30,
       title: "Bis Trichloro Methyl Carbonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"79-06-1",
       formula:['C<sub>3</sub>CL<sub>6</sub>O'],
       // formula:"C3Cl6O",
@@ -861,7 +861,7 @@ export const solvents = [
     {
       id: 31,
       title: "Bisphenol A",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"80-05-7",
       formula:['C<sub>15</sub>H<sub>16</sub>O<sub>2</sub>','or', '(CH<sub>3</sub>)2C(C<sub>6</sub>H<sub>4</sub)<sub>2</sub>'],
       // formula:"C15H16O2 or (CH3)2C(C6H4OH)2",
@@ -870,7 +870,7 @@ export const solvents = [
     {
       id: 32,
       title: "Caustic Potash Flakes",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1310-58-3",
       formula:['KOH'],
       // formula:"KOH",
@@ -879,7 +879,7 @@ export const solvents = [
     {
       id: 33,
       title: "Citric Acid Anhydrous",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"77-92-9",
       formula:['C<sub>6</sub>H<sub>8</sub>O<sub>7</sub>'],
       // formula:"C6H8O7",
@@ -888,7 +888,7 @@ export const solvents = [
     {
       id: 34,
       title: "Citric Acid Monohydrate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"5949-29-1",
       formula:['C<sub>3</sub>H<sub>4</sub>N<sub>2</sub>O'],
       // formula:"C3H4N2O",
@@ -897,7 +897,7 @@ export const solvents = [
     {
       id: 35,
       title: "Cyano Acetamide",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"107-91-5",
       formula:['C<sub>3</sub>H<sub>4</sub>N<sub>2</sub>O'],
       // formula:" C3H4N2O",
@@ -906,7 +906,7 @@ export const solvents = [
     {
       id: 36,
       title: "Cyclohexane",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"110-82-7",
       formula:['C<sub>6</sub>H<sub>12</sub>'],
       // formula:" C6H12",
@@ -915,7 +915,7 @@ export const solvents = [
     {
       id: 37,
       title: "Cyclohexanol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-93-0",
       formula:['C<sub>6</sub>H<sub>12</sub>O'],
       // formula:"C6H12O",
@@ -924,7 +924,7 @@ export const solvents = [
     {
       id: 38,
       title: "Cyclohexanone",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-94-1",
       formula:['C<sub>6</sub>H<sub>10</sub>O'],
       // formula:": C6H10O",
@@ -933,7 +933,7 @@ export const solvents = [
     {
       id: 39,
       title: "Cyclohexylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-91-8",
       formula:['C<sub>62</sub>H<sub>13</sub>N'],
       // formula:":  C6H13N",
@@ -942,7 +942,7 @@ export const solvents = [
     {
       id: 40,
       title: "Cyclopropylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"765-30-0",
       formula:['C<sub>3</sub>H<sub>7</sub>N'],
       // formula:"C3H7N",
@@ -951,7 +951,7 @@ export const solvents = [
     {
       id: 41,
       title: "D- Tartaric Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"526-83-0",
       formula:['C<sub>4</sub>H<sub>6</sub>O<sub>6</sub>'],
       // formula:"C4H6O6",
@@ -960,7 +960,7 @@ export const solvents = [
     {
       id: 42,
       title: "Di Acetone",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"123-42-2",
       formula:['C<sub>6</sub>H<sub>12</sub>O<sub>2</sub>'],
       // formula:"C6H12O2",
@@ -969,7 +969,7 @@ export const solvents = [
     {
       id: 43,
       title: "Di Cyclohexylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"101-83-7",
       formula:['C<sub>12</sub>H<sub>23</sub>N'],
       // formula:"C12H23N",
@@ -978,7 +978,7 @@ export const solvents = [
     {
       id: 44,
       title: "Di Cyclohexylcarbodiimide",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"538-75-0",
       formula:['C<sub>13</sub>H<sub>2</sub>N<sub>2</sub>'],
       // formula:"C13H22N2",
@@ -987,7 +987,7 @@ export const solvents = [
     {
       id: 45,
       title: "Di Ehtyl Ether",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"60-29-7",
       formula:['C<sub>4</sub>H<sub>18</sub>O'],
       // formula:"C4H10O ",
@@ -996,7 +996,7 @@ export const solvents = [
     {
       id: 46,
       title: "Di Ehtyl Sulphate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"64-67-5",
       formula:['C<sub>4</sub>H<sub>10</sub>O<sub>4</sub>s', 'or', '(C<sub>2</sub>H<sub>5</sub>)2SO'],
       // formula:"C4H10O4S or (C2H5)2SO",
@@ -1005,7 +1005,7 @@ export const solvents = [
     {
       id: 47,
       title: "Di Ethylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"109-89-7",
       formula:['C<sub>4</sub>H<sub>11</sub>N'],
       // formula:"C4H11N",
@@ -1014,7 +1014,7 @@ export const solvents = [
     {
       id: 48,
       title: "Di Ethanolamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"111-42-2",
       formula:['C<sub>4</sub>H<sub>11</sub>NO<sub>2</sub>'],
       // formula:"C4H11NO2",
@@ -1023,7 +1023,7 @@ export const solvents = [
     {
       id: 49,
       title: "Di Ethyl Carbonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"105-58-8",
       formula:['C<sub>5</sub>H<sub>10</sub>O<sub>3</sub>',' or ','(C<sub>2</sub>H<sub>5</sub>O)<sub>2</sub>CO'],
       // formula:"C5H10O3 or (C2H5O)2CO",
@@ -1032,7 +1032,7 @@ export const solvents = [
     {
       id: 50,
       title: "Di Ethyl Malonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"105-53-3",
       formula:['C<sub>7</sub>H<sub>12</sub>O<sub>4</sub>'],
       // formula:" C7H12O4",
@@ -1041,7 +1041,7 @@ export const solvents = [
     {
       id: 51,
       title: "Di Ethylene Triamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1 05-53-3",
       formula:['C<sub>4</sub>H<sub>13</sub>N<sub>3</sub>'],
       // formula:" C4H13N3",
@@ -1051,7 +1051,7 @@ export const solvents = [
     {
       id: 52, 
       title: "Di Iso Propyl Ether",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-20-3",
       formula:['C<sub>6</sub>H<sub>14</sub>O'],
       // formula:"C6H14O",
@@ -1061,7 +1061,7 @@ export const solvents = [
     {
       id: 53,
       title: "Di Iso Propylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-18-9",
       formula:['C<sub>6</sub>H<sub>1</sub>N'],
       // formula:"C6H15N",
@@ -1070,7 +1070,7 @@ export const solvents = [
     {
       id: 54,
       title: "Di Methyl Amine 40%",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"124-40-3",
       formula:['(CH<sub>3</sub>)<sub>2</sub>NH', ' or ','C<sub>2</sub>H<sub>7</sub>N'],
       // formula:"(CH3)2NH or C2H7N",
@@ -1079,7 +1079,7 @@ export const solvents = [
     {
       id: 55,
       title: "Di Methyl Carbonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"616-38-6",
       formula:['C<sub>3</sub>H<sub>6</sub>O<sub></sub>'],
       // formula:" C3H6O3",
@@ -1088,25 +1088,25 @@ export const solvents = [
     {
       id: 56,
       title: "Di Methyl Malonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-59-8",
-      formula:['H<sub>2</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
+      formula:['C<sub>5</sub>H<sub>8</sub>O'],
       // formula:"C5H8O",
       othernames:"Dimethyl propanedioate",
     },
     {
       id: 57,
       title: "Di N Butylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"111-92-2",
-      formula:['H<sub>2</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
+      formula:['C<sub>8</sub>H<sub>19</sub>N'],
       // formula:" C8H19N",
       othernames:"di-Normal-butylamine",
     },
     {
       id: 58,
       title: "Di Propylene Glycol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"25265-71-8",
       formula:['C<sub>6</sub>H<sub>14</sub>O<sub>3</sub>'],
       // formula:"C6H14O3",
@@ -1115,7 +1115,7 @@ export const solvents = [
     {
       id: 59,
       title: "Di Tret Butyl Dicarbonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"24424-99-5",
       formula:['C<sub>10</sub>H<sub>10</sub>O<sub>5</sub>'],
       // formula:"C10H18O5",
@@ -1124,16 +1124,16 @@ export const solvents = [
     {
       id: 60,
       title: "Dicyandiaminde",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"461-58-5",
-      formula:['H<sub>2</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
+      formula:['C<sub>2</sub>H<sub>4</sub>N<sub>4</sub>'],
       // formula:"C2H4N4",
       othernames:"Dicyanodiamide",
     },
     {
       id: 61,
       title: "Epichlorohydrin",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"106-89-8",
       formula:['C<sub>3</sub>H<sub>5</sub>CLO'],
       // formula:"C3H5ClO",
@@ -1142,7 +1142,7 @@ export const solvents = [
     {
       id: 62,
       title: "Epoxy Resin",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"25068-38-6",
       formula:['C<sub>21</sub>H<sub>25</sub>CIO<sub>5</sub>'],
       // formula:"C21H25ClO5",
@@ -1151,7 +1151,7 @@ export const solvents = [
     {
       id: 63,
       title: "Ethyl Acetate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"141-78-6",
       formula:['C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>', ' or ' , 'CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>'],
       // formula:"C4H8O2 or CH3COOC2H5",
@@ -1160,16 +1160,16 @@ export const solvents = [
     {
       id: 64,
       title: "Ethyl Acetate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"141-78-6",
-      formula:['C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>', 'or ', 'CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>'],
+      formula:['C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>', ' or ', 'CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>'],
       // formula:"C4H8O2 or CH3COOC2H5",
       othernames:"Ethyl ethanoate",
     },
     {
       id: 65,
       title: "Ethyl Aceto Acetate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"141-97-9",
       formula:['C<sub>6</sub>H<sub>10</sub>O<sub>3</sub>'],
       // formula:"C6H10O3",
@@ -1178,7 +1178,7 @@ export const solvents = [
     {
       id: 66,
       title: "Ethyl Acrylate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"140-88-5",
       formula:['C<sub>5</sub>H<sub>8</sub>O<sub>2</sub>'],
       // formula:"C5H8O2",
@@ -1187,7 +1187,7 @@ export const solvents = [
     {
       id: 67,
       title: "Ethyl Chloro Formate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"541-41-3",
       formula:['C<sub>3</sub>H<sub>5</sub>CLO<sub>2</sub>', ' or ' , 'CLCOOC<sub>2</sub>H<sub>5</sub'],
       // formula:"C3H5ClO2 or ClCOOC2H5",
@@ -1196,7 +1196,7 @@ export const solvents = [
     {
       id: 68,
       title: "Ethyl Cyano Acetate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"105-56-6",
       formula:['C<sub>5</sub>H<sub>7</sub>NO<sub>2</sub>'],
       // formula:"C5H7NO2",
@@ -1205,7 +1205,7 @@ export const solvents = [
     {
       id: 69,
       title: "Ethylene Diamine (EDA)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"107-15-3",
       formula:['C<sub>2</sub>H<sub>8</sub>N'],
       // formula:"C2H8N",
@@ -1214,7 +1214,7 @@ export const solvents = [
     {
       id: 70,
       title: "Fluorobenzene",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"462-06-6",
       formula:['C<sub>6</sub>H<sub>5</sub>F'],
       // formula:"C6H5F",
@@ -1223,7 +1223,7 @@ export const solvents = [
     {
       id: 71,
       title: "Formamide",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-12-7",
       formula:['CH<sub>3</sub>NO'],
       // formula:"CH3NO or HCONH2",
@@ -1232,7 +1232,7 @@ export const solvents = [
     {
       id: 72,
       title: "Formic Acid 85%",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-12-7",
       formula:['CH<sub>3</sub>NO', ' or ','HCNOH<sub>2</sub>'],
       // formula:"CH3NO or HCONH2",
@@ -1241,7 +1241,7 @@ export const solvents = [
     {
       id: 73,
       title: "Fumaric Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"110-17-8",
       formula:['C<sub>4</sub>H<sub>4</sub>O<sub>4</sub>'],
       // formula:"C4H4O4",
@@ -1250,7 +1250,7 @@ export const solvents = [
     {
       id: 74,
       title: "Furfuryl Alcohol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"98-00-0",
       formula:['C<sub>5</sub>H<sub>6</sub>O<sub>2</sub>'],
       // formula:"C5H6O2",
@@ -1259,7 +1259,7 @@ export const solvents = [
     {
       id: 75,
       title: "Glycerine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"56-81-5",
       formula:['C<sub>3</sub>H<sub>8</sub>O<<sub>3</sub>'],
       // formula:"C3H8O3",
@@ -1268,7 +1268,7 @@ export const solvents = [
     {
       id: 76,
       title: "Hexamethyldisilazane",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"999-97-3",
       formula:['C<sub>6</sub>H<sub>19</sub>'],
       // formula:"C6H19NSi2",
@@ -1277,7 +1277,7 @@ export const solvents = [
     {
       id: 77,
       title: "Hexylene Glycol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"107-41-5",
       formula:['C<sub>6</sub>H<sub>14</sub>O<sub>2</sub>'],
       // formula:"C6H14O2",
@@ -1286,7 +1286,7 @@ export const solvents = [
     {
       id: 78,
       title: "Hydrogen Peroxide",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7722-84-1",
       formula:['H<sub>2</sub>O<sub>2</sub>'],
       // formula:"H2O2",
@@ -1295,7 +1295,7 @@ export const solvents = [
     {
       id: 79,
       title: "Hydroquinone",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"123-31-9",
       formula:['C<sub>6</sub>H<sub>6</sub>O<sub>2</sub>',' or ','C<sub>6</sub>H<sub>4</sub>(OH)<sub>2</sub>'],
       // formula:"C6H6O2 or C6H4(OH)2",
@@ -1304,7 +1304,7 @@ export const solvents = [
     {
       id: 80,
       title: "Hydroxylamine HCl",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"5470-11-1",
       formula:['C<sub>1</sub>H<sub>7</sub>N<sub>2</sub>O'],
       // formula:"ClH7N2O",
@@ -1313,7 +1313,7 @@ export const solvents = [
     {
       id: 81,
       title: "Hydroxylamine Sulphate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"10039-54-0",
       formula:['(NH<sub>2</sub>OH)<sub>2</sub>.H<sub>2</sub>SO<sub>4</sub>', ' or ','HBN<sub>2</sub>O<sub>6</sub>S'],
       // formula:"(NH2OH)2.H2SO4 or H8N2O6S",
@@ -1322,7 +1322,7 @@ export const solvents = [
     {
       id: 82,
       title: "Hexamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"100-97-0",
       formula:['C<sub>6</sub>H<sub>12</sub>N<sub>4</sub>'],
       // formula:"C6H12N4",
@@ -1331,7 +1331,7 @@ export const solvents = [
     {
       id: 83,
       title: "Imidazole",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"288-32-4",
       formula:['C<sub>3</sub>H<sub>4</sub>N<sub>2</sub>'],
       // formula:"C3H4N2",
@@ -1340,7 +1340,7 @@ export const solvents = [
     {
       id: 84,
       title: "Iodine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7553-56-2",
       formula:['I<sub>2</sub>'],
       // formula:"I2",
@@ -1349,7 +1349,7 @@ export const solvents = [
     {
       id: 85,
       title: "Isobutanol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"78-83-1",
       formula:['C<sub>4</sub>H<sub>10</sub>O', ' or ', '(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH'],
       // formula:"C4H10O or (CH3)2CHCH2OH",
@@ -1358,7 +1358,7 @@ export const solvents = [
     {
       id: 86,
       title: "Iso Butyrlic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"79-31-2",
       formula:['C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>'],
       // formula:"C4H8O2",
@@ -1367,7 +1367,7 @@ export const solvents = [
     {
       id: 87,
       title: "Iso Butyrlic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"79-31-2",
       formula:['C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>'],
       // formula:"C4H8O2",
@@ -1376,7 +1376,7 @@ export const solvents = [
     {
       id: 88,
       title: "Iso Propyl Alcohol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"67-63-0",
       formula:['C<sub>3</sub>H<sub>8</sub>O'],
       // formula:"C3H8O",
@@ -1385,7 +1385,7 @@ export const solvents = [
     {
       id: 89,
       title: "Isopropyl Acetate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-21-4",
       formula:['  C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>'],
       // formula:"C5H10O2",
@@ -1394,7 +1394,7 @@ export const solvents = [
     {
       id: 90,
       title: "Isobutyraldehyde",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"78-84-2",
       formula:['C<sub>4</sub>H<sub>8</sub>O'],
       // formula:"C4H8O",
@@ -1403,7 +1403,7 @@ export const solvents = [
     {
       id: 91,
       title: "Isophorone",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"78-59-1",
       formula:['C<sub>9</sub>H<sub>14</sub>O'],
       // formula:"C9H14O",
@@ -1412,7 +1412,7 @@ export const solvents = [
     {
       id: 92,
       title: "Isophorone Diamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"2855-13-2",
       formula:['C<sub>10</sub>H<sub>22</sub>N<sub>2</sub>'],
       // formula:"C10H22N2",
@@ -1421,7 +1421,7 @@ export const solvents = [
     {
       id: 93,
       title: "Isophorone Diamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"2855-13-2",
       formula:['C<sub>10</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
       // formula:"C10H22N2",
@@ -1430,7 +1430,7 @@ export const solvents = [
     {
       id: 94,
       title: "Isophthalic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"121-91-5",
       formula:['C<sub>8</sub>H<sub>6</sub>O<sub>4</sub>', ],
       // formula:" C8H6O4",
@@ -1439,7 +1439,7 @@ export const solvents = [
     {
       id: 95,
       title: "Isovaleraldehyde",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"590-86-3",
       formula:['C<sub>5</sub>H<sub>10</sub>O'],
       // formula:" C5H10O",
@@ -1448,7 +1448,7 @@ export const solvents = [
     {
       id: 96,
       title: "L - Tartaric Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"526-83-0",
       formula:['C<sub>4</sub>H<sub>6</sub>O<sub>6</sub>'],
       // formula:"C4H6O6",
@@ -1457,7 +1457,7 @@ export const solvents = [
     {
       id: 97,
       title: "Lactose",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"63-42-3",
       formula:['C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>'],
       // formula:" C12H22O11",
@@ -1466,7 +1466,7 @@ export const solvents = [
     {
       id: 98,
       title: "Lithium Carbonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"554-13-2",
       formula:['L1<sub>2</sub>CO<sub>3</sub>',' or ', 'CLI<sub>2</sub>O<sub>3x</sub>'],
       // formula:"Li2CO3 or CLi2O3",
@@ -1475,7 +1475,7 @@ export const solvents = [
     {
       id: 99,
       title: "Lithium Hydroxide",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1310-65-2",
       formula:['LIOH', ' or ', 'HLIO'],
       // formula:"LiOH or HLiO",
@@ -1484,7 +1484,7 @@ export const solvents = [
     {
       id: 100,
       title: "Maliec Anhydride",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-31-6",
       formula:['C<sub>4</sub>H<sub>2</sub>O<sub>3</sub>'],
       // formula:"C4H2O3",
@@ -1493,7 +1493,7 @@ export const solvents = [
     {
       id: 101,
       title: "Malonic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"141-82-2",
       formula:['C<sub>3</sub>H<sub>4</sub>O<sub>4</sub>'],
       // formula:"C3H4O4",
@@ -1502,7 +1502,7 @@ export const solvents = [
     {
       id: 102,
       title: "Malononitrile",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"109-77-3",
       formula:['C<sub>3</sub>H<sub>2</sub>N<sub>2</sub>',' or ', 'NCCH<sub>2</sub>CN', ' or ', 'CH<sub>2</sub>(CN)<sub>2</sub>'],
       // formula:"C3H2N2 or NCCH2CN or CH2(CN)2",
@@ -1511,7 +1511,7 @@ export const solvents = [
     {
       id: 103,
       title: "Melamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-78-1",
       formula:['C<sub>3</sub>H<sub>6</sub>N<sub>6</sub>',' or ','C<sub>3</sub>3(NH<sub>2</sub>)<sub>3</sub>'],
       // formula:"C3H6N6 or C3N3(NH2)3",
@@ -1520,7 +1520,7 @@ export const solvents = [
     {
       id: 104,
       title: "Meta Cresol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-39-4",
       formula:['C<sub>7</sub>H<sub>8</sub>O', 'CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>OH'],
       // formula:"C7H8O or CH3C6H4OH",
@@ -1529,7 +1529,7 @@ export const solvents = [
     {
       id: 105,
       title: "Metha Acrylic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"79-41-4",
       formula:['C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>'],
       // formula:"C4H6O2",
@@ -1538,7 +1538,7 @@ export const solvents = [
     {
       id: 106,
       title: "Methane Sulphonic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-75-2",
       formula:['CH<sub>4</sub>O<sub>3</sub>S'],
       // formula:"CH4O3S",
@@ -1547,7 +1547,7 @@ export const solvents = [
     {
       id: 107,
       title: "Methane Sulphonyl Chloride",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"124-63-0",
       formula:['CH<sub>3</sub>CLO<sub>2</sub>S'],
       // formula:"CH3ClO2S",
@@ -1556,7 +1556,7 @@ export const solvents = [
     {
       id: 108,
       title: "Methyl Aceto Acetate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"105-45-3",
       formula:['C<sub>5</sub>H<sub>8</sub>O<sub>3</sub>'],
       // formula:"C5H8O3",
@@ -1565,7 +1565,7 @@ export const solvents = [
     {
       id: 109,
       title: "Methyl Chloro Formate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"79-22-1",
       formula:['C<sub>2</sub>H<sub>3</sub>CLO<sub>2</sub>', 'CH<sub>3</sub>OCOCL'],
       // formula:"C2H3ClO2 or CH3OCOCl",
@@ -1574,7 +1574,7 @@ export const solvents = [
     {
       id: 110,
       title: "Methyl Cyano Acetate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"105-34-0",
       formula:['C<sub>4</sub>H<sub>5</sub>NO<sub>2</sub>'],
       // formula:"C4H5NO2",
@@ -1583,7 +1583,7 @@ export const solvents = [
     {
       id: 111,
       title: "Methyl Cyclohexane",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"101-68-8",
       formula:['C<sub>15</sub>H<sub>10</sub>N<sub>2</sub>O<sub>2</sub>'],
       // formula:"C15H10N2O2",
@@ -1592,7 +1592,7 @@ export const solvents = [
     {
       id: 112,
       title: "Methylene Diphenyl Diisocyante",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-87-2",
       formula:['C<sub>7</sub>H<sub>14</sub>', ' or ' ,'C<sub>H</sub>11<sub>CH<sub>3</sub>'],
       // formula:"C7H14 or C6H11CH3",
@@ -1601,7 +1601,7 @@ export const solvents = [
     {
       id: 113,
       title: "Methyl Methacrylate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"80-62-6",
       formula:['C<sub>5</sub>H<sub>8</sub>O<sub>2</sub>'],
       // formula:"C5H8O2",
@@ -1610,7 +1610,7 @@ export const solvents = [
     {
       id: 114,
       title: "Monoethylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-04-7",
       formula:['CH<sub>3</sub>CH<sub>2</sub>NH<sub>2</sub>'],
       // formula:"CH3CH2NH2",
@@ -1619,7 +1619,7 @@ export const solvents = [
     {
       id: 115,
       title: "Mono Chloro Benzene",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-90-7",
       formula:['C<sub>6</sub>H<sub>5</sub>CL'],
       // formula:"C6H5Cl",
@@ -1628,7 +1628,7 @@ export const solvents = [
     {
       id: 116,
       title: "Mono Methylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"74-89-5",
       formula:['CH<sub>5</sub>N',' or ','CH<sub>3</sub>NH<sub>2</sub>'],
       // formula:"CH5N or CH3NH2",
@@ -1637,7 +1637,7 @@ export const solvents = [
     {
       id: 117,
       title: "Mono Ethylene Glycol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"107-21-1",
       formula:['C<sub>2</sub>H<sub>6</sub>O<sub>2</sub>'],
       // formula:"C2H6O2",
@@ -1654,7 +1654,7 @@ export const solvents = [
     {
       id: 119,
       title: "Mono Iso Propylamine 99%",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-31-0",
       formula:['C<sub>3</sub>H<sub>9</sub>N', ' or ','(CH<sub>3</sub>)<sub>2</sub>CHNH<sub>2</sub>'],
       // formula:"C3H9N or (CH3)2CHNH2",
@@ -1663,16 +1663,16 @@ export const solvents = [
     {
       id: 120,
       title: "Morpholine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"110-91-8",
-      formula:['H<sub>2</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
+      formula:['C<sub>4</sub>H<sub>9</sub>NO'],
       // formula:"C4H9NO",
       othernames:"4-oxazine",
     },
     {
       id: 121,
       title: "MP Diol Glycol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"2163-42-0",
       formula:['C<sub>4</sub>H<sub>10</sub>O<sub>2</sub>'],
       // formula:"C4H10O2",
@@ -1681,7 +1681,7 @@ export const solvents = [
     {
       id: 122,
       title: "N- Ethyl Piperazine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"5308-25-8",
       formula:['C<sub>6</sub>H<sub>14</sub>N<sub>2</sub>'],
       // formula:"C6H14N2",
@@ -1690,16 +1690,16 @@ export const solvents = [
     {
       id: 123,
       title: "N- Butyric Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"107-92-6",
-      formula:['H<sub>2</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
+      formula:['C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>'],
       // formula:"C4H8O2",
       othernames:"n-Butanoic acid",
     },
     {
       id: 124,
       title: "N- Butyl Methacrylate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"97-88-1",
       formula:['C<sub>8</sub>H<sub>14</sub>O<sub>2</sub>'],
       // formula:"C8H14O2",
@@ -1708,7 +1708,7 @@ export const solvents = [
     {
       id: 125,
       title: "N- Butanol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"71-36-3",
       formula:['C<sub>4</sub>H<sub>10</sub>O'],
       // formula:"C4H10O",
@@ -1717,7 +1717,7 @@ export const solvents = [
     {
       id: 126,
       title: "N- Butyraldehyde",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"123-72-8",
       formula:['C<sub>4</sub>H<sub>8</sub>O'],
       // formula:"C4H8O",
@@ -1726,7 +1726,7 @@ export const solvents = [
     {
       id: 127,
       title: "N- Methyl Piperazine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"109-01-3",
       formula:['C<sub>5</sub>H<sub>12</sub>N<sub>2</sub>'],
       // formula:"C5H12N2",
@@ -1735,7 +1735,7 @@ export const solvents = [
     {
       id: 128,
       title: "Napthalene Crude",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"91-20-3",
       formula:['C<sub>10</sub>H<sub>8</sub>'],
       // formula:"C10H8",
@@ -1744,7 +1744,7 @@ export const solvents = [
     {
       id: 129,
       title: "Napthalene Refined",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"91-20-3",
       formula:['C<sub>10</sub>H<sub>8</sub>'],
       // formula:"C10H8",
@@ -1753,7 +1753,7 @@ export const solvents = [
     {
       id: 130,
       title: "Neo Pentyl Glycol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"126-30-7",
       formula:['C<sub>5</sub>H<sub>12</sub>O<sub>2</sub>'],
       // formula:"C5H12O2",
@@ -1762,7 +1762,7 @@ export const solvents = [
     {
       id: 131,
       title: "Nitromethane",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-52-5",
       formula:['CH<sub>3</sub>NO<sub>2</sub>'],
       // formula:"CH3NO2",
@@ -1771,7 +1771,7 @@ export const solvents = [
     {
       id: 132,
       title: "Nonyl Phenol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"104-40-5",
       formula:['C<sub>15</sub>H<sub>24</sub>O'],
       // formula:"C15H24O",
@@ -1780,7 +1780,7 @@ export const solvents = [
     {
       id: 133,
       title: "Nonyl Phenol Ethoxylate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"20427-84-3",
       formula:['C<sub>19</sub>H<sub>32</sub>O<sub>3</sub>'],
       // formula:"C19H32O3",
@@ -1789,7 +1789,7 @@ export const solvents = [
     {
       id: 134,
       title: "Oxone PS - 16",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"37222-66-5",
       formula:['H<sub>3</sub>k<sub>5</sub>o<sub>18</sub>s<sub>4</sub>'],
       // formula:" H3K5O18S4",
@@ -1798,7 +1798,7 @@ export const solvents = [
     {
       id: 135,
       title: "Para Tertiary Butyl Phenol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"98-54-4",
       formula:['C<sub>10</sub>H<sub>14</sub>O', ' or' ,'HOC<sub>6</sub>H<sub>4</sub>C(<sub>CH</sub>3)<sub>3</sub>'],
       // formula:"C10H14O or HOC6H4C(CH3)3",
@@ -1807,7 +1807,7 @@ export const solvents = [
     {
       id: 136,
       title: "Para Tertiary Octyl Phenol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"140-66-9",
       formula:['C<sub>14</sub>H<sub>22</sub>O'],
       // formula:"C14H22O",
@@ -1816,7 +1816,7 @@ export const solvents = [
     {
       id: 137,
       title: "Para Toluene Sulfonyl Chloride",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"98-59-9",
       formula:['C<sub>7</sub>H<sub>7</sub>CLO<sub>2</sub>S' ],
       // formula:"C7H7ClO2S",
@@ -1825,7 +1825,7 @@ export const solvents = [
     {
       id: 138,
       title: "Paraformaldehyde 91%",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"30525-89-4",
       formula:['(CH<sub>2</sub>O)N'],
       // formula:"(CH2O)n",
@@ -1834,7 +1834,7 @@ export const solvents = [
     {
       id: 139,
       title: "Paraformaldehyde 96%",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"30525-89-4",
       formula:['(CH<sub>2</sub>O)N'],
       // formula:"(CH2O)n",
@@ -1843,7 +1843,7 @@ export const solvents = [
     {
       id: 140,
       title: "Pentaerythritol 98%",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"30525-89-4",
       formula:['(CH<sub>2</sub>O)N'],
       // formula:"(CH2O)n",
@@ -1852,7 +1852,7 @@ export const solvents = [
     {
       id: 141,
       title: "Perchloroethylene",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"127-18-4",
       formula:['C<sub>2</sub>CL<sub>4</sub>'],
       // formula:" C2Cl4",
@@ -1861,7 +1861,7 @@ export const solvents = [
     {
       id: 142,
       title: "Phosphoric Acid (Food Grade)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7664-38-2",
       formula:['H<sub>3</sub>PO<sub>4</sub>',' or ' , 'H<sub>3</sub>O<sub>4</sub>P'],
       // formula:"H3PO4 or H3O4P",
@@ -1870,7 +1870,7 @@ export const solvents = [
     {
       id: 143,
       title: "Phosphoric Acid (Technical)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7664-38-2",
       formula:['H<sub>3</sub>pO<sub>4</sub>', ' or ' , 'H<sub>3</sub>O<sub>4/sub>P'],
       // formula:" H3PO4 or H3O4P",
@@ -1879,7 +1879,7 @@ export const solvents = [
     {
       id: 144,
       title: "Phosphorus Oxychloride",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"10025-87-3",
       formula:['POCL<sub>3</sub>'],
       // formula:" POCl3",
@@ -1888,7 +1888,7 @@ export const solvents = [
     {
       id: 145,
       title: "Phosphorus Pentaoxide",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1314-56-3",
       formula:['P<sub>4</sub>O<sub>10</sub>', ' or ', 'P<sub>2</sub>O<sub>5</sub>'],
       // formula:"P4O10 or P2O5",
@@ -1897,7 +1897,7 @@ export const solvents = [
     {
       id: 146,
       title: "Piperazine Anhydrous",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"110-85-0",
       formula:['C<sub>4</sub>H<sub>10</sub>N<sub>2</sub>'],
       // formula:"C4H10N2",
@@ -1906,7 +1906,7 @@ export const solvents = [
     {
       id: 147,
       title: "Poly Vinyl Alcohol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"9002-89-5",
       formula:[' C<sub>2</sub>H<sub>4</sub>O'],
       // formula:"C2H4O",
@@ -1915,7 +1915,7 @@ export const solvents = [
     {
       id: 148,
       title: "Polyethylene Glycol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"25322-68-3",
       formula:['C<sub>69</sub>H<sub>140</sub>O<sub>35</sub>'],
       // formula:"C69H140O35",
@@ -1924,7 +1924,7 @@ export const solvents = [
     {
       id: 149,
       title: "Polypropylene Glycol 1000D",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"25322-69-4",
       formula:['C<sub>6</sub>H<sub>14</sub>O<sub>3</sub>'],
       // formula:"C6H14O3",
@@ -1933,7 +1933,7 @@ export const solvents = [
     {
       id: 150,
       title: "Polypropylene Glycol 2000D",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"25322-69-4",
       formula:['C<sub>6</sub>H<sub>14</sub>O<sub>3</sub>'],
       // formula:"C6H14O3",
@@ -1942,7 +1942,7 @@ export const solvents = [
     {
       id: 151,
       title: "Potassium Bi Carbonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"298-14-6",
       formula:['KHCO<sub>3</sub>'],
       // formula:"KHCO3",
@@ -1951,7 +1951,7 @@ export const solvents = [
     {
       id: 152,
       title: "Potassium Carbonate (Granual)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"584-08-7",
       formula:['K<sub>2</sub>CO<sub>3</sub>'],
       // formula:"K2CO3",
@@ -1960,7 +1960,7 @@ export const solvents = [
     // {
     //   id: 152,
     //   title: "Potassium Carbonate (Powder)",
-    //   img:"",
+    //   img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
     //   cas:"584-08-7 ",
     //   formula:['H<sub>2</sub>SO<sub>4</sub>', 'CO<sub>2</sub>'],
     //   // formula:" K2CO3",
@@ -1969,7 +1969,7 @@ export const solvents = [
     {
       id: 153,
       title: "Potassium Permanganate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7722-64-7",
       formula:['K<sub>2</sub>CO<sub>3</sub>'],
       // formula:" K2CO3",
@@ -1978,7 +1978,7 @@ export const solvents = [
     {
       id: 154,
       title: "Phenyl Chloro Formate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1885-14-9",
       formula:['C<sub>7</sub>H<sub>5</sub>CLO<sub>2</sub>', ' or ' ,'C<sub>6</sub>H<sub>5</sub>COCL'],
       // formula:"C7H5ClO2 or C6H5OCOCl",
@@ -1987,7 +1987,7 @@ export const solvents = [
     {
       id: 155,
       title: "Propionaldehyde",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"123-38-6",
       formula:['C<sub>3</sub>H<sub>6</sub>O',' or ','CH<sub>3</sub>CH<sub>2</sub>CHO<sub>8</sub>'],
       // formula:"C3H6O or CH3CH2CHO8",
@@ -1996,7 +1996,7 @@ export const solvents = [
     {
       id: 156,
       title: "Propionic Acid",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"79-09-4",
       formula:['C<sub>3</sub>H<sub>6</sub>O<sub>2</sub>'],
       // formula:"C3H6O2",
@@ -2005,7 +2005,7 @@ export const solvents = [
     {
       id: 157,
       title: "Propionic Anhydride",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"123-62-6",
       formula:['C<sub>6</sub>H<sub>10</sub>O<sub>3</sub>', 'or', '(CH<sub>3</sub>CH<sub>2</sub>CO)<sub>2</sub>O'],
       // formula:" C6H10O3 or (CH3CH2CO)2O",
@@ -2014,7 +2014,7 @@ export const solvents = [
     {
       id: 158,
       title: "Propargyl Alcohol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"107-19-7",
       formula:['C<sub>3</sub>H<sub>4</sub>O'],
       // formula:"C3H4O or CHCCH2OH",
@@ -2023,7 +2023,7 @@ export const solvents = [
     {
       id: 159,
       title: "Propylene Glycol (Technical)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"57-55-6",
       formula:['C<sub>3</sub>H<sub>8</sub>O<sub>2</sub>'],
       // formula:"C3H8O2",
@@ -2032,7 +2032,7 @@ export const solvents = [
     {
       id: 160,
       title: "Propylene Glycol (USP)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"57-55-6",
       formula:['C<sub>3</sub>H<sub>8</sub>O<sub>2</sub>'],
       // formula:"C3H8O2",
@@ -2041,7 +2041,7 @@ export const solvents = [
     {
       id: 161,
       title: "Phthalic Anhydride",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"85-44-9",
       formula:['C<sub>8</sub>H<sub>4</sub>O<sub>3</sub>', 'C<sub>6</sub>H<sub>4</sub>(CO)<sub>2</sub>O'],
       // formula:"C8H4O3 or C6H4(CO)2O",
@@ -2050,7 +2050,7 @@ export const solvents = [
     {
       id: 162,
       title: "Pyridine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"110-86-1",
       formula:['C<sub>5</sub>H<sub>5</sub>N'],
       // formula:" C5H5N",
@@ -2060,7 +2060,7 @@ export const solvents = [
     {
       id: 163,
       title: "Pyrrolidine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"123-75-1",
       formula:['C<sub>4</sub>H<sub>9</sub>N'],
       // formula:"C4H9N",
@@ -2070,7 +2070,7 @@ export const solvents = [
     {
       id: 164,
       title: "Resorcinol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-46-3",
       formula:['C<sub>6</sub>H<sub>6</sub>O<sub>2</sub>'],
       // formula:"C6H6O2",
@@ -2079,7 +2079,7 @@ export const solvents = [
     {
       id: 165,
       title: "Soda Ash",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"497-19-8",
       formula:['NA<sub>2</sub>CO<sub>3</sub>'],
       // formula:"Na2CO3",
@@ -2088,7 +2088,7 @@ export const solvents = [
     {
       id: 166,
       title: "Sodium Borohydride (Granual)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"16940-66-2",
       formula:['NABH<sub>4</sub>', ' or ','BH<sub>4</sub>NA'],
       // formula:"NaBH4 or BH4Na",
@@ -2098,7 +2098,7 @@ export const solvents = [
     {
       id: 167,
       title: "Sodium Borohydride (Powder)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"16940-66-2",
       formula:['  NABH<sub>4</sub>',  ' ', 'BH<sub>4</sub>NA'],
       // formula:" NaBH4 or BH4Na",
@@ -2107,7 +2107,7 @@ export const solvents = [
     {
       id: 168,
       title: "Sodium Cyanide",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"143-33-9",
       formula:['NACN', ' or ','CNNA'],
       // formula:"NaCN or CNNa",
@@ -2116,7 +2116,7 @@ export const solvents = [
     {
       id: 169,
       title: "Sodium Gluconate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"527-07-1",
       formula:['C<sub>6</sub>H<sub>11</sub>NAO<sub>7</sub>'],
       // formula:" C6H11NaO7",
@@ -2125,7 +2125,7 @@ export const solvents = [
     {
       id: 170,
       title: "Sodium Gluconate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"527-07-1",
       formula:['C<sub>6</sub>H<sub>11</sub>NAO<sub>7</sub>'],
       // formula:"C6H11NaO7",
@@ -2134,7 +2134,7 @@ export const solvents = [
     {
       id: 171,
       title: "Sodium Ligno Sulphonate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"8061-51-6",
       formula:['C<sub>20</sub>H<sub>24</sub>NA<sub>2</sub>0<sub>10</sub>S<sub>2</sub>'],
       // formula:" C20H24Na2O10S2",
@@ -2143,7 +2143,7 @@ export const solvents = [
     {
       id: 172,
       title: "Sodium Metabisulphite",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7681-57-4",
       formula:['NA<sub>2</sub>S<sub>2</sub>O<sub>5</sub>'],
       // formula:" Na2S2O5",
@@ -2152,7 +2152,7 @@ export const solvents = [
     {
       id: 173,
       title: "Sodium Metal",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7440-23-5",
       formula:['NA'],
       // formula:"Na",
@@ -2161,7 +2161,7 @@ export const solvents = [
     {
       id: 174,
       title: "Sodium Methoxide Powder",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"124-41-4",
       formula:['CH<sub>3</sub>ONA', ' or ' , 'CH<sub>3</sub>NAO'],
       // formula:"CH3ONa or CH3NaO",
@@ -2170,7 +2170,7 @@ export const solvents = [
     {
       id: 175,
       title: "Sodium Nitrate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7631-99-4",
       formula:['NANO<sub>3</sub>', ' or ', 'NNAO<sub>3</sub>'],
       // formula:" NaNO3 or NNaO3",
@@ -2179,7 +2179,7 @@ export const solvents = [
     {
       id: 176,
       title: "Sodium Nitrite",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7632-00-0",
       formula:['NANO<sub>2</sub>', ' or ' ,  'NNAO<sub>2</sub>'],
       // formula:" NaNO2 or NNaO2",
@@ -2189,7 +2189,7 @@ export const solvents = [
     {
       id: 177,
       title: "Sodium Thiocyanate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"540-72-7",
       formula:['NASCN', ' or ' ,'CNNAS'],
       // formula:"NaSCN or CNNaS",
@@ -2198,7 +2198,7 @@ export const solvents = [
     {
       id: 178,
       title: "Sodium Tri Polyphosphate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"7758-29-4",
       formula:['NA<sub>5</sub>O<sub>10</sub>P<sub>3</sub>'],
       // formula:"Na5O10P3",
@@ -2207,7 +2207,7 @@ export const solvents = [
     {
       id: 179,
       title: "Tertiary Butanol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-65-0",
       formula:['C<sub>4</sub>H<sub>10</sub>0',' or ', '(CH<sub>3</sub>)<sub>3</sub>COH'],
       // formula:":C4H10O or (CH3)3COH",
@@ -2217,7 +2217,7 @@ export const solvents = [
     {
       id: 180,
       title: "Tertiary Butylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-64-9",
       formula:['C<sub>4</sub>H<sub>10</sub>O', ' or '  , '(CH<sub>3</sub>)<sub>3</sub>COH'],
       // formula:":C4H10O or (CH3)3COH",
@@ -2226,7 +2226,7 @@ export const solvents = [
     {
       id: 181,
       title: "Tertiary Butylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"75-64-9",
       formula:['C<sub>4</sub>H<sub>10</sub>O', 'or','(CH<sub>3</sub>)<sub>3</sub>COH'],
       // formula:"C4H10O or (CH3)3COH",
@@ -2235,7 +2235,7 @@ export const solvents = [
     {
       id: 182,
       title: "Thiophenol",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"108-98-5",
       formula:['C<sub>6</sub>H<sub>6</sub>S',' or ', 'C<sub>6</sub>H<sub>5</sub>SH'],
       // formula:"C6H6S or C6H5SH",
@@ -2244,7 +2244,7 @@ export const solvents = [
     {
       id: 183,
       title: "Thiourea",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"62-56-6",
       formula:['CH<sub>4</sub>N<sub>2</sub>S',  ' or '  , 'H<sub>2</sub>NCSNH<sub>2</sub>'],
       // formula:" CH4N2S or H2NCSNH2",
@@ -2254,7 +2254,7 @@ export const solvents = [
     {
       id: 184,
       title: "Toluene Di Isocyanate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"584-84-9",
       formula:['C<sub>9</sub>H<sub>6</sub>N<sub>2</sub>O<sub>2</sub>',  ' or ','CH<sub>3</sub>C<sub>6</sub>H<sub>3</sub>(NO)<sub>2</sub>'],
       // formula:"C9H6N2O2 or CH3C6H3(NCO)2",
@@ -2264,7 +2264,7 @@ export const solvents = [
     {
       id: 185,
       title: "Tri Ethyl Phosphate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"78-40-0",
       formula:['C<sub>6</sub>H<sub>15</sub>O<sub>4</sub>P', ' or ', '(C<sub>2</sub>H<sub>5</sub>)<sub>3</sub>PO<sub>4</sub>'],
       // formula:"C6H15O4P or (C2H5)3PO4",
@@ -2274,7 +2274,7 @@ export const solvents = [
     {
       id: 186,
       title: "Tri Ethyl Amine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"121-44-8",
       formula:['C<sub>6</sub>SH<sub>15</sub>N', ' or ','(C<sub>2</sub>H<sub>5</sub>)<sub>3</sub>N'],
       // formula:"C6H15N or (C2H5)3N",
@@ -2283,7 +2283,7 @@ export const solvents = [
     {
       id: 187,
       title: "Tri Ethylene Pentamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"112-57-2",
       formula:['C<sub>8</sub>H<sub>23</sub>N<sub>5</sub>'],
       // formula:": C8H23N5",
@@ -2292,7 +2292,7 @@ export const solvents = [
     {
       id: 188,
       title: "Tri Mellitic Anhydride",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"552-30-7",
       formula:['C<sub>9</sub>H<sub>4</sub>O<sub>5</sub>'],
       // formula:" C9H4O5",
@@ -2301,7 +2301,7 @@ export const solvents = [
     {
       id: 189,
       title: "Tri Methyl Ortho Acetate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"1445-45-0 ",
       formula:['C<sub>5</sub>H<sub>12</sub>O<sub>3</sub>'],
       // formula:"C5H12O3",
@@ -2310,7 +2310,7 @@ export const solvents = [
     {
       id: 190,
       title: "Tri Methyl Ortho Formate",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"112-57-2 ",
       formula:['C<sub>8</sub>H<sub>23</sub>N<sub>5</sub>'],
       // formula:"C8H23N5",
@@ -2320,7 +2320,7 @@ export const solvents = [
     {
       id: 191,
       title: "Tri Methylol Propane",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"112-57-2 ",
       formula:['C<sub>8</sub>H<sub>23</sub>N<sub>5</sub>'],
       // formula:"C8H23N5",
@@ -2330,7 +2330,7 @@ export const solvents = [
     {
       id: 192,
       title: "Tri N Butylamine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"102-82-9 ",
       formula:['C<sub>12</sub>H<sub>27</sub>N'],
       // formula:"C12H27N",
@@ -2339,7 +2339,7 @@ export const solvents = [
     {
       id: 193,
       title: "Triethanolamine 85% & 99%",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"102-71-6 ",
       formula:['C<sub>6</sub>H<sub>15</sub>NO<sub>3</sub>'],
       // formula:"C6H15NO3",
@@ -2348,7 +2348,7 @@ export const solvents = [
     {
       id: 194,
       title: "Triethylene Tetramine",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"112-24-3",
       formula:['C<sub>6</sub>H<sub>18</sub>N<sub>4</sub>'],
       // formula:"C6H18N4",
@@ -2358,7 +2358,7 @@ export const solvents = [
     {
       id: 195,
       title: "Urea (Technical Grade)",
-      img:"",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methoxy Propane.webp",
       cas:"57-13-6 ",
       formula:['CH<sub>4</sub>N<sub>2</sub>O',' or ', 'NH<sub>2</sub>CONH<sub>2</sub>'],
       // formula:"CH4N2O or NH2CONH2",

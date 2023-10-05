@@ -11,6 +11,7 @@ import {
   chemicalsAndIntermediates,
   specialityChemicals,
 } from "../../../data/chemicalsdata";
+import { Link } from "react-router-dom";
 
 const Chemical = () => {
   const [query, setQuery] = useState("");
@@ -21,17 +22,17 @@ const Chemical = () => {
     <>
       <main id="main">
         <div className="hero">
-          <div className="hero_bg">
+          <div className="hero_bg bg_img1">
             <div
               className="breadcrums container aos-init aos-animate"
               data-aos="fade"
             >
               <h2 className="breadcrums_title">Chemicals</h2>
               <ol className="breadcrums_subtitle">
-                <li>
-                  <a href="index.html">Home</a>
+                <li >
+                  <Link style={{color:'white'}} to="/">Home</Link>
                 </li>
-                <li className="breadcrums_items">/ Chemicals</li>
+                <li style={{color:'#5ca595'}} className="breadcrums_items">/ Chemicals</li>
               </ol>
             </div>
           </div>

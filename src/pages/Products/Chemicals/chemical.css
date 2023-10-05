@@ -10,12 +10,26 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
 
-.hero_bg {
+.bg_img1 {
     background-image: url('https://img.freepik.com/free-photo/horizontal-science-banner-with-glass-containers_23-2149495074.jpg?w=1060&t=st=1696325498~exp=1696326098~hmac=35f3c4b7ab54b0b77fe9154b90acc67c2d3d382da5bf735e4b5aaa9989f9372c');
+}
+
+.bg_img2 {
+    background-image: url('https://bbvmg.com/media/image-and-png/aboutus.jpg');
+}
+
+.bg_img3 {
+    background-image: url('https://img.freepik.com/free-photo/aerial-view-container-cargo-ship-sea_335224-735.jpg?w=1060&t=st=1696505754~exp=1696506354~hmac=29c7180e00df9e28fcce0053c96089b3533291a07e73b368f133b9472dc8edec');
+}
+
+.bg_img4 {
+    background-image: url('https://img.freepik.com/free-photo/office-desktop-with-laptop-business-man_23-2148174087.jpg?w=1060&t=st=1696505459~exp=1696506059~hmac=c10557e34661efc0dddbdc9b7f35f2b41ee853beb32ca5b578d3035f9a53b4be');
+}
+.hero_bg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,16 +64,17 @@
     color: white;
 }
 
-.icons_section{
+.icons_section {
     padding: 10rem 0 7rem 0;
 }
 
-@media only screen and (min-width:320px) and (max-width:768px){
-    .sm_flex_col{
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .sm_flex_col {
         flex-direction: column;
         text-align: center;
     }
-    .icons_section{
+
+    .icons_section {
         padding: 5rem 0 2rem 0;
     }
 }
