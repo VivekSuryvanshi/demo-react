@@ -65,7 +65,7 @@ const Chemical = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
+            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
                   src="./assets/images/icons/beaker.png"
@@ -77,7 +77,7 @@ const Chemical = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
+            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
                   src="./assets/images/icons/oil-barrel.png"

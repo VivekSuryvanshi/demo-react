@@ -29,6 +29,7 @@
 .bg_img4 {
     background-image: url('https://img.freepik.com/free-photo/office-desktop-with-laptop-business-man_23-2148174087.jpg?w=1060&t=st=1696505459~exp=1696506059~hmac=c10557e34661efc0dddbdc9b7f35f2b41ee853beb32ca5b578d3035f9a53b4be');
 }
+
 .hero_bg {
     background-position: center;
     background-repeat: no-repeat;
@@ -76,5 +77,8 @@
 
     .icons_section {
         padding: 5rem 0 2rem 0;
+    }
+    .sm_pd_top{
+        padding-top: 2rem;
     }
 }
