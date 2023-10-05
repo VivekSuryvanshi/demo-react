@@ -774,12 +774,12 @@ const Header = () => {
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <NavLink class="nav-NavLink" to="/services">
+                  <NavLink class="nav-NavLink" to="/services"  onClick={() => setOpenMenu(false)}>
                     Services
                   </NavLink>
                 </li>{" "}
                 <li class="nav-item">
-                  <NavLink class="nav-NavLink" to="/contact">
+                  <NavLink class="nav-NavLink" to="/contact"  onClick={() => setOpenMenu(false)}>
                     Contact Us
                   </NavLink>
                 </li>
