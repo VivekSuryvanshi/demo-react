@@ -687,7 +687,7 @@ export const solvents = [
     {
       id: 12,
       title: "Dichloro Benzyl Chloride",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Dichloro Benzyl Chloride.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Dichloro-Benzyl-Chloride.webp",
       cas:"94-99-5",
       formula:['C<sub>7</sub>H<sub>5</sub>C<sub>13</sub>'],
       // formula:"C7H5Cl3",
@@ -697,7 +697,7 @@ export const solvents = [
     {
       id: 13,
       title: "Di Methyl Amino Pyridine",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methyl Amino Pyridine.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di-Methyl-Amino-Pyridine.webp",
       cas:"1122-58-3",
       formula:['C<sub>7</sub>H<sub>10</sub>N<sub>2</sub>'],
       // formula:"C7H10N2",
@@ -825,7 +825,7 @@ export const solvents = [
     {
       id: 27,
       title: "Benzophenone",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Benzophenonee.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Benzophenone.webp",
       cas:"119-61-9",
       formula:['C<sub>13</sub>H<sub>10</sub>'],
       // formula:"C13H10O or C6H5COC6H5",
@@ -1041,7 +1041,7 @@ export const solvents = [
     {
       id: 51,
       title: "Di Ethylene Triamine",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Ethylene Triamin.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Ethylene Triamine.webp",
       cas:"1 05-53-3",
       formula:['C<sub>4</sub>H<sub>13</sub>N<sub>3</sub>'],
       // formula:" C4H13N3",
@@ -1070,7 +1070,7 @@ export const solvents = [
     {
       id: 54,
       title: "Di Methyl Amine 40%",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methyl Amine 40%.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Di Methyl Amine 40.webp",
       cas:"124-40-3",
       formula:['(CH<sub>3</sub>)<sub>2</sub>NH', ' or ','C<sub>2</sub>H<sub>7</sub>N'],
       // formula:"(CH3)2NH or C2H7N",
@@ -1232,7 +1232,7 @@ export const solvents = [
     {
       id: 72,
       title: "Formic Acid 85%",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Formic Acid 85%.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Formic Acid 85.webp",
       cas:"75-12-7",
       formula:['CH<sub>3</sub>NO', ' or ','HCNOH<sub>2</sub>'],
       // formula:"CH3NO or HCONH2",
@@ -1646,7 +1646,7 @@ export const solvents = [
     {
       id: 118,
       title: "Mono Iso Propylamine 70%",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Mono Iso Propylamine 70%.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Mono Iso Propylamine 70.webp",
       cas:"75-31-0",
       formula:['C<sub>3</sub>H<sub>9</sub>N', ' or ','(CH<sub>3</sub>)<sub>2</sub>CHNH<sub>2</sub>'],
       // formula:"C3H9N or (CH3)2CHNH2",
@@ -1655,7 +1655,7 @@ export const solvents = [
     {
       id: 119,
       title: "Mono Iso Propylamine 99%",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Mono Iso Propylamine 99%.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Mono Iso Propylamine 99.webp",
       cas:"75-31-0",
       formula:['C<sub>3</sub>H<sub>9</sub>N', ' or ','(CH<sub>3</sub>)<sub>2</sub>CHNH<sub>2</sub>'],
       // formula:"C3H9N or (CH3)2CHNH2",
@@ -1826,7 +1826,7 @@ export const solvents = [
     {
       id: 138,
       title: "Paraformaldehyde 91%",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Paraformaldehyde 91%.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Paraformaldehyde 91.webp",
       cas:"30525-89-4",
       formula:['(CH<sub>2</sub>O)N'],
       // formula:"(CH2O)n",
@@ -1835,7 +1835,7 @@ export const solvents = [
     {
       id: 139,
       title: "Paraformaldehyde 96%",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Paraformaldehyde 96%.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Paraformaldehyde 96.webp",
       cas:"30525-89-4",
       formula:['(CH<sub>2</sub>O)N'],
       // formula:"(CH2O)n",
@@ -1844,7 +1844,7 @@ export const solvents = [
     {
       id: 140,
       title: "Pentaerythritol 98%",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Pentaerythritol 98%.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Pentaerythritol 98.webp",
       cas:"30525-89-4",
       formula:['(CH<sub>2</sub>O)N'],
       // formula:"(CH2O)n",
@@ -1907,7 +1907,7 @@ export const solvents = [
     {
       id: 147,
       title: "Poly Vinyl Alcohol",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Poly Vinyl Alcohol.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Poly-Vinyl-Alcohol.webp",
       cas:"9002-89-5",
       formula:[' C<sub>2</sub>H<sub>4</sub>O'],
       // formula:"C2H4O",
@@ -2340,7 +2340,7 @@ export const solvents = [
     {
       id: 193,
       title: "Triethanolamine 85% & 99%",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Triethanolamine 85% & 99%.webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Triethanolamine 85.webp",
       cas:"102-71-6 ",
       formula:['C<sub>6</sub>H<sub>15</sub>NO<sub>3</sub>'],
       // formula:"C6H15NO3",
@@ -2359,7 +2359,7 @@ export const solvents = [
     {
       id: 195,
       title: "Urea (Technical Grade)",
-      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Urea (Technical Grade).webp",
+      img:"./assets/images/Products-all-img/chemicals/chemicalAndintermediates/Urea Technical Grade.webp",
       cas:"57-13-6 ",
       formula:['CH<sub>4</sub>N<sub>2</sub>O',' or ', 'NH<sub>2</sub>CONH<sub>2</sub>'],
       // formula:"CH4N2O or NH2CONH2",
