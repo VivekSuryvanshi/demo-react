@@ -178,9 +178,9 @@ const About = () => {
                     <Link to="/">
                       <i className="bi bi-facebook"></i>
                     </Link>
-                    <Linkink to="/">
+                    <Link to="/">
                       <i className="bi bi-instagram"></i>
-                    </Linkink>
+                    </Link>
                     <Link to="/">
                       <i className="bi bi-linkedin"></i>
                     </Link>
