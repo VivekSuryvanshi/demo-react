@@ -35,10 +35,10 @@ const About = () => {
                 className="img-fluid"
                 alt="about-us"
               />
-              <a
+              <Link
                 href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                 className="glightbox play-btn"
-              ></a>
+              ></Link>
             </div>
             <div className="col-lg-6 content order-last  order-lg-first">
               <h3>About Us</h3>
@@ -172,18 +172,18 @@ const About = () => {
                     Odio veritatis perspiciatis quaerat qui aut aut aut
                   </p>
                   <div className="social">
-                    <a href="">
+                    <Link to="/">
                       <i className="bi bi-twitter"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="/">
                       <i className="bi bi-facebook"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Linkink to="/">
                       <i className="bi bi-instagram"></i>
-                    </a>
-                    <a href="">
+                    </Linkink>
+                    <Link to="/">
                       <i className="bi bi-linkedin"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -204,18 +204,18 @@ const About = () => {
                     repellendus. In architecto rerum rerum temporibus
                   </p>
                   <div className="social">
-                    <a href="">
+                    <Link to="/">
                       <i className="bi bi-twitter"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="/">
                       <i className="bi bi-facebook"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="/">
                       <i className="bi bi-instagram"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="/">
                       <i className="bi bi-linkedin"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -236,18 +236,18 @@ const About = () => {
                     consequuntur qui porro et laborum toro des clara
                   </p>
                   <div className="social">
-                    <a href="">
+                    <Link to="/">
                       <i className="bi bi-twitter"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="/">
                       <i className="bi bi-facebook"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="/">
                       <i className="bi bi-instagram"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="/">
                       <i className="bi bi-linkedin"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
