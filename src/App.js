@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import GoToTop from "./components/GoToTop/GoToTop";
 import Chemicals from "./pages/Products/Chemicals/Chemicals";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
 // import AgroCommodities from "./pages/Products/AgroCommodities/AgroCommodities";
 // import Products from "./pages/Products/Products";
@@ -59,6 +60,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer/>
         <GoToTop />
       </BrowserRouter>
   );
