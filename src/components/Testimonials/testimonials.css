@@ -8,6 +8,9 @@
       width: 265px !important;
       height: 550px !important;
     }
+    .testimonials .testimonial-item p {
+      font-size: 16px !important;
+    }
   }
   
   .testimonialSwiperSlide {
