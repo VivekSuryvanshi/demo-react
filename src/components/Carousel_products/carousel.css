@@ -83,10 +83,10 @@ body {
   position: relative;
 }
 
-.swiper-slide {
-  width: 37rem;
-  height: 42rem;
-  position: relative;
+.swiper_container_slide {
+  width: 37rem !important;
+  height: 42rem !important;
+  position: relative !important;
 }
 
 @media (max-width: 500px) {
@@ -95,18 +95,18 @@ body {
 
   }
 
-  .swiper-slide {
+  .swiper_container_slide {
     width: 28rem !important;
     height: 36rem !important;
   }
 
-  .swiper-slide img {
+  .swiper_container_slide img {
     width: 28rem !important;
     height: 36rem !important;
   }
 }
 
-.swiper-slide img {
+.swiper_container_slide img {
   width: 37rem;
   height: 42rem;
   border-radius: 2rem;

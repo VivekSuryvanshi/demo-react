@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 const About = () => {
   return (
@@ -419,6 +420,7 @@ const About = () => {
         </div>
       </section>
       {/* <!-- End Frequently Asked Questions Section --> */}
+      <Testimonials/>
       {/* below main content ends (logis) */}
     </>
   );
