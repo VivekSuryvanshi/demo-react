@@ -1,7 +1,7 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/swiper-bundle.min.css';
+import "swiper/swiper-bundle.min.css";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,14 +10,17 @@ import "swiper/css/effect-cards";
 import "./testimonials.css";
 
 // import required modules
-import { Autoplay,Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 // swiper/modules
 
 const Testimonials = () => {
   return (
     <>
+      <div className="section-header pb-5">
+        <h3>Client's Success Stories</h3>
+      </div>
       <Swiper
-      autoplay={{
+        autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
@@ -26,10 +29,9 @@ const Testimonials = () => {
         }}
         effect={"cards"}
         grabCursor={true}
-        modules={[Autoplay,Pagination]}
+        modules={[Autoplay, Pagination]}
         className="testimonialSwiper"
       >
-    
         <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
           {" "}
           <div class="testimonials">
@@ -114,7 +116,7 @@ const Testimonials = () => {
             </div>
           </div>
         </SwiperSlide>
-         <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
+        <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
           {" "}
           <div class="testimonials">
             <div class="testimonial-item">
@@ -142,7 +144,7 @@ const Testimonials = () => {
             </div>
           </div>
         </SwiperSlide>
-         <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
+        <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
           {" "}
           <div class="testimonials">
             <div class="testimonial-item">
@@ -170,7 +172,7 @@ const Testimonials = () => {
             </div>
           </div>
         </SwiperSlide>
-         <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
+        <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
           {" "}
           <div class="testimonials">
             <div class="testimonial-item">
