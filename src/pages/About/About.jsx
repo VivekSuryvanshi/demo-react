@@ -2,6 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import Faqs from "../../components/Faqs_section/Faq";
+import { useSpring, animated } from "react-spring";
+
+function Number({ n }) {
+  const { number } = useSpring({
+    from: { number: 0 },
+    number: n,
+    delay: 2000,
+    congif: { mass: 1, tension: 20, friction: 10 },
+  });
+  return<animated.div>{ number.to((n) => n.toFixed(0)) }</animated.div>;
+}
 
 const About = () => {
   return (
@@ -91,7 +102,7 @@ const About = () => {
       <section id="stats-counter" className="stats-counter pt-0">
         <div className="container" data-aos="fade-up">
           <div className="row gy-4">
-            <div className="col-lg-3 col-md-6">
+            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="stats-item text-center w-100 h-100">
                 <span
                   data-purecounter-start="0"
@@ -99,13 +110,13 @@ const About = () => {
                   data-purecounter-duration="1"
                   className="purecounter"
                 >
-                  200+
+                  <Number n={250} />
                 </span>
                 <p>Clients</p>
               </div>
             </div>
             {/* <!-- End Stats Item --> */}
-            <div className="col-lg-3 col-md-6">
+            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="stats-item text-center w-100 h-100">
                 <span
                   data-purecounter-start="0"
@@ -113,13 +124,13 @@ const About = () => {
                   data-purecounter-duration="1"
                   className="purecounter"
                 >
-                  520+
+                 <Number n={100} />
                 </span>
                 <p>Projects</p>
               </div>
             </div>
             {/* <!-- End Stats Item --> */}
-            <div className="col-lg-3 col-md-6">
+            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="stats-item text-center w-100 h-100">
                 <span
                   data-purecounter-start="0"
@@ -127,13 +138,13 @@ const About = () => {
                   data-purecounter-duration="1"
                   className="purecounter"
                 >
-                  1453+
+                <Number n={ 1453} />
                 </span>
                 <p>Hours Of Support</p>
               </div>
             </div>
             {/* <!-- End Stats Item --> */}
-            <div className="col-lg-3 col-md-6">
+            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="stats-item text-center w-100 h-100">
                 <span
                   data-purecounter-start="0"
@@ -141,7 +152,7 @@ const About = () => {
                   data-purecounter-duration="1"
                   className="purecounter"
                 >
-                  50+
+                 <Number n={ 50} />
                 </span>
                 <p>Workers</p>
               </div>
@@ -258,8 +269,8 @@ const About = () => {
         </div>
       </section>
       {/* <!-- End Our Team Section --> */}
-      <Testimonials/>
-      <Faqs/>
+      <Testimonials />
+      <Faqs />
       {/* below main content ends (logis) */}
     </>
   );

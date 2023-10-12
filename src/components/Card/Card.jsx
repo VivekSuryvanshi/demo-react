@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import parse from 'html-react-parser';
 
 function Card(props) {
-  console.log(props.formula);
+  // console.log(props.formula);
   return (
     <>
       <div
@@ -99,72 +99,6 @@ function Card(props) {
           </div>
         </div>
       </div>
-
-      {/* 
-              <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                <div className="about-col hover-item">
-                  <div className="img">
-                    <img
-                      src="https://img.freepik.com/free-photo/researching-laboratory_1384-138.jpg?w=1060&t=st=1695119686~exp=1695120286~hmac=a9fd6ac335eebfb1a33b1096cf671b35e3d34a8d02029dc659ca0620b4a4c298"
-                      alt=""
-                      className="img-fluid"
-                    />
-                    <div className="icon">
-                      <i class="bi bi-hexagon-half"></i>{" "}
-                    </div>
-                  </div>
-                  <h2 className="title">
-                    <img
-                      src="../../assets/img/icons/molecule.png"
-                      alt="icon"
-                      width="30px"
-                      className="me-4"
-                    />
-                    <NavLink to="#">
-                      Polyethelyne Terephthalate (PET Resin)
-                    </NavLink>
-                  </h2>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem doloremque laudantium, totam rem aperiam, eaque
-                    ipsa quae ab illo inventore veritatis et quasi architecto
-                    beatae vitae dicta sunt explicabo.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <div className="about-col hover-item">
-                  <div className="img">
-                    <img
-                      src="https://img.freepik.com/premium-photo/abstract-molecular-structures-unveiled-exploring-scientific-essence-3d-dna-molecules-biotechnology_938416-1621.jpg?w=1380"
-                      alt=""
-                      height="28.4rem"
-                      className="img-fluid"
-                    />
-                    <div className="icon">
-                      <i class="bi bi-hexagon-half"></i>{" "}
-                    </div>
-                  </div>
-                  <h2 className="title">
-                    <img
-                      src="../../assets/img/icons/molecule.png"
-                      alt="icon"
-                      width="30px"
-                      className="me-4"
-                    />
-                    <NavLink to="#">
-                      Polyvinyl Chloride Resin ( PVC Resin)
-                    </NavLink>
-                  </h2>
-                  <p>
-                    Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
-                    fugit, sed quia magni dolores eos qui ratione voluptatem
-                    sequi nesciunt Neque porro quisquam est, qui dolorem ipsum
-                    quia dolor sit amet.
-                  </p>
-                </div>
-              </div> */}
     </>
   );
 }
