@@ -28,69 +28,69 @@ const Services = () => {
         </div>
       </div>
       {/* <!-- ======= Featured Services Section ======= --> */}
-      <section id="featured_services" class="featured_services">
-        <div class="container">
-          <div class="row gy-4">
+      <section id="featured_services" className="featured_services">
+        <div className="container">
+          <div className="row gy-4">
             <div
-              class="col-lg-4 col-md-6 service-item d-flex"
+              className="col-lg-4 col-md-6 service-item d-flex"
               data-aos="fade-up"
             >
-              <div class="icon flex-shrink-0">
-                <i class="fa-solid fa-cart-flatbed"></i>
+              <div className="icon flex-shrink-0">
+                <i className="fa-solid fa-cart-flatbed"></i>
               </div>
               <div>
-                <h4 class="title">Lorem Ipsum</h4>
-                <p class="description">
+                <h4 className="title">Lorem Ipsum</h4>
+                <p className="description">
                   Voluptatum deleniti atque corrupti quos dolores et quas
                   molestias excepturi sint occaecati cupiditate non provident
                 </p>
-                <a href="service-details.html" class="readmore stretched-link">
+                <a href="service-details.html" className="readmore stretched-link">
                   <span>Learn More</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
             {/* <!-- End Service Item --> */}
 
             <div
-              class="col-lg-4 col-md-6 service-item d-flex"
+              className="col-lg-4 col-md-6 service-item d-flex"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <div class="icon flex-shrink-0">
-                <i class="fa-solid fa-truck"></i>
+              <div className="icon flex-shrink-0">
+                <i className="fa-solid fa-truck"></i>
               </div>
               <div>
-                <h4 class="title">Dolor Sitema</h4>
-                <p class="description">
+                <h4 className="title">Dolor Sitema</h4>
+                <p className="description">
                   Minim veniam, quis nostrud exercitation ullamco laboris nisi
                   ut aliquip ex ea commodo consequat tarad limino ata
                 </p>
-                <a href="service-details.html" class="readmore stretched-link">
+                <a href="service-details.html" className="readmore stretched-link">
                   <span>Learn More</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
             {/* <!-- End Service Item --> */}
 
             <div
-              class="col-lg-4 col-md-6 service-item d-flex"
+              className="col-lg-4 col-md-6 service-item d-flex"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div class="icon flex-shrink-0">
-                <i class="fa-solid fa-truck-ramp-box"></i>
+              <div className="icon flex-shrink-0">
+                <i className="fa-solid fa-truck-ramp-box"></i>
               </div>
               <div>
-                <h4 class="title">Sed ut perspiciatis</h4>
-                <p class="description">
+                <h4 className="title">Sed ut perspiciatis</h4>
+                <p className="description">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur
                 </p>
-                <a href="service-details.html" class="readmore stretched-link">
+                <a href="service-details.html" className="readmore stretched-link">
                   <span>Learn More</span>
-                  <i class="bi bi-arrow-right"></i>
+                  <i className="bi bi-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -101,11 +101,11 @@ const Services = () => {
       {/* <!-- End Featured Services Section --> */}
       {/* services card section starts */}
       <section className="pb-5">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="mb-5 text-center">OUR SERVICES</h3>
+        <div className="container">
+          <div className="section-header">
+            <h3 className="mb-5 text-center">OUR SERVICES</h3>
           </div>
-          <div class="row gy-4">
+          <div className="row gy-4">
             {ourservices.map((val) => {
               return (
                 <ServiceCard img={val.img} title={val.title} desc={val.desc} />

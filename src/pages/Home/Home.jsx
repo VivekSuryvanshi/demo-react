@@ -13,15 +13,15 @@ function Home() {
       {/* <!-- Starts Hero Section --> */}
       <div
         id="carouselExampleDark"
-        class="carousel carousel-dark slide"
+        className="carousel carousel-dark slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleDark"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -50,10 +50,10 @@ function Home() {
             aria-label="Slide 5"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="2000">
-            <div class="bg_img_1 bg_style" loading="lazy"></div>
-            <div id="carousel_title" class="carousel-caption sm_device_title">
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="2000">
+            <div className="bg_img_1 bg_style" loading="lazy"></div>
+            <div id="carousel_title" className="carousel-caption sm_device_title">
               <h1>COMMODITIES AND FOOD PRODUCTS</h1>
               <p>
                 Ship all over the world / The quality complies with the
@@ -61,9 +61,9 @@ function Home() {
               </p>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <div class="bg_img_2 bg_style"></div>
-            <div id="carousel_title" class="carousel-caption sm_device_title">
+          <div className="carousel-item" data-bs-interval="2000">
+            <div className="bg_img_2 bg_style"></div>
+            <div id="carousel_title" className="carousel-caption sm_device_title">
               <h1>PETROLEUM AND BIO FUEL</h1>
               <p>
                 Ship all over the world / The quality complies with the
@@ -71,9 +71,9 @@ function Home() {
               </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="bg_img_3 bg_style"></div>
-            <div id="carousel_title" class="carousel-caption sm_device_title">
+          <div className="carousel-item">
+            <div className="bg_img_3 bg_style"></div>
+            <div id="carousel_title" className="carousel-caption sm_device_title">
               <h1>MINERALS AND ORES</h1>
               <p>
                 Ship all over the world / The quality complies with the
@@ -81,9 +81,9 @@ function Home() {
               </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="bg_img_4 bg_style"></div>
-            <div id="carousel_title" class="carousel-caption sm_device_title">
+          <div className="carousel-item">
+            <div className="bg_img_4 bg_style"></div>
+            <div id="carousel_title" className="carousel-caption sm_device_title">
               <h1>CHEMICALS AND CATTLE FIELD FERTILIZER</h1>
               <p>
                 Ship all over the world / The quality complies with the
@@ -91,9 +91,9 @@ function Home() {
               </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="bg_img_5 bg_style"></div>
-            <div id="carousel_title" class="carousel-caption sm_device_title">
+          <div className="carousel-item">
+            <div className="bg_img_5 bg_style"></div>
+            <div id="carousel_title" className="carousel-caption sm_device_title">
               <h1>BUILDING MATERIALS AND CHEMICALS</h1>
               <p>
                 Ship all over the world / The quality complies with the
@@ -103,22 +103,22 @@ function Home() {
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleDark"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleDark"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
       {/* <!-- End Hero Section --> */}

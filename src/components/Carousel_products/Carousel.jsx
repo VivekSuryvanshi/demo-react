@@ -98,10 +98,10 @@ function Carousel() {
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
-            <i class="bi bi-arrow-left-circle-fill"></i>
+            <i className="bi bi-arrow-left-circle-fill"></i>
           </div>
           <div className="swiper-button-next slider-arrow">
-            <i class="bi bi-arrow-right-circle-fill"></i>
+            <i className="bi bi-arrow-right-circle-fill"></i>
           </div>
           <div className="swiper-pagination"></div>
         </div>

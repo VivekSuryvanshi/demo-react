@@ -39,7 +39,7 @@ const About = () => {
       {/* hero section ends */}
       {/* below main content starts (logis) */}
       {/* <!-- ======= About Us Section ======= --> */}
-      <section id="about" class="about">
+      <section id="about" className="about">
         <div className="container" data-aos="fade-up">
           <div className="row gy-4">
             <div className="col-lg-6 position-relative align-self-start order-lg-last order-first">
@@ -55,7 +55,7 @@ const About = () => {
             </div>
             <div className="col-lg-6 content order-last  order-lg-first">
               <h3>About Us</h3>
-              <p class="about_content">
+              <p className="about_content">
                 Dolor iure expedita id fuga asperiores qui sunt consequatur
                 minima. Quidem voluptas deleniti. Sit quia molestiae quia quas
                 qui magnam itaque veritatis dolores. Corrupti totam ut eius

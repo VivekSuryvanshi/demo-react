@@ -31,7 +31,7 @@ const GoToTop = () => {
     <>
       {isVisible && (
         <div className="back-to-top" onClick={goToBtn}>
-          <i class="bi bi-arrow-up-short "></i>
+          <i className="bi bi-arrow-up-short "></i>
         </div>
       )}
     </>

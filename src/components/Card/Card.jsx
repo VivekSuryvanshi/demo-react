@@ -22,75 +22,75 @@ function Card(props) {
               className="img-fluid"
             />
             <div className="icon">
-              <i class="bi bi-hexagon-half"></i>
+              <i className="bi bi-hexagon-half"></i>
             </div>
           </div>
-          <div class="container">
-            <div class="d-flex">
-              <div class="col-2 d-flex align-items-center justify-content-center pt-5">
+          <div className="container">
+            <div className="d-flex">
+              <div className="col-2 d-flex align-items-center justify-content-center pt-5">
                 <img
                   src="../../assets/images/icons/molecule.png"
                   alt="icon"
                   width="22px"
                 />
               </div>
-              <div class="col-10">
+              <div className="col-10">
                 <h2 className="title float-start polymer-title">
                   <NavLink to="#">{props.title}</NavLink>
                 </h2>
               </div>
             </div>
-            <div class="d-flex">
-              <div class="col-2 d-flex align-items-center justify-content-center">
+            <div className="d-flex">
+              <div className="col-2 d-flex align-items-center justify-content-center">
                 <img
                   src="../../assets/images/icons/grid.png"
                   alt="icon"
                   width="22px"
                 />
               </div>
-              <div class="col-5">
+              <div className="col-5">
                 <h2 className="custom_title polymer-title">
                   <NavLink to="#"> CAS Number -</NavLink>
                 </h2>
               </div>
-              <div class="col-5">
+              <div className="col-5">
                 <p className="polymer-desc">{props.cas}</p>
               </div>
             </div>
-            <div class="d-flex">
-              <div class="col-2 d-flex align-items-center justify-content-center">
+            <div className="d-flex">
+              <div className="col-2 d-flex align-items-center justify-content-center">
                 <img
                   src="../../assets/images/icons/formula.png"
                   alt="icon"
                   width="22px"
                 />
               </div>
-              <div class="col-5">
+              <div className="col-5">
                 <h2 className="custom_title polymer-title">
                   <NavLink to="#"> Formula -</NavLink>
                 </h2>
               </div>
-              <div class="col-5">
+              <div className="col-5">
                 <p className="polymer-desc">
                   {props.formula.map(chemicals => parse(chemicals))}
                   {/* (C<sub>10</sub>H<sub>8</sub>O<sub>4</sub>)<sub>n</sub> */}
                 </p>
               </div>
             </div>
-            <div class="d-flex">
-              <div class="col-2 d-flex align-items-center justify-content-center">
+            <div className="d-flex">
+              <div className="col-2 d-flex align-items-center justify-content-center">
                 <img
                   src="../../assets/images/icons/check-list.png"
                   alt="icon"
                   width="22px"
                 />
               </div>
-              <div class="col-5">
+              <div className="col-5">
                 <h2 className="custom_title polymer-title">
                   <NavLink to="#">Other Names-</NavLink>
                 </h2>
               </div>
-              <div class="col-5">
+              <div className="col-5">
                 <p className="polymer-desc">
                   {props.othernames}
                 </p>
