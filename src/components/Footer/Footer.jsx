@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import './footer.css';
 const Footer = () => {
   return (
     <>
@@ -10,7 +10,9 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-info">
-                <img src="./assets/images/logos/bbvmg_logo_white.webp" alt="logo" width="110px" className="pb-3"/>
+              <div className="text-center">
+                <img src="./assets/images/logos/bbvmg_logo_white.webp" alt="logo" width="130px" className="pb-3"/>
+              </div>
                 <p>
                 The company maximizes returns for the benefit of its stakeholders, associates and customers by pursuing sustainable growth and profit opportunities that leverage on its trading expertise, logistics network.
                 </p>
