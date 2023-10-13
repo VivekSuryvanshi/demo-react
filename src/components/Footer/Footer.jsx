@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-info">
-              <div className="text-center">
+              <div className="footer_logo">
                 <img src="./assets/images/logos/bbvmg_logo_white.webp" alt="logo" width="130px" className="pb-3"/>
               </div>
                 <p>

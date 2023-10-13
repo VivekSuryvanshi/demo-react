@@ -16,7 +16,11 @@
   #footer .footer-top .footer-info {
     margin-bottom: 30px;
   }
-  
+  @media screen and (min-width:768px) {
+    .footer_logo{
+      text-align: center;
+    }
+  }
   #footer .footer-top .footer-info h3 {
     font-size: 34px;
     margin: 0 0 20px 0;
