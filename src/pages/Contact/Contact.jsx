@@ -78,7 +78,7 @@ const Contact = () => {
             </div>
           </div>
           <div class="form">
-            <form role="form" class="contact_form">
+            <form class="contact_form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <input
