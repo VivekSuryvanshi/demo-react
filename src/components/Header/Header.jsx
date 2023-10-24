@@ -470,7 +470,10 @@ const Header = () => {
                   </NavLink>
                   <ul class="dropdown-menu">
                     <li>
-                      <NavLink class="dropdown-item" to="/products/agro-commodities">
+                      <NavLink
+                        class="dropdown-item"
+                        to="/product/AgroCommodities"
+                      >
                         Agro Commodities
                       </NavLink>
                     </li>
@@ -774,12 +777,20 @@ const Header = () => {
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <NavLink class="nav-NavLink" to="/services"  onClick={() => setOpenMenu(false)}>
+                  <NavLink
+                    class="nav-NavLink"
+                    to="/services"
+                    onClick={() => setOpenMenu(false)}
+                  >
                     Services
                   </NavLink>
                 </li>{" "}
                 <li class="nav-item">
-                  <NavLink class="nav-NavLink" to="/contact"  onClick={() => setOpenMenu(false)}>
+                  <NavLink
+                    class="nav-NavLink"
+                    to="/contact"
+                    onClick={() => setOpenMenu(false)}
+                  >
                     Contact Us
                   </NavLink>
                 </li>

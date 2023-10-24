@@ -1,0 +1,50 @@
+.Product_Section .poster_item {
+    background-color: white;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .08);
+}
+.Product_Section .ul_list {
+    padding: 1px;
+}
+.Product_Section .ul_list .product_item {
+    list-style: none;
+    display: flex;
+}
+.Product_Section .ul_list .product_item i {
+    color: #15227e;
+    font-size: 22px;
+}
+.Product_Section .poster_title {
+    padding: 10px 0 0 5px;
+    color: #15227e;
+    font-size: 32px;
+    font-weight:500;
+}
+.Product_Section .poster_paragraph {
+    padding: 6px;
+    font-size: 18px;
+}
+.Product_Section .product_paragraph {
+    padding-left: 6px;
+    font-size: 18px;
+}
+.Product_Section .poster_container {
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    /* display: flex;
+    align-items: center;
+    height: 100%; */
+}
+
+.Product_Section .poster_image {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.Product_Section .poster_image:hover img {
+    transform: scale(1.1);
+}
+
+.Product_Section .poster_container:hover .poster_image {
+    transform: scale(1.1);
+}

@@ -2060,6 +2060,10 @@ section {
   background-image: url('../public/assets/images/Contact-Us/contact_bg.webp');
 }
 
+.bg_img5 {
+  background-image: url('../public/assets/images/Products-all-img/bg-images/agro-bg.webp');
+}
+
 .hero_bg {
   background-position: center;
   background-repeat: no-repeat;

@@ -6,7 +6,7 @@ import Chemicals from "./pages/Products/Chemicals/Chemicals";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
-// import AgroCommodities from "./pages/Products/AgroCommodities/AgroCommodities";
+import AgroCommodities from "./pages/Products/AgroCommodities/AgroCommodities";
 // import Products from "./pages/Products/Products";
 // import EdibleNonEdibleOil from "./pages/Products/EdibleNonEdibleOil/EdibleNonEdibleOil";
 // import PetroleumProducts from "./pages/Products/PetroleumProducts/PetroleumProducts";
@@ -55,6 +55,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/product/AgroCommodities" element={<AgroCommodities />} />
           <Route path="/chemicals" element={<Chemicals />}/>
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
