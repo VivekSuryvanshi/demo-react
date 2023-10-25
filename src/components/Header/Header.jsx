@@ -473,12 +473,17 @@ const Header = () => {
                       <NavLink
                         class="dropdown-item"
                         to="/product/AgroCommodities"
+                        onClick={() => setOpenMenu(false)}
                       >
                         Agro Commodities
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink class="dropdown-item" to="/">
+                      <NavLink
+                        class="dropdown-item"
+                        to="/"
+                        onClick={() => setOpenMenu(false)}
+                      >
                         Edible & Non Edible Oil (Crude)
                       </NavLink>
                     </li>
@@ -548,62 +553,110 @@ const Header = () => {
                       </NavLink>
                       <ul class="dropdown-menu">
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Aviation Fuel (JetFuel)
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             D2 Gas Oil
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             D6 Diesel Bunker Fuel
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             EN-590 Diesel ULSD
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Fuel Oil
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Crude Oil
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Mazut
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Liquefied Petroleum Gas
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Liquefied Natural Gas
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Petroleum Coke (PETCOKE)
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Bitumen (Asphalt)
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Naphtha
                           </NavLink>
                         </li>
@@ -638,27 +691,47 @@ const Header = () => {
                           </NavLink>
                           <ul class="dropdown-menu">
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Rice Husk
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Yellow Maize
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Soyabean
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 NON GMO
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Raw materials & other feed
                               </NavLink>
                             </li>
@@ -680,37 +753,65 @@ const Header = () => {
                           </NavLink>
                           <ul class="dropdown-menu">
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Urea N46 – Granular / Prilled
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 DAP & MAP
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Complex & Soluble Fertilizers
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Potash & NPK
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Bio NPK & Bio DAP
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 Bio PROM
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink class="dropdown-item" to="/">
+                              <NavLink
+                                class="dropdown-item"
+                                to="/"
+                                onClick={() => setOpenMenu(false)}
+                              >
                                 UREA GAS / LIQUID
                               </NavLink>
                             </li>
@@ -732,45 +833,77 @@ const Header = () => {
                       </NavLink>
                       <ul class="dropdown-menu">
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             BioDiesel
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Ethanol
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             BIO LNG
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Fatty Acids & Sterne.
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink class="dropdown-item" to="/">
+                          <NavLink
+                            class="dropdown-item"
+                            to="/"
+                            onClick={() => setOpenMenu(false)}
+                          >
                             Palm Oil & used Cooking Oil
                           </NavLink>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <NavLink class="dropdown-item" to="/">
+                      <NavLink
+                        class="dropdown-item"
+                        to="/"
+                        onClick={() => setOpenMenu(false)}
+                      >
                         Minerals & Ores
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink class="dropdown-item" to="/">
+                      <NavLink
+                        class="dropdown-item"
+                        to="/"
+                        onClick={() => setOpenMenu(false)}
+                      >
                         Metals
                       </NavLink>
                     </li>
 
                     <li>
-                      <NavLink class="dropdown-item" to="/">
+                      <NavLink
+                        class="dropdown-item"
+                        to="/"
+                        onClick={() => setOpenMenu(false)}
+                      >
                         Building Materials & Chemicals
                       </NavLink>
                     </li>
