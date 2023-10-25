@@ -2063,6 +2063,10 @@ section {
 .bg_img5 {
   background-image: url('../public/assets/images/Products-all-img/bg-images/agro-bg.webp');
 }
+.bg_img6{
+  background-image: url('https://img.freepik.com/premium-photo/concept-pattern-palm-oil-bottle-supermarket_109549-2077.jpg?w=1060');
+
+}
 
 .hero_bg {
   background-position: center;

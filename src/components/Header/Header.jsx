@@ -481,7 +481,7 @@ const Header = () => {
                     <li>
                       <NavLink
                         class="dropdown-item"
-                        to="/"
+                        to="/product/EdibleNonEdibleOil"
                         onClick={() => setOpenMenu(false)}
                       >
                         Edible & Non Edible Oil (Crude)

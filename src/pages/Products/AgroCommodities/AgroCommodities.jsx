@@ -77,9 +77,7 @@ const AgroCommodities = () => {
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">
-                    Sugar
-                  </h2>
+                  <h2 className="ps-3">Sugar</h2>
                 </div>
               </div>{" "}
             </div>
