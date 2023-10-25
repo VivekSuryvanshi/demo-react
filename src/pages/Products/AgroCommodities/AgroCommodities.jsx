@@ -36,7 +36,7 @@ const AgroCommodities = () => {
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="./assets/images/icons/polymer.png"
+                  src="../assets/images/icons/Agro Commodities/rice.webp"
                   alt=""
                   width="80px"
                 />
@@ -48,7 +48,7 @@ const AgroCommodities = () => {
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="./assets/images/icons/chemistry.png"
+                  src="../assets/images/icons/Agro Commodities/soybean.webp"
                   alt=""
                   width="80px"
                 />
@@ -60,7 +60,7 @@ const AgroCommodities = () => {
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="./assets/images/icons/beaker.png"
+                  src="../assets/images/icons/Agro Commodities/wheat.webp"
                   alt=""
                   width="80px"
                 />
@@ -72,7 +72,7 @@ const AgroCommodities = () => {
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="./assets/images/icons/oil-barrel.png"
+                  src="../assets/images/icons/Agro Commodities/sugar.webp"
                   alt=""
                   width="80px"
                 />
