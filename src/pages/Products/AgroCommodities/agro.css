@@ -76,6 +76,7 @@
 }
 .product_desc {
     font-size: 18px;
+    text-align: justify;
 }
 .ul_list {
     padding: 1px;
@@ -153,7 +154,7 @@
         justify-content: end;
     }
     .left_container{
-        padding-left: 2.5rem !important;
+        padding-left: 3.5rem !important;
     }
     .timeline {
         margin: 50px auto;
@@ -168,7 +169,9 @@
         padding-left: 80px;
         padding-right: 25px;
     }
-
+    .product_desc {
+        font-size: 17px;
+    }
     .text_box {
         font-size: 16px;
     }
