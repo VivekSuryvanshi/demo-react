@@ -140,7 +140,7 @@
        top: 125%;
     }
     .timeline::after {
-        animation: moveline 10s linear forwards !important;
+        animation: moveline 25s linear forwards !important;
     }
     .container_part .animated_icon {
         position: relative;
@@ -202,7 +202,7 @@
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 10s linear forwards;
+    animation: moveline 12s linear forwards;
 }
 
 @keyframes moveline {
