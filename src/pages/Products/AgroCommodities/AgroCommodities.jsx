@@ -1,11 +1,11 @@
 import React from "react";
-import LeftContent from "../../../components/Products_Cards/LeftContent";
-import RightContent from "../../../components/Products_Cards/RightContent";
-import productsData from "../../../data/productsdata";
+// import LeftContent from "../../../components/Products_Cards/LeftContent";
+// import RightContent from "../../../components/Products_Cards/RightContent";
+// import productsData from "../../../data/productsdata";
 import "./agro.css";
 import { Link } from "react-router-dom";
 const AgroCommodities = () => {
-  const data = productsData.agroCommodities;
+  // const data = productsData.agroCommodities;
   return (
     <>
       <main id="main">
