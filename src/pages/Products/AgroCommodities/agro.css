@@ -104,6 +104,14 @@
     top: 40%;
     z-index: 10;
 }
+@media only screen and (min-width: 1280px) {
+    .animated_icon_div {
+        right: -9%; 
+    }
+    .right_container {
+        padding-left: 4.2rem !important;
+    }
+  }
 .container_part{
     position: relative;
     z-index: -1;
