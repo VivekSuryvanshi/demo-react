@@ -2067,7 +2067,10 @@ section {
   background-image: url('https://img.freepik.com/premium-photo/concept-pattern-palm-oil-bottle-supermarket_109549-2077.jpg?w=1060');
 
 }
+.bg_img7{
+  background-image: url('../public/assets/images/Products-all-img/bg-images/petroleum-bg.webp');
 
+}
 .hero_bg {
   background-position: center;
   background-repeat: no-repeat;

@@ -555,7 +555,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Aviation Fuel (JetFuel)
@@ -564,7 +564,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             D2 Gas Oil
@@ -573,7 +573,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             D6 Diesel Bunker Fuel
@@ -582,7 +582,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             EN-590 Diesel ULSD
@@ -591,7 +591,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Fuel Oil
@@ -600,7 +600,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Crude Oil
@@ -609,7 +609,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Mazut
@@ -618,7 +618,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Liquefied Petroleum Gas
@@ -627,7 +627,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Liquefied Natural Gas
@@ -636,7 +636,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Petroleum Coke (PETCOKE)
@@ -645,7 +645,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Bitumen (Asphalt)
@@ -654,7 +654,7 @@ const Header = () => {
                         <li>
                           <NavLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/PetroleumProducts"
                             onClick={() => setOpenMenu(false)}
                           >
                             Naphtha

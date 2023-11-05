@@ -9,7 +9,7 @@ import About from "./pages/About/About";
 import AgroCommodities from "./pages/Products/AgroCommodities/AgroCommodities";
 // import Products from "./pages/Products/Products";
 import EdibleNonEdibleOil from "./pages/Products/EdibleNonEdibleOil/EdibleNonEdibleOil";
-// import PetroleumProducts from "./pages/Products/PetroleumProducts/PetroleumProducts";
+import PetroleumProducts from "./pages/Products/PetroleumProducts/PetroleumProducts";
 // import CattlefeedFertilizers from "./pages/Products/CattlefeedFertilizers/CattlefeedFertilizers";
 // import BioFuels from "./pages/Products/BioFuels/BioFuels";
 // import MineralsOres from "./pages/Products/MineralsOres/MineralsOres";
@@ -57,6 +57,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/product/AgroCommodities" element={<AgroCommodities />} />
           <Route path="/product/EdibleNonEdibleOil" element={<EdibleNonEdibleOil />} />
+          <Route path="/product/PetroleumProducts" element={<PetroleumProducts />} />
           <Route path="/chemicals" element={<Chemicals />}/>
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
