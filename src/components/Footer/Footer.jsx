@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-info">
               <div className="footer_logo">
-                <img src="./assets/images/logos/bbvmg_logo_white.webp" alt="logo" width="130px" className="pb-3"/>
+                <img src="../assets/images/logos/bbvmg_logo_white.webp" alt="logo" width="130px" className="pb-3"/>
               </div>
                 <p>
                 The company maximizes returns for the benefit of its stakeholders, associates and customers by pursuing sustainable growth and profit opportunities that leverage on its trading expertise, logistics network.
