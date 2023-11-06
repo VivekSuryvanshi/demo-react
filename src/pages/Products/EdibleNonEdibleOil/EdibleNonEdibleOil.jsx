@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LeftContent from "../../../components/Products_Cards/LeftContent";
+import RightContent from "../../../components/Products_Cards/RightContent";
+import productsData from "../../../data/productsdata";
 const EdibleNonEdibleOil = () => {
+  const data = productsData.edibleNonEdibleOils;
   return (
     <>
       <main id="main">
@@ -130,7 +134,49 @@ const EdibleNonEdibleOil = () => {
 
           {/* new code */}
           <div class="timeline container col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-12">
-            <div class="container product_card">
+          <LeftContent
+              title={data[0].title}
+              desc={data[0].desc}
+              icon={data[0].icon}
+              image={data[0].image}
+              properties={data[0].properties}
+            />
+            <RightContent
+              title={data[1].title}
+              desc={data[1].desc}
+              icon={data[1].icon}
+              image={data[1].image}
+              properties={data[1].properties}
+            />
+            <LeftContent
+              title={data[2].title}
+              desc={data[2].desc}
+              icon={data[2].icon}
+              image={data[2].image}
+              properties={data[2].properties}
+            />
+            <RightContent
+              title={data[3].title}
+              desc={data[3].desc}
+              icon={data[3].icon}
+              image={data[3].image}
+              properties={data[3].properties}
+            />
+            <LeftContent
+              title={data[4].title}
+              desc={data[4].desc}
+              icon={data[4].icon}
+              image={data[4].image}
+              properties={data[4].properties}
+            />
+            <RightContent
+              title={data[5].title}
+              desc={data[5].desc}
+              icon={data[5].icon}
+              image={data[5].image}
+              properties={data[5].properties}
+            />
+            {/* <div class="container product_card">
               <div class="row">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 container_part left_container order-last order-lg-first">
                   <div class="animated_icon_div">
@@ -429,7 +475,7 @@ const EdibleNonEdibleOil = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
