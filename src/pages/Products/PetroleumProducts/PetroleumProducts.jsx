@@ -592,7 +592,7 @@ const PetroleumProducts = () => {
                 <div class="animated_icon_div">
                   <img
                     class="animated_icon"
-                    src="../assets/images/icons/Petroleum & Oil Products/petroleum coke.webp"
+                    src="../assets/images/icons/Petroleum & Oil Products/coal.webp"
                     alt="product_images"
                   />
                 </div>

@@ -104,10 +104,22 @@
     top: 40%;
     z-index: 10;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width:769px) and (max-width:1199px){
+    .animated_icon_div {
+        right: -10.5%; 
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
     .animated_icon_div {
         right: -9%; 
     }
+}
+@media only screen and (min-width:1400px) and (max-width:3000px){
+    .animated_icon_div {
+        right: -7.5%; 
+    }
+}
+@media only screen and (min-width: 1280px) {
     .right_container {
         padding-left: 4.2rem !important;
     }
