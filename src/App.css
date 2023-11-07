@@ -2071,6 +2071,11 @@ section {
   background-image: url('../public/assets/images/Products-all-img/bg-images/petroleum-bg.webp');
 
 }
+.bg_img8{
+  background-image: url('../public/assets/images/Products-all-img/bg-images/cattlefeed-bg.webp');
+
+}
+
 .hero_bg {
   background-position: center;
   background-repeat: no-repeat;

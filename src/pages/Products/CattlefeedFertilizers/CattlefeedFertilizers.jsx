@@ -5,17 +5,17 @@ import RightContent from "../../../components/Products_Cards/RightContent";
 import productsData from "../../../data/productsdata";
 
 const CattlefeedFertilizers = () => {
-  const data = productsData.petroleumAndOilProducts;
+  const data = productsData.cattlefeedAndFertilizers;
   return (
     <>
       <main id="main">
         <div className="hero">
-          <div className="hero_bg bg_img7">
+          <div className="hero_bg bg_img8">
             <div
               className="breadcrums container aos-init aos-animate"
               data-aos="fade"
             >
-              <h2 className="breadcrums_title">Petroleum & Oil Products</h2>
+              <h2 className="breadcrums_title">Cattlefeed & Fertilizers</h2>
               <ol className="breadcrums_subtitle">
                 <li>
                   <Link style={{ color: "white" }} to="/">
@@ -23,7 +23,7 @@ const CattlefeedFertilizers = () => {
                   </Link>
                 </li>
                 <li style={{ color: "#5ca595" }} className="breadcrums_items">
-                  / Petroleum & Oil Products
+                  / Cattlefeed & Fertilizers
                 </li>
               </ol>
             </div>
@@ -36,48 +36,48 @@ const CattlefeedFertilizers = () => {
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Petroleum & Oil Products/Aviation fuel jet fuel.webp"
+                  src="../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/rice husk.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Aviation Fuel</h2>
+                  <h2 className="ps-3">Rice Husk</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Petroleum & Oil Products/D2 gas oil.webp"
+                  src="../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/yellow maize.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">D2 Gas Oil</h2>
+                  <h2 className="ps-3">Yellow Maize</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Petroleum & Oil Products/D6 diesel bukder fuel.webp"
+                  src="../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/soyabean.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">D6 Diesel Fuel</h2>
+                  <h2 className="ps-3">Soyabean</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Petroleum & Oil Products/En-590 diesel ulsd.webp"
+                  src="../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/non gmo.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">EN-590 Diesel </h2>
+                  <h2 className="ps-3">Non GMO</h2>
                 </div>
               </div>{" "}
             </div>
@@ -181,6 +181,13 @@ const CattlefeedFertilizers = () => {
               icon={data[11].icon}
               image={data[11].image}
               properties={data[11].properties}
+            />
+               <LeftContent
+              title={data[12].title}
+              desc={data[12].desc}
+              icon={data[12].icon}
+              image={data[12].image}
+              properties={data[12].properties}
             />
           </div>
         </div>
