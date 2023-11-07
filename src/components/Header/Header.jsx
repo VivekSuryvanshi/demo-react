@@ -311,7 +311,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Rice Husk
@@ -320,7 +320,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Yellow Maize
@@ -329,7 +329,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Soyabean
@@ -338,7 +338,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 NON GMO
@@ -347,7 +347,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Raw materials & other feed
@@ -373,7 +373,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Urea N46 – Granular / Prilled
@@ -382,7 +382,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 DAP & MAP
@@ -391,7 +391,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Complex & Soluble Fertilizers
@@ -400,7 +400,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Potash & NPK
@@ -409,7 +409,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Bio NPK & Bio DAP
@@ -418,7 +418,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Bio PROM
@@ -427,7 +427,7 @@ const Header = () => {
                             <li>
                               <NavLink
                                 class="dropdown-item"
-                                to="/"
+                                to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 UREA GAS / LIQUID
