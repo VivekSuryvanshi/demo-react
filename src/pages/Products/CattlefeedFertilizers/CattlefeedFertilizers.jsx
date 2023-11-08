@@ -6,7 +6,6 @@ import productsData from "../../../data/productsdata";
 
 const CattlefeedFertilizers = () => {
   const data = productsData.cattlefeedAndFertilizers;
-  console.log(productsData.cattlefeedAndFertilizers);
   return (
     <>
       <main id="main">

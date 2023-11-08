@@ -2075,7 +2075,10 @@ section {
   background-image: url('../public/assets/images/Products-all-img/bg-images/cattlefeed-bg.webp');
 
 }
+.bg_img9{
+  background-image: url('../public/assets/images/Products-all-img/bg-images/biofuel-bg.webp');
 
+}
 .hero_bg {
   background-position: center;
   background-repeat: no-repeat;

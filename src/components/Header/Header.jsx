@@ -465,49 +465,49 @@ const Header = () => {
                       </NavLink>
                       <ul class="dropdown-menu">
                         <li>
-                          <NavLink
+                          <HashLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/BioFuels#BIO DIESEL"
                             onClick={() => setOpenMenu(false)}
                           >
                             BioDiesel
-                          </NavLink>
+                          </HashLink>
                         </li>
                         <li>
-                          <NavLink
+                          <HashLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/BioFuels#ETHANOL"
                             onClick={() => setOpenMenu(false)}
                           >
                             Ethanol
-                          </NavLink>
+                          </HashLink>
                         </li>
                         <li>
-                          <NavLink
+                          <HashLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/BioFuels#BIO LNG"
                             onClick={() => setOpenMenu(false)}
                           >
                             BIO LNG
-                          </NavLink>
+                          </HashLink>
                         </li>
                         <li>
-                          <NavLink
+                          <HashLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/BioFuels#FATTY ACIDS & STERNE"
                             onClick={() => setOpenMenu(false)}
                           >
                             Fatty Acids & Sterne.
-                          </NavLink>
+                          </HashLink>
                         </li>
                         <li>
-                          <NavLink
+                          <HashLink
                             class="dropdown-item"
-                            to="/"
+                            to="/product/BioFuels#PALM OIL & USED COOKING OIL"
                             onClick={() => setOpenMenu(false)}
                           >
                             Palm Oil & used Cooking Oil
-                          </NavLink>
+                          </HashLink>
                         </li>
                       </ul>
                     </li>

@@ -11,7 +11,7 @@ import AgroCommodities from "./pages/Products/AgroCommodities/AgroCommodities";
 import EdibleNonEdibleOil from "./pages/Products/EdibleNonEdibleOil/EdibleNonEdibleOil";
 import PetroleumProducts from "./pages/Products/PetroleumProducts/PetroleumProducts";
 import CattlefeedFertilizers from "./pages/Products/CattlefeedFertilizers/CattlefeedFertilizers";
-// import BioFuels from "./pages/Products/BioFuels/BioFuels";
+import BioFuels from "./pages/Products/BioFuels/BioFuels";
 // import MineralsOres from "./pages/Products/MineralsOres/MineralsOres";
 // import Metals from "./pages/Products/Metals/Metals";
 // import BuildingMaterials from "./pages/Products/BuildingMaterials/BuildingMaterials";
@@ -66,6 +66,10 @@ function App() {
          <Route
           path="/product/CattlefeedFertilizers"
           element={<CattlefeedFertilizers />}
+        />
+         <Route
+          path="/product/BioFuels"
+          element={<BioFuels />}
         />
         <Route path="/chemicals" element={<Chemicals />} />
         <Route path="/services" element={<Services />} />
