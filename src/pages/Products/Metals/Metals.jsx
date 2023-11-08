@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import LeftContent from "../../../components/Products_Cards/LeftContent";
-// import RightContent from "../../../components/Products_Cards/RightContent";
-// import productsData from "../../../data/productsdata";
+import LeftContent from "../../../components/Products_Cards/LeftContent";
+import RightContent from "../../../components/Products_Cards/RightContent";
+import productsData from "../../../data/productsdata";
 
 const Metals = () => {
-  // const data = productsData.bioFuels;
+  const data = productsData.metals;
   return (
     <>
       <main id="main">
@@ -30,53 +30,53 @@ const Metals = () => {
           </div>
         </div>
 
-        {/* <div className="input_box">
+        <div className="input_box">
           <div className="icons_section row container d-flex align-items-center">
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Bio Fuels/Bio diesel.webp"
+                  src="../assets/images/icons/Metals/Aluminium.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Bio Diesel</h2>
+                  <h2 className="ps-3">Aluminium</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Bio Fuels/Ethanol.webp"
+                  src="../assets/images/icons/Metals/Copper Cathode.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Ethanol</h2>
+                  <h2 className="ps-3">Copper Cathode</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Bio Fuels/Bio lng.webp"
+                  src="../assets/images/icons/Metals/copper scrap.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Bio LNG</h2>
+                  <h2 className="ps-3">Copper Scrape</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Bio Fuels/fatty acid.webp"
+                  src="../assets/images/icons/Metals/gold.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Fatty Acids & Sterne</h2>
+                  <h2 className="ps-3">Gold</h2>
                 </div>
               </div>
             </div>
@@ -141,8 +141,17 @@ const Metals = () => {
                 properties={data[4].properties}
               />
             </div>
+            <div id={data[5].id}>
+              <RightContent
+                title={data[5].title}
+                desc={data[5].desc}
+                icon={data[5].icon}
+                image={data[5].image}
+                properties={data[5].properties}
+              />
+            </div>
           </div>
-        </div> */}
+        </div>
       </main>
     </>
   );

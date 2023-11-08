@@ -596,8 +596,7 @@ const productsData = {
     {
       id: "PALM OIL & USED COOKING OIL",
       title: "PALM OIL & USED COOKING OIL",
-      image:
-        "../assets/images/Products-all-img/                                                                                                         /palm oil.webp",
+      image: "../assets/images/Products-all-img/bio fuels/palm oil.webp",
       icon: "../assets/images/icons/Bio Fuels/palm oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -608,11 +607,82 @@ const productsData = {
         "voluptatum nesciunt ex architecto neque exerct.",
       ],
     },
+  ],
+  metals: [
     {
-      title: "YELLOW MAIZE",
-      image:
-        "../assets/images/Products-all-img/Agro-Commodities/yellow-maze.webp",
-      icon: "../assets/images/icons/Agro Commodities/Yellow maize.webp",
+      id: "ALUMINIUM",
+      title: "ALUMINIUM",
+      image: "../assets/images/Products-all-img/Metals images/aluminium.webp",
+      icon: "../assets/images/icons/Metals/Aluminium.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "COPPER CATHODE",
+      title: "COPPER CATHODE",
+      image: "../assets/images/Products-all-img/Metals images/copper-pipes.webp",
+      icon: "../assets/images/icons/Metals/Copper Cathode.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "COPPER SCRAPE",
+      title: "COPPER SCRAPE",
+      image: "../assets/images/Products-all-img/Metals images/copper scrape.webp",
+      icon: "../assets/images/icons/Metals/copper scrap.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "GOLD",
+      title: "GOLD",
+      image: "../assets/images/Products-all-img/Metals images/gold.webp",
+      icon: "../assets/images/icons/Metals/gold.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "IRON",
+      title: "IRON",
+      image: "../assets/images/Products-all-img/Metals images/construction-armature.webp",
+      icon: "../assets/images/icons/Metals/iron.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {  id: "RAIL TRACK",
+      title: "RAIL TRACK",
+      image: "../assets/images/Products-all-img/Metals images/Railway track.webp",
+      icon: "../assets/images/icons/Metals/Rail track.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -623,22 +693,6 @@ const productsData = {
       ],
     },
   ],
-
-  // mineralsOres: {
-  //   title: "SOYABEAN OIL",
-  //   image: "minerals-ores.jpg",
-  //   description: "Description for Minerals and Ores.",
-  // },
-  // metals: {
-  //   title: "Metals",
-  //   image: "metals.jpg",
-  //   description: "Description for Metals.",
-  // },
-  // buildingMaterials: {
-  //   title: "Building Materials",
-  //   image: "building-materials.jpg",
-  //   description: "Description for Building Materials.",
-  // },
 };
 
 export default productsData;
