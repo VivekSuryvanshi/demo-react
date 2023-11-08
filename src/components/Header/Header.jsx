@@ -514,7 +514,7 @@ const Header = () => {
                     <li>
                       <NavLink
                         class="dropdown-item"
-                        to="/"
+                        to="/product/MineralsOres"
                         onClick={() => setOpenMenu(false)}
                       >
                         Minerals & Ores
@@ -523,7 +523,7 @@ const Header = () => {
                     <li>
                       <NavLink
                         class="dropdown-item"
-                        to="/"
+                        to="/product/Metals"
                         onClick={() => setOpenMenu(false)}
                       >
                         Metals
@@ -533,7 +533,7 @@ const Header = () => {
                     <li>
                       <NavLink
                         class="dropdown-item"
-                        to="/"
+                        to="/product/BuildingMaterials"
                         onClick={() => setOpenMenu(false)}
                       >
                         Building Materials & Chemicals

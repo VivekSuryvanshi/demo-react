@@ -4,7 +4,7 @@ const productsData = {
     {
       title: "RICE",
       image: "../assets/images/Products-all-img/Agro-Commodities/rice.webp",
-      icon:"../assets/images/icons/Agro Commodities/rice.webp",
+      icon: "../assets/images/icons/Agro Commodities/rice.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -17,7 +17,7 @@ const productsData = {
     {
       title: "SOYABEANS",
       image: "../assets/images/Products-all-img/Agro-Commodities/soyabean.webp",
-      icon:"../assets/images/icons/Agro Commodities/soybean.webp",
+      icon: "../assets/images/icons/Agro Commodities/soybean.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -30,7 +30,7 @@ const productsData = {
     {
       title: "SUGAR",
       image: "../assets/images/Products-all-img/Agro-Commodities/sugar.webp",
-      icon:"../assets/images/icons/Agro Commodities/sugar.webp",
+      icon: "../assets/images/icons/Agro Commodities/sugar.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -43,7 +43,7 @@ const productsData = {
     {
       title: "WHEAT",
       image: "../assets/images/Products-all-img/Agro-Commodities/wheat.webp",
-      icon:"../assets/images/icons/Agro Commodities/wheat.webp",
+      icon: "../assets/images/icons/Agro Commodities/wheat.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -55,8 +55,9 @@ const productsData = {
     },
     {
       title: "DAL AND PULSES",
-      image: "../assets/images/Home-page-img/hero-section/sacks-healthy-legumes-grains.webp",
-      icon:"../assets/images/icons/Agro Commodities/Dal & Pules.webp",
+      image:
+        "../assets/images/Home-page-img/hero-section/sacks-healthy-legumes-grains.webp",
+      icon: "../assets/images/icons/Agro Commodities/Dal & Pules.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -68,8 +69,9 @@ const productsData = {
     },
     {
       title: "YELLOW MAIZE",
-      image: "../assets/images/Products-all-img/Agro-Commodities/yellow-maze.webp",
-      icon:"../assets/images/icons/Agro Commodities/Yellow maize.webp",
+      image:
+        "../assets/images/Products-all-img/Agro-Commodities/yellow-maze.webp",
+      icon: "../assets/images/icons/Agro Commodities/Yellow maize.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -80,12 +82,13 @@ const productsData = {
       ],
     },
   ],
- 
+
   edibleNonEdibleOils: [
     {
       title: "GROUNDNUT OIL",
-      image: "../assets/images/Products-all-img/Edible & Non edible oil/webp/peanut.webp",
-      icon:"../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Groundnut Oil.webp",
+      image:
+        "../assets/images/Products-all-img/Edible & Non edible oil/webp/peanut.webp",
+      icon: "../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Groundnut Oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -97,8 +100,9 @@ const productsData = {
     },
     {
       title: "SOYABEAN OIL",
-      image: "../assets/images/Products-all-img/Edible & Non edible oil/webp/soyabean oil.webp",
-      icon:"../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Soybean oil.webp",
+      image:
+        "../assets/images/Products-all-img/Edible & Non edible oil/webp/soyabean oil.webp",
+      icon: "../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Soybean oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -110,8 +114,9 @@ const productsData = {
     },
     {
       title: "CASTOR OIL",
-      image: "../assets/images/Products-all-img/Edible & Non edible oil/webp/castor-oil.webp",
-      icon:"../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Castor oil.webp",
+      image:
+        "../assets/images/Products-all-img/Edible & Non edible oil/webp/castor-oil.webp",
+      icon: "../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Castor oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -123,8 +128,9 @@ const productsData = {
     },
     {
       title: "SUNFLOWER OIL",
-      image: "../assets/images/Products-all-img/Edible & Non edible oil/webp/sunflower oil.webp",
-      icon:"../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Sunflower oil.webp",
+      image:
+        "../assets/images/Products-all-img/Edible & Non edible oil/webp/sunflower oil.webp",
+      icon: "../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Sunflower oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -136,8 +142,9 @@ const productsData = {
     },
     {
       title: "MUSTARD OIL",
-      image: "../assets/images/Products-all-img/Edible & Non edible oil/webp/mustard oil.jpg",
-      icon:"../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Musterd oil.webp",
+      image:
+        "../assets/images/Products-all-img/Edible & Non edible oil/webp/mustard oil.jpg",
+      icon: "../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Musterd oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -149,8 +156,9 @@ const productsData = {
     },
     {
       title: "PALM OIL",
-      image: "../assets/images/Products-all-img/Edible & Non edible oil/webp/palm oil.webp",
-      icon:"../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Palm Oil.webp",
+      image:
+        "../assets/images/Products-all-img/Edible & Non edible oil/webp/palm oil.webp",
+      icon: "../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Palm Oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -164,8 +172,9 @@ const productsData = {
   petroleumAndOilProducts: [
     {
       title: "AVIATION FUEL",
-      image: "../assets/images/Products-all-img/petroleum oil product/Aviation fuel.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/Aviation fuel jet fuel.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/Aviation fuel.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/Aviation fuel jet fuel.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -177,8 +186,9 @@ const productsData = {
     },
     {
       title: "D2 GAS OIL",
-      image: "../assets/images/Products-all-img/petroleum oil product/d2 gas oil.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/D2 gas oil.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/d2 gas oil.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/D2 gas oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -190,8 +200,9 @@ const productsData = {
     },
     {
       title: "D6 DIESEL FUEL",
-      image: "../assets/images/Products-all-img/petroleum oil product/d6 dieseil bunker oil.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/D6 diesel bukder fuel.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/d6 dieseil bunker oil.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/D6 diesel bukder fuel.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -203,8 +214,9 @@ const productsData = {
     },
     {
       title: "EN-590 DIESEL",
-      image: "../assets/images/Products-all-img/petroleum oil product/en-590 diesel ulsd.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/En-590 diesel ulsd.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/en-590 diesel ulsd.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/En-590 diesel ulsd.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -216,8 +228,9 @@ const productsData = {
     },
     {
       title: "FUEL OIL",
-      image: "../assets/images/Products-all-img/petroleum oil product/fuel oil.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/fuel oil.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/fuel oil.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/fuel oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -229,8 +242,9 @@ const productsData = {
     },
     {
       title: "CRUDE OIL",
-      image: "../assets/images/Products-all-img/petroleum oil product/crude oil.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/Crude oil.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/crude oil.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/Crude oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -242,8 +256,9 @@ const productsData = {
     },
     {
       title: "MAZUT",
-      image: "../assets/images/Products-all-img/petroleum oil product/mazut.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/mazut.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/mazut.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/mazut.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -255,8 +270,9 @@ const productsData = {
     },
     {
       title: "LIQUIFIED PETROLEUM GAS",
-      image: "../assets/images/Products-all-img/petroleum oil product/liquefied petroleum gas.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/Liquefied Petroleum Gas.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/liquefied petroleum gas.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/Liquefied Petroleum Gas.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -268,8 +284,9 @@ const productsData = {
     },
     {
       title: "LIQUIFIED NATURAL GAS",
-      image: "../assets/images/Products-all-img/petroleum oil product/liquefied natural gas.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/liquefied natural gas.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/liquefied natural gas.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/liquefied natural gas.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -281,8 +298,9 @@ const productsData = {
     },
     {
       title: "PETROLEUM COKE",
-      image: "../assets/images/Products-all-img/petroleum oil product/petroleum coke.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/coal.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/petroleum coke.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/coal.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -294,8 +312,9 @@ const productsData = {
     },
     {
       title: "BITUMEN",
-      image: "../assets/images/Products-all-img/petroleum oil product/bitumen.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/bitumen.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/bitumen.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/bitumen.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -307,8 +326,9 @@ const productsData = {
     },
     {
       title: "NAPHTHA",
-      image: "../assets/images/Products-all-img/petroleum oil product/nephtha.webp",
-      icon:"../assets/images/icons/Petroleum & Oil Products/nephtha.webp",
+      image:
+        "../assets/images/Products-all-img/petroleum oil product/nephtha.webp",
+      icon: "../assets/images/icons/Petroleum & Oil Products/nephtha.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -320,10 +340,12 @@ const productsData = {
     },
   ],
   cattlefeedAndFertilizers: [
-    { id:"RICE_HUSK",
+    {
+      id: "RICE_HUSK",
       title: "RICE HUSK",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/Rice husk.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/rice husk.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/Rice husk.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/rice husk.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -334,10 +356,11 @@ const productsData = {
       ],
     },
     {
-      id:"YELLOW_MAIZE",
+      id: "YELLOW_MAIZE",
       title: "YELLOW MAIZE",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/yellow maize.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/yellow maize.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/yellow maize.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/yellow maize.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -348,10 +371,11 @@ const productsData = {
       ],
     },
     {
-      id:"SOYABEAN",
+      id: "SOYABEAN",
       title: "SOYABEAN",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/soyabean feed.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/soyabean.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/soyabean feed.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/soyabean.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -362,10 +386,11 @@ const productsData = {
       ],
     },
     {
-      id:"NON GMO",
+      id: "NON GMO",
       title: "NON GMO",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/non gmo.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/non gmo.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/non gmo.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/non gmo.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -376,10 +401,11 @@ const productsData = {
       ],
     },
     {
-      id:"RAW MATERIALS & OTHER FEEDS",
+      id: "RAW MATERIALS & OTHER FEEDS",
       title: "RAW MATERIALS & OTHER FEEDS",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/raw material.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/raw material (1).webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/raw material.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/raw material (1).webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -390,10 +416,11 @@ const productsData = {
       ],
     },
     {
-      id:"VERMI COMPOST",
+      id: "VERMI COMPOST",
       title: "VERMI COMPOST",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/vermi compost.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/vermi compost.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/vermi compost.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/vermi compost.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -404,10 +431,11 @@ const productsData = {
       ],
     },
     {
-      id:"UREA N46 - GRANULAR PRILLED",
+      id: "UREA N46 - GRANULAR PRILLED",
       title: "UREA N46 - GRANULAR PRILLED",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Urea N46 granular.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Urea N46 granular.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Urea N46 granular.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Urea N46 granular.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -418,10 +446,11 @@ const productsData = {
       ],
     },
     {
-      id:"DAP & MAP",
+      id: "DAP & MAP",
       title: "DAP & MAP",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/DAP & MAP.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/DAP&MAP.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/DAP & MAP.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/DAP&MAP.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -432,10 +461,11 @@ const productsData = {
       ],
     },
     {
-      id:"COMPLEX & SOLUABLE FERTILIZERS",
+      id: "COMPLEX & SOLUABLE FERTILIZERS",
       title: "COMPLEX & SOLUABLE FERTILIZERS",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/complex & soluable fertilizer.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/complex & soluable fertilizers.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/complex & soluable fertilizer.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/complex & soluable fertilizers.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -446,10 +476,11 @@ const productsData = {
       ],
     },
     {
-      id:"POTASH NPK",
+      id: "POTASH NPK",
       title: "POTASH & NPK",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Potash & NPK.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Potash & NPK.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Potash & NPK.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Potash & NPK.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -460,10 +491,11 @@ const productsData = {
       ],
     },
     {
-      id:"BIO NPK & BIO DAP",
+      id: "BIO NPK & BIO DAP",
       title: "BIO NPK & BIO DAP",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Bio Npk.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Bio PROM.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Bio Npk.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Bio PROM.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -474,10 +506,11 @@ const productsData = {
       ],
     },
     {
-      id:"BIO PROM",
+      id: "BIO PROM",
       title: "BIO PROM",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Bio PROM.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Bio Npk & Dap.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Bio PROM.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Bio Npk & Dap.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -488,10 +521,11 @@ const productsData = {
       ],
     },
     {
-      id:"UREA GAS / LIQUID",
+      id: "UREA GAS / LIQUID",
       title: "UREA GAS / LIQUID",
-      image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Urea Gas & Liquid.webp",
-      icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Urea Gas Liquid.webp",
+      image:
+        "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Urea Gas & Liquid.webp",
+      icon: "../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Urea Gas Liquid.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -507,7 +541,7 @@ const productsData = {
       id: "BIO DIESEL",
       title: "BIO DIESEL",
       image: "../assets/images/Products-all-img/bio fuels/Bio diesel.webp",
-      icon:"../assets/images/icons/Bio Fuels/Bio diesel.webp",
+      icon: "../assets/images/icons/Bio Fuels/Bio diesel.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -521,7 +555,7 @@ const productsData = {
       id: "ETHANOL",
       title: "ETHANOL",
       image: "../assets/images/Products-all-img/bio fuels/Ethanol.webp",
-      icon:"../assets/images/icons/Bio Fuels/Ethanol.webp",
+      icon: "../assets/images/icons/Bio Fuels/Ethanol.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -535,7 +569,7 @@ const productsData = {
       id: "BIO LNG",
       title: "BIO LNG",
       image: "../assets/images/Products-all-img/bio fuels/Bio lng.webp",
-      icon:"../assets/images/icons/Bio Fuels/Bio lng.webp",
+      icon: "../assets/images/icons/Bio Fuels/Bio lng.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -549,7 +583,7 @@ const productsData = {
       id: "FATTY ACIDS & STERNE",
       title: "FATTY ACIDS & STERNE",
       image: "../assets/images/Products-all-img/bio fuels/stern.webp",
-      icon:"../assets/images/icons/Bio Fuels/fatty acid.webp",
+      icon: "../assets/images/icons/Bio Fuels/fatty acid.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -562,8 +596,9 @@ const productsData = {
     {
       id: "PALM OIL & USED COOKING OIL",
       title: "PALM OIL & USED COOKING OIL",
-      image: "../assets/images/Products-all-img/bio fuels/palm oil.webp",
-      icon:"../assets/images/icons/Bio Fuels/palm oil.webp",
+      image:
+        "../assets/images/Products-all-img/                                                                                                         /palm oil.webp",
+      icon: "../assets/images/icons/Bio Fuels/palm oil.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -575,8 +610,9 @@ const productsData = {
     },
     {
       title: "YELLOW MAIZE",
-      image: "../assets/images/Products-all-img/Agro-Commodities/yellow-maze.webp",
-      icon:"../assets/images/icons/Agro Commodities/Yellow maize.webp",
+      image:
+        "../assets/images/Products-all-img/Agro-Commodities/yellow-maze.webp",
+      icon: "../assets/images/icons/Agro Commodities/Yellow maize.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
@@ -587,7 +623,7 @@ const productsData = {
       ],
     },
   ],
- 
+
   // mineralsOres: {
   //   title: "SOYABEAN OIL",
   //   image: "minerals-ores.jpg",

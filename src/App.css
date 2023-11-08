@@ -1405,7 +1405,7 @@ section {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: rgba(239,246,247,0.6);
+  background: rgba(239, 246, 247, 0.6);
   position: relative;
 }
 
@@ -2063,22 +2063,27 @@ section {
 .bg_img5 {
   background-image: url('../public/assets/images/Products-all-img/bg-images/agro-bg.webp');
 }
-.bg_img6{
+
+.bg_img6 {
   background-image: url('https://img.freepik.com/premium-photo/concept-pattern-palm-oil-bottle-supermarket_109549-2077.jpg?w=1060');
 
 }
-.bg_img7{
+
+.bg_img7 {
   background-image: url('../public/assets/images/Products-all-img/bg-images/petroleum-bg.webp');
 
 }
-.bg_img8{
+
+.bg_img8 {
   background-image: url('../public/assets/images/Products-all-img/bg-images/cattlefeed-bg.webp');
 
 }
-.bg_img9{
+
+.bg_img9 {
   background-image: url('../public/assets/images/Products-all-img/bg-images/biofuel-bg.webp');
 
 }
+
 .hero_bg {
   background-position: center;
   background-repeat: no-repeat;
@@ -2187,9 +2192,11 @@ section {
   padding: 30px;
   width: 100%;
 }
+
 .purecounter div::after {
   content: "+" !important;
 }
+
 .stats-counter .stats-item span {
   font-size: 48px;
   display: block;

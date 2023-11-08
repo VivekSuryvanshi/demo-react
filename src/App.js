@@ -12,9 +12,9 @@ import EdibleNonEdibleOil from "./pages/Products/EdibleNonEdibleOil/EdibleNonEdi
 import PetroleumProducts from "./pages/Products/PetroleumProducts/PetroleumProducts";
 import CattlefeedFertilizers from "./pages/Products/CattlefeedFertilizers/CattlefeedFertilizers";
 import BioFuels from "./pages/Products/BioFuels/BioFuels";
-// import MineralsOres from "./pages/Products/MineralsOres/MineralsOres";
-// import Metals from "./pages/Products/Metals/Metals";
-// import BuildingMaterials from "./pages/Products/BuildingMaterials/BuildingMaterials";
+import MineralsOres from "./pages/Products/MineralsOres/MineralsOres";
+import Metals from "./pages/Products/Metals/Metals";
+import BuildingMaterials from "./pages/Products/BuildingMaterials/BuildingMaterials";
 import Services from "./pages/Servicess/Services";
 import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/PageNotFound/NotFound";
@@ -70,6 +70,18 @@ function App() {
          <Route
           path="/product/BioFuels"
           element={<BioFuels />}
+        />
+          <Route
+          path="/product/MineralsOres"
+          element={<MineralsOres />}
+        />
+          <Route
+          path="/product/Metals"
+          element={<Metals />}
+        />
+          <Route
+          path="/product/BuildingMaterials"
+          element={<BuildingMaterials />}
         />
         <Route path="/chemicals" element={<Chemicals />} />
         <Route path="/services" element={<Services />} />
