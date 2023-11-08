@@ -309,49 +309,54 @@ const Header = () => {
                           </NavLink>
                           <ul class="dropdown-menu">
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#RICE_HUSK"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Rice Husk
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#YELLOW_MAIZE"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Yellow Maize
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#SOYABEAN"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Soyabean
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#NON GMO"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 NON GMO
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
+                              <HashLink
+                                class="dropdown-item"
+                                to="/product/CattlefeedFertilizers#RAW MATERIALS & OTHER FEEDS"
+                                onClick={() => setOpenMenu(false)}
+                              >
+                                Raw materials & other feed
+                              </HashLink>
                               <NavLink
                                 class="dropdown-item"
                                 to="/product/CattlefeedFertilizers"
                                 onClick={() => setOpenMenu(false)}
-                              >
-                                Raw materials & other feed
-                              </NavLink>
+                              ></NavLink>
                             </li>
                           </ul>
                         </li>
@@ -371,67 +376,76 @@ const Header = () => {
                           </NavLink>
                           <ul class="dropdown-menu">
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#VERMI COMPOST"
+                                onClick={() => setOpenMenu(false)}
+                              >
+                                Vermi Compost
+                              </HashLink>
+                            </li>
+                            <li>
+                              <HashLink
+                                class="dropdown-item"
+                                to="/product/CattlefeedFertilizers#UREA N46 - GRANULAR PRILLED"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Urea N46 – Granular / Prilled
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#DAP & MAP"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 DAP & MAP
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#COMPLEX & SOLUABLE FERTILIZERS"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Complex & Soluble Fertilizers
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#POTASH NPK"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Potash & NPK
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#BIO NPK & BIO DAP"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Bio NPK & Bio DAP
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#BIO PROM"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 Bio PROM
-                              </NavLink>
+                              </HashLink>
                             </li>
                             <li>
-                              <NavLink
+                              <HashLink
                                 class="dropdown-item"
-                                to="/product/CattlefeedFertilizers"
+                                to="/product/CattlefeedFertilizers#UREA GAS / LIQUID"
                                 onClick={() => setOpenMenu(false)}
                               >
                                 UREA GAS / LIQUID
-                              </NavLink>
+                              </HashLink>
                             </li>
                           </ul>
                         </li>

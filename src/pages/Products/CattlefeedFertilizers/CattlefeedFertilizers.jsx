@@ -6,6 +6,7 @@ import productsData from "../../../data/productsdata";
 
 const CattlefeedFertilizers = () => {
   const data = productsData.cattlefeedAndFertilizers;
+  console.log(productsData.cattlefeedAndFertilizers);
   return (
     <>
       <main id="main">
@@ -98,97 +99,124 @@ const CattlefeedFertilizers = () => {
           </header>
           {/* new code */}
           <div class="timeline container col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-12">
-            <LeftContent
-              title={data[0].title}
-              desc={data[0].desc}
-              icon={data[0].icon}
-              image={data[0].image}
-              properties={data[0].properties}
-            />
-            <RightContent
-              title={data[1].title}
-              desc={data[1].desc}
-              icon={data[1].icon}
-              image={data[1].image}
-              properties={data[1].properties}
-            />
-            <LeftContent
-              title={data[2].title}
-              desc={data[2].desc}
-              icon={data[2].icon}
-              image={data[2].image}
-              properties={data[2].properties}
-            />
-            <RightContent
-              title={data[3].title}
-              desc={data[3].desc}
-              icon={data[3].icon}
-              image={data[3].image}
-              properties={data[3].properties}
-            />
-            <LeftContent
-              title={data[4].title}
-              desc={data[4].desc}
-              icon={data[4].icon}
-              image={data[4].image}
-              properties={data[4].properties}
-            />
-            <RightContent
-              title={data[5].title}
-              desc={data[5].desc}
-              icon={data[5].icon}
-              image={data[5].image}
-              properties={data[5].properties}
-            />
-            <LeftContent
-              title={data[6].title}
-              desc={data[6].desc}
-              icon={data[6].icon}
-              image={data[6].image}
-              properties={data[6].properties}
-            />
-            <RightContent
-              title={data[7].title}
-              desc={data[7].desc}
-              icon={data[7].icon}
-              image={data[7].image}
-              properties={data[7].properties}
-            />
-            <LeftContent
-              title={data[8].title}
-              desc={data[8].desc}
-              icon={data[8].icon}
-              image={data[8].image}
-              properties={data[8].properties}
-            />
-            <RightContent
-              title={data[9].title}
-              desc={data[9].desc}
-              icon={data[9].icon}
-              image={data[9].image}
-              properties={data[9].properties}
-            />
-            <LeftContent
-              title={data[10].title}
-              desc={data[10].desc}
-              icon={data[10].icon}
-              image={data[10].image}
-              properties={data[10].properties}
-            />
-            <RightContent
-              title={data[11].title}
-              desc={data[11].desc}
-              icon={data[11].icon}
-              image={data[11].image}
-              properties={data[11].properties}
-            />
-               <LeftContent
-              title={data[12].title}
-              desc={data[12].desc}
-              icon={data[12].icon}
-              image={data[12].image}
-              properties={data[12].properties}
-            />
+            <div id={data[0].id}>
+              <LeftContent
+                title={data[0].title}
+                desc={data[0].desc}
+                icon={data[0].icon}
+                image={data[0].image}
+                properties={data[0].properties}
+              />
+            </div>
+            <div id={data[1].id}>
+              <RightContent
+                title={data[1].title}
+                desc={data[1].desc}
+                icon={data[1].icon}
+                image={data[1].image}
+                properties={data[1].properties}
+              />
+            </div>
+            <div id={data[2].id}>
+              <LeftContent
+                title={data[2].title}
+                desc={data[2].desc}
+                icon={data[2].icon}
+                image={data[2].image}
+                properties={data[2].properties}
+              />
+            </div>
+            <div id={data[3].id}>
+              <RightContent
+                title={data[3].title}
+                desc={data[3].desc}
+                icon={data[3].icon}
+                image={data[3].image}
+                properties={data[3].properties}
+              />
+            </div>
+            <div id={data[4].id}>
+              <LeftContent
+                title={data[4].title}
+                desc={data[4].desc}
+                icon={data[4].icon}
+                image={data[4].image}
+                properties={data[4].properties}
+              />
+            </div>
+            <div id={data[5].id}>
+              <RightContent
+                title={data[5].title}
+                desc={data[5].desc}
+                icon={data[5].icon}
+                image={data[5].image}
+                properties={data[5].properties}
+              />
+            </div>
+            <div id={data[6].id}>
+              <LeftContent
+                title={data[6].title}
+                desc={data[6].desc}
+                icon={data[6].icon}
+                image={data[6].image}
+                properties={data[6].properties}
+              />
+            </div>
+            <div id={data[7].id}>
+              <RightContent
+                title={data[7].title}
+                desc={data[7].desc}
+                icon={data[7].icon}
+                image={data[7].image}
+                properties={data[7].properties}
+              />
+            </div>
+            <div id={data[8].id}>
+              <LeftContent
+                title={data[8].title}
+                desc={data[8].desc}
+                icon={data[8].icon}
+                image={data[8].image}
+                properties={data[8].properties}
+              />
+            </div>
+            <div id={data[9].id}>
+              <RightContent
+                title={data[9].title}
+                desc={data[9].desc}
+                icon={data[9].icon}
+                image={data[9].image}
+                properties={data[9].properties}
+              />
+            </div>
+            <div id={data[10].id}>
+              <LeftContent
+                title={data[10].title}
+                desc={data[10].desc}
+                icon={data[10].icon}
+                image={data[10].image}
+                properties={data[10].properties}
+              />
+            </div>
+
+            <div id={data[11].id}>
+              <RightContent
+                title={data[11].title}
+                desc={data[11].desc}
+                icon={data[11].icon}
+                image={data[11].image}
+                properties={data[11].properties}
+              />
+            </div>
+            <div id={data[12].id}>
+              <LeftContent
+                title={data[12].title}
+                desc={data[12].desc}
+                icon={data[12].icon}
+                image={data[12].image}
+                properties={data[12].properties}
+              />
+            </div>
           </div>
         </div>
       </main>

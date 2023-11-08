@@ -320,7 +320,7 @@ const productsData = {
     },
   ],
   cattlefeedAndFertilizers: [
-    {
+    { id:"RICE_HUSK",
       title: "RICE HUSK",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/Rice husk.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/rice husk.webp",
@@ -334,6 +334,7 @@ const productsData = {
       ],
     },
     {
+      id:"YELLOW_MAIZE",
       title: "YELLOW MAIZE",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/yellow maize.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/yellow maize.webp",
@@ -347,6 +348,7 @@ const productsData = {
       ],
     },
     {
+      id:"SOYABEAN",
       title: "SOYABEAN",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/soyabean feed.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/soyabean.webp",
@@ -360,6 +362,7 @@ const productsData = {
       ],
     },
     {
+      id:"NON GMO",
       title: "NON GMO",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/non gmo.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/non gmo.webp",
@@ -373,6 +376,7 @@ const productsData = {
       ],
     },
     {
+      id:"RAW MATERIALS & OTHER FEEDS",
       title: "RAW MATERIALS & OTHER FEEDS",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Cattlefeed/raw material.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Cattlefeed icons/raw material (1).webp",
@@ -386,6 +390,7 @@ const productsData = {
       ],
     },
     {
+      id:"VERMI COMPOST",
       title: "VERMI COMPOST",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/vermi compost.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/vermi compost.webp",
@@ -399,6 +404,7 @@ const productsData = {
       ],
     },
     {
+      id:"UREA N46 - GRANULAR PRILLED",
       title: "UREA N46 - GRANULAR PRILLED",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Urea N46 granular.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Urea N46 granular.webp",
@@ -412,6 +418,7 @@ const productsData = {
       ],
     },
     {
+      id:"DAP & MAP",
       title: "DAP & MAP",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/DAP & MAP.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/DAP&MAP.webp",
@@ -425,6 +432,7 @@ const productsData = {
       ],
     },
     {
+      id:"COMPLEX & SOLUABLE FERTILIZERS",
       title: "COMPLEX & SOLUABLE FERTILIZERS",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/complex & soluable fertilizer.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/complex & soluable fertilizers.webp",
@@ -438,6 +446,7 @@ const productsData = {
       ],
     },
     {
+      id:"POTASH NPK",
       title: "POTASH & NPK",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Potash & NPK.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Potash & NPK.webp",
@@ -451,6 +460,7 @@ const productsData = {
       ],
     },
     {
+      id:"BIO NPK & BIO DAP",
       title: "BIO NPK & BIO DAP",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Bio Npk.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Bio PROM.webp",
@@ -464,6 +474,7 @@ const productsData = {
       ],
     },
     {
+      id:"BIO PROM",
       title: "BIO PROM",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Bio PROM.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Bio Npk & Dap.webp",
@@ -477,6 +488,7 @@ const productsData = {
       ],
     },
     {
+      id:"UREA GAS / LIQUID",
       title: "UREA GAS / LIQUID",
       image: "../assets/images/Products-all-img/cattlefeed & fertilizers images/Fertilizer/Urea Gas & Liquid.webp",
       icon:"../assets/images/icons/Cattlefeed & Fertilizers/Fertilizer icons/Urea Gas Liquid.webp",
