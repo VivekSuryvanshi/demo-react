@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import LeftContent from "../../../components/Products_Cards/LeftContent";
 // import RightContent from "../../../components/Products_Cards/RightContent";
-import productsData from "../../../data/productsdata";
+// import productsData from "../../../data/productsdata";
 
 const Metals = () => {
-  const data = productsData.bioFuels;
+  // const data = productsData.bioFuels;
   return (
     <>
       <main id="main">
