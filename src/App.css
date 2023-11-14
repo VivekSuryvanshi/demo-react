@@ -460,7 +460,7 @@ h6 {
 #carousel_title {
   position: absolute;
   right: 15%;
-  bottom: 43%;
+  bottom: 38%;
   left: 15%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -485,7 +485,7 @@ h6 {
   }
 
   #carousel_title {
-    bottom: 35% !important;
+    bottom: 30% !important;
     font-size: 2rem;
   }
 
