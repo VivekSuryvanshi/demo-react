@@ -53,51 +53,71 @@ function Home() {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
             <div className="bg_img_1 bg_style" loading="lazy"></div>
-            <div id="carousel_title" className="carousel-caption sm_device_title">
+            <div
+              id="carousel_title"
+              className="carousel-caption sm_device_title"
+            >
               <h1>COMMODITIES AND FOOD PRODUCTS</h1>
-              <p>
-                Ship all over the world / The quality complies with the
-                requirements
+              <p className="carousel_description">
+                Are you looking for top-quality agriculture commodities and food
+                products? Look no further! We ship our products all over the
+                world, and our quality meets all the necessary requirements.
               </p>
             </div>
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <div className="bg_img_2 bg_style"></div>
-            <div id="carousel_title" className="carousel-caption sm_device_title">
+            <div
+              id="carousel_title"
+              className="carousel-caption sm_device_title"
+            >
               <h1>PETROLEUM AND BIO FUEL</h1>
-              <p>
-                Ship all over the world / The quality complies with the
-                requirements
+              <p className="carousel_description">
+                When it comes to petroleum and biofuel, we've got you covered.
+                Our products are shipped worldwide, and you can trust that the
+                quality is always up to standard.
               </p>
             </div>
           </div>
           <div className="carousel-item">
             <div className="bg_img_3 bg_style"></div>
-            <div id="carousel_title" className="carousel-caption sm_device_title">
+            <div
+              id="carousel_title"
+              className="carousel-caption sm_device_title"
+            >
               <h1>MINERALS AND ORES</h1>
-              <p>
-                Ship all over the world / The quality complies with the
-                requirements
+              <p className="carousel_description">
+                Searching for reliable sources of minerals and ores? Look no
+                more! We ship these essential resources globally, and our
+                quality always matches the requirements.
               </p>
             </div>
           </div>
           <div className="carousel-item">
             <div className="bg_img_4 bg_style"></div>
-            <div id="carousel_title" className="carousel-caption sm_device_title">
+            <div
+              id="carousel_title"
+              className="carousel-caption sm_device_title"
+            >
               <h1>CHEMICALS AND CATTLE FIELD FERTILIZER</h1>
-              <p>
-                Ship all over the world / The quality complies with the
-                requirements{" "}
+              <p className="carousel_description">
+                In need of chemicals or cattle field fertilizer? You're in the
+                right place. We deliver these products worldwide, and our
+                quality consistently meets industry standards.
               </p>
             </div>
           </div>
           <div className="carousel-item">
             <div className="bg_img_5 bg_style"></div>
-            <div id="carousel_title" className="carousel-caption sm_device_title">
+            <div
+              id="carousel_title"
+              className="carousel-caption sm_device_title"
+            >
               <h1>BUILDING MATERIALS AND CHEMICALS</h1>
-              <p>
-                Ship all over the world / The quality complies with the
-                requirements
+              <p className="carousel_description">
+                For building materials and chemicals, trust our offerings. We
+                ship these products to every corner of the globe, and you can be
+                confident in their quality.
               </p>
             </div>
           </div>
@@ -108,7 +128,10 @@ function Home() {
           data-bs-target="#carouselExampleDark"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -117,7 +140,10 @@ function Home() {
           data-bs-target="#carouselExampleDark"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
@@ -139,8 +165,10 @@ function Home() {
                   <NavLink to="">INTERNATIONAL TRADE</NavLink>
                 </h4>
                 <p className="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati cupiditate non provident
+                  When it comes to international trade, Our experience in
+                  connecting businesses worldwide ensures smooth and efficient
+                  transactions. Whether you're importing or exporting, we make
+                  it simple.
                 </p>
               </div>
 
@@ -155,8 +183,9 @@ function Home() {
                   <NavLink to="">100% Certified</NavLink>
                 </h4>
                 <p className="description">
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat tarad limino ata
+                  Quality and authenticity are our priorities. Rest easy knowing
+                  that our products are 100% certified, meeting the highest
+                  standards and regulations. Your satisfaction is our guarantee.
                 </p>
               </div>
 
@@ -171,8 +200,9 @@ function Home() {
                   <NavLink to="">International Transport and Logistics</NavLink>
                 </h4>
                 <p className="description">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur
+                  We specialize in seamless international transport and
+                  logistics, ensuring your cargo reaches its destination
+                  effortlessly. Your goods, our commitment.
                 </p>
               </div>
             </div>
@@ -186,10 +216,17 @@ function Home() {
             <header className="section-header">
               <h3>About Us</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                At Bhagirath BVM Grand (HK) Limited, we are the catalysts of
+                global trade, a company that thrives on connecting the world
+                through commerce. With a passion for trade that transcends
+                borders and industries, we're your trusted partner for all
+                things products. We source, supply, and inspire trade globally,
+                ensuring that our clients find in us a reliable gateway to a
+                world of possibilities. Our commitment to excellence and our
+                relentless pursuit of quality make us the preferred choice for
+                businesses looking to explore, expand, and excel in
+                international trade. Join us on this journey, and let's shape a
+                future of global trade that knows no bounds.
               </p>
             </header>
 

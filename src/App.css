@@ -551,7 +551,9 @@ h6 {
   font-size: 48px;
   font-weight: 700;
 }
-
+.carousel_description{
+  font-size: 20px;
+}
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
@@ -2049,7 +2051,7 @@ section {
 }
 
 .bg_img2 {
-  background-image: url('https://bbvmg.com/media/image-and-png/aboutus.jpg');
+  background-image: url('../public/assets/images/About/aboutus-bg.webp');
 }
 
 .bg_img3 {
@@ -2081,6 +2083,18 @@ section {
 
 .bg_img9 {
   background-image: url('../public/assets/images/Products-all-img/bg-images/biofuel-bg.webp');
+
+}
+.bg_img10 {
+  background-image: url('../public/assets/images/Home-page-img/hero-section/smooth-pebble-stack-wet.webp');
+
+}
+.bg_img11 {
+  background-image: url('../public/assets/images/Products-all-img/bg-images/metals-bg.webp');
+
+}
+.bg_img12 {
+  background-image: url('../public/assets/images/Home-page-img/hero-section/group-steel-rod.webp');
 
 }
 

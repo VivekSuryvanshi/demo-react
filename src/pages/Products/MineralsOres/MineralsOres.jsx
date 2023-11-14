@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import LeftContent from "../../../components/Products_Cards/LeftContent";
-// import RightContent from "../../../components/Products_Cards/RightContent";
-// import productsData from "../../../data/productsdata";
+import LeftContent from "../../../components/Products_Cards/LeftContent";
+import RightContent from "../../../components/Products_Cards/RightContent";
+import productsData from "../../../data/productsdata";
 
 const MineralsOres = () => {
-  // const data = productsData.bioFuels;
+  const data = productsData.mineralsAndOres;
   return (
     <>
       <main id="main">
@@ -30,53 +30,53 @@ const MineralsOres = () => {
           </div>
         </div>
 
-        {/* <div className="input_box">
+        <div className="input_box">
           <div className="icons_section row container d-flex align-items-center">
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Bio Fuels/Bio diesel.webp"
+                  src="../assets/images/icons/Minerals & Ores/Ferro Crome.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Bio Diesel</h2>
+                  <h2 className="ps-3">Ferro Crome</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Bio Fuels/Ethanol.webp"
+                  src="../assets/images/icons/Minerals & Ores/Iron Ore.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Ethanol</h2>
+                  <h2 className="ps-3">Iron Ore</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Bio Fuels/Bio lng.webp"
+                  src="../assets/images/icons/Minerals & Ores/Coal.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Bio LNG</h2>
+                  <h2 className="ps-3">Coal</h2>
                 </div>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6 sm_pd_top">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Bio Fuels/fatty acid.webp"
+                  src="../assets/images/icons/Minerals & Ores/Crome Concentrate.webp"
                   alt=""
                   width="80px"
                 />
                 <div>
-                  <h2 className="ps-3">Fatty Acids & Sterne</h2>
+                  <h2 className="ps-3">Crome Concentrate</h2>
                 </div>
               </div>
             </div>
@@ -141,8 +141,35 @@ const MineralsOres = () => {
                 properties={data[4].properties}
               />
             </div>
+            <div id={data[5].id}>
+              <RightContent
+                title={data[5].title}
+                desc={data[5].desc}
+                icon={data[5].icon}
+                image={data[5].image}
+                properties={data[5].properties}
+              />
+            </div>
+            <div id={data[6].id}>
+              <LeftContent
+                title={data[6].title}
+                desc={data[6].desc}
+                icon={data[6].icon}
+                image={data[6].image}
+                properties={data[6].properties}
+              />
+            </div>
+            <div id={data[7].id}>
+              <RightContent
+                title={data[7].title}
+                desc={data[7].desc}
+                icon={data[7].icon}
+                image={data[7].image}
+                properties={data[7].properties}
+              />
+            </div>
           </div>
-        </div> */}
+        </div>
       </main>
     </>
   );

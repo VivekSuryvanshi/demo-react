@@ -608,6 +608,128 @@ const productsData = {
       ],
     },
   ],
+  mineralsAndOres: [
+    {
+      id: "FERRO CROME",
+      title: "FERRO CROME",
+      image:
+      "../assets/images/Products-all-img/Mineral & ores image/Ferro Crome.webp",
+      icon: "../assets/images/icons/Minerals & Ores/Ferro Crome.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "IRON ORE",
+      title: "IRON ORE",
+      image:
+      "../assets/images/Products-all-img/Mineral & ores image/Iron Ore.webp",
+      icon: "../assets/images/icons/Minerals & Ores/Iron Ore.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "COAL",
+      title: "COAL",
+      image:
+      "../assets/images/Products-all-img/Mineral & ores image/Coal.webp",
+      icon: "../assets/images/icons/Minerals & Ores/Coal.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "CROME CONCENTRATE",
+      title: "CROME CONCENTRATE",
+      image:
+      "../assets/images/Products-all-img/Mineral & ores image/Crome Concentrate.webp",
+      icon: "../assets/images/icons/Minerals & Ores/Crome Concentrate.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "BAUXITE",
+      title: "BAUXITE",
+      image:
+      "../assets/images/Products-all-img/Mineral & ores image/bauxite.webp",
+      icon: "../assets/images/icons/Minerals & Ores/bauxite.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "CALAMINE",
+      title: "CALAMINE",
+      image:
+        "../assets/images/Products-all-img/Mineral & ores image/calamine.webp",
+      icon: "../assets/images/icons/Minerals & Ores/calamine.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "MANGANESE",
+      title: "MANGANESE",
+      image:
+        "../assets/images/Products-all-img/Mineral & ores image/manganese.webp",
+      icon: "../assets/images/icons/Minerals & Ores/manganese.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "LITHIUM",
+      title: "LITHIUM",
+      image:
+        "../assets/images/Products-all-img/Mineral & ores image/lithium.webp",
+      icon: "../assets/images/icons/Minerals & Ores/lithium.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "Sint accusamus placeat molestias corporis!",
+        "Voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+  ],
   metals: [
     {
       id: "ALUMINIUM",
@@ -683,6 +805,113 @@ const productsData = {
       title: "RAIL TRACK",
       image: "../assets/images/Products-all-img/Metals images/Railway track.webp",
       icon: "../assets/images/icons/Metals/Rail track.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+  ],
+  buildingMaterialAndChemicals: [
+    {
+      id: "STEEL",
+      title: "STEEL",
+      image:
+      "../assets/images/Products-all-img/Building Material & chemical/steel.webp",
+      icon: "../assets/images/icons/Building Materials & Chemicals/steel.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "CEMENT",
+      title: "CEMENT",
+      image:
+      "../assets/images/Products-all-img/Building Material & chemical/cement.webp",
+      icon: "../assets/images/icons/Building Materials & Chemicals/Cement.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "CLINKERS",
+      title: "CLINKERS",
+      image:
+      "../assets/images/Products-all-img/Building Material & chemical/clinkers.webp",
+      icon: "../assets/images/icons/Building Materials & Chemicals/Clinckers.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "WHITE CLINKERS",
+      title: "WHITE CLINKERS",
+      image:
+      "../assets/images/Products-all-img/Building Material & chemical/White clinkers.webp",
+      icon: "../assets/images/icons/Building Materials & Chemicals/White clinckers.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "SODIUM SULPHATE",
+      title: "SODIUM SULPHATE",
+      image:
+      "../assets/images/Products-all-img/Building Material & chemical/Sodium Sulphate.webp",
+      icon: "../assets/images/icons/Building Materials & Chemicals/Sodium Sulphate.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "CASTIC SODA",
+      title: "CASTIC SODA",
+      image:
+        "../assets/images/Products-all-img/Building Material & chemical/castic soda.webp",
+      icon: "../assets/images/icons/Building Materials & Chemicals/castic soda.webp",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      properties: [
+        "Ullamco laboris nisi ut aliquip consequat",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "In dignissimos libero aliquid non illo.",
+        "sint accusamus placeat molestias corporis!",
+        "voluptatum nesciunt ex architecto neque exerct.",
+      ],
+    },
+    {
+      id: "CASTIC POTASH",
+      title: "CASTIC POTASH",
+      image:
+        "../assets/images/Products-all-img/Building Material & chemical/castic potash.webp",
+      icon: "../assets/images/icons/Building Materials & Chemicals/castic potash.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
         "Ullamco laboris nisi ut aliquip consequat",
