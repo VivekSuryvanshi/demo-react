@@ -10,10 +10,7 @@ const Example = () => {
           <header className="section-header">
             <h3>Our Skills</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip
+            At Bhagirath BVM Grand, we pride ourselves on delivering your goods on time, every time, with a high success rate that speaks to our commitment to your satisfaction. We excel in swiftly sourcing quality products and maintaining transparent, clear communication throughout our partnership, ensuring your peace of mind.
             </p>
           </header>
           <div className="bars">

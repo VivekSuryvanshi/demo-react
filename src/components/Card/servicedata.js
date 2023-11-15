@@ -24,17 +24,17 @@ export const ourservices = [
         img: "./assets/images/Services/TRUCKING.webp",
         desc:"Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil",
       },
-      {
-        id: 5,
-        title: "Packing",
-        img: "./assets/images/Services/PACKING.webp",
-        desc:"Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur.",
+      // {
+      //   id: 5,
+      //   title: "Packing",
+      //   img: "./assets/images/Services/PACKING.webp",
+      //   desc:"Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur.",
     
-      },
-      {
-        id: 6,
-        title: "Warehousing",
-        img:"./assets/images/Services/WAREHOUSING.webp",
-        desc:"Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est.",
-      },
+      // },
+      // {
+      //   id: 6,
+      //   title: "Warehousing",
+      //   img:"./assets/images/Services/WAREHOUSING.webp",
+      //   desc:"Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est.",
+      // },
   ];
