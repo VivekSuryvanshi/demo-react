@@ -39,8 +39,8 @@ const Contact = () => {
         <div class="container">
           <h3 class="contact_title">Contact Us</h3>
           <p class="contact_desc">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit,
-            non.
+          Contact us today to discover the world of possibilities waiting for you. More exciting things that you are looking for. Just a click and we will contact you. Make an effort and enjoy all the global trading sources. We are inviting you to join our trading method and explore various diverse services that can help you for your personal services.looking for. Just a click and we will contact you.
+
           </p>
           <div class=" row contact_info_cards">
             <div class="col-md-4">
@@ -60,11 +60,11 @@ const Contact = () => {
                 <div class="d-flex justify-content-center">
                   <p>
                     <strong>Tel</strong>
-                    <a href="+852 39195807 "> +852 39195807 </a>
+                    <Link to="tel:+85239195807"> +85239195807 </Link>
                   </p>
                   <p class="ms-2">
                     <strong>Fax</strong>
-                    <a href="+852 39195837 "> +852 39195837 </a>
+                    <Link to="tel:+85239195837 "> +852 39195837 </Link>
                   </p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Contact = () => {
             <form action="https://formspree.io/f/mdorvboo" method="POST" class="contact_form">
               <div class="row">
                 <div class="form-group col-md-6">
-                
+
                   <input
                     type="text"
                     name="name"
