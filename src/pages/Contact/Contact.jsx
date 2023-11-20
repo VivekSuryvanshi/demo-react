@@ -73,19 +73,24 @@ const Contact = () => {
               <div class="contact_email">
                 <i class="bi bi-envelope"></i>
                 <h3>email</h3>
-                <p><a href="mailto:info@bbvmg.com">info@bbvmg.com</a></p>
+                <p>
+                  <a href="mailto:info@bbvmg.com">info@bbvmg.com</a>
+                </p>
               </div>
             </div>
           </div>
           <div class="form">
-            <form class="contact_form">
+            <form action="https://formspree.io/f/mdorvboo" method="POST" class="contact_form">
               <div class="row">
                 <div class="form-group col-md-6">
+                
                   <input
                     type="text"
                     name="name"
                     class="form-control"
                     placeholder="Enter Your Name"
+                    autoComplete="off"
+                    required
                   />
                 </div>
                 <div class="form-group col-md-6">
@@ -94,6 +99,8 @@ const Contact = () => {
                     name="email"
                     class="form-control"
                     placeholder="Enter Your Email"
+                    autoComplete="off"
+                    required
                   />
                 </div>
               </div>
@@ -102,7 +109,9 @@ const Contact = () => {
                   type="text"
                   name="subject"
                   class="form-control"
-                  placeholder="Subject"
+                  placeholder="Your Query"
+                  autoComplete="off"
+                  required
                 />
               </div>
               <div class="form-group">
@@ -110,10 +119,12 @@ const Contact = () => {
                   class="form-control"
                   name="message"
                   rows="5"
-                  placeholder="Message"
+                  placeholder="Description"
+                  autoComplete="off"
+                  required
                 ></textarea>
               </div>
-              <div class="text-center">
+              <div class="text-center fs-3">
                 <button type="submit">Send Message</button>
               </div>
             </form>

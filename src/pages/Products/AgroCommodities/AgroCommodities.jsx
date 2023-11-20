@@ -88,12 +88,7 @@ const AgroCommodities = () => {
           <header className="section-header">
             <h3>Products We Serves</h3>
             <p className="col-lg-10 col-12 mx-auto">
-              Discover top-quality polymers at Bhagirath BVM Grand. As leading
-              suppliers, we provide a wide range of innovative polymer
-              solutions. Our commitment to excellence ensures industries receive
-              premium-grade materials, promoting efficiency and sustainability.
-              Partner with us for all your polymer needs, driving progress
-              through advanced chemical solutions.
+            At BVM, we take pride in serving a diverse range of essential raw materials to meet your global business needs. From premium-quality rice and soybeans to sugar, wheat, and nutritious dal and pulses, our offerings are designed to fuel industries worldwide. Additionally, we excel in providing high-quality yellow maize for various applications, ensuring a reliable supply chain for your raw material requirements. 
             </p>
           </header>
           <div class="timeline container col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-12">

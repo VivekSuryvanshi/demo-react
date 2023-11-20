@@ -11,7 +11,7 @@ function Number({ n }) {
     delay: 2000,
     congif: { mass: 1, tension: 20, friction: 10 },
   });
-  return<animated.div>{ number.to((n) => n.toFixed(0)) }</animated.div>;
+  return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>;
 }
 
 const About = () => {
@@ -56,39 +56,50 @@ const About = () => {
             <div className="col-lg-6 content order-last  order-lg-first">
               <h3>About Us</h3>
               <p className="about_content">
-                Dolor iure expedita id fuga asperiores qui sunt consequatur
-                minima. Quidem voluptas deleniti. Sit quia molestiae quia quas
-                qui magnam itaque veritatis dolores. Corrupti totam ut eius
-                incidunt reiciendis veritatis asperiores placeat.
+                Welcome to Bhagirath BVM Grand, your trusted global merchant
+                trader specialising in commodities and raw food supply. With a
+                commitment to excellence and a vast network spanning the globe,
+                we bring unparalleled expertise to the world of international
+                trade.
               </p>
               <ul>
                 <li data-aos="fade-up" data-aos-delay="100">
                   <i className="bi bi-diagram-3"></i>
                   <div>
-                    <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                    <h5>Global Accessibility</h5>
                     <p>
-                      Magni facilis facilis repellendus cum excepturi quaerat
-                      praesentium libre trade
+                      We pride ourselves on our extensive reach across
+                      continents, establishing robust partnerships with
+                      suppliers and buyers worldwide. This enables us to source
+                      the finest commodities and raw food products, ensuring
+                      quality and reliability in every transaction.
                     </p>
                   </div>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="200">
                   <i className="bi bi-fullscreen-exit"></i>
                   <div>
-                    <h5>Magnam soluta odio exercitationem reprehenderi</h5>
+                    <h5>Vast Supply Chain</h5>
                     <p>
-                      Quo totam dolorum at pariatur aut distinctio dolorum
-                      laudantium illo direna pasata redi
+                      Our dedicated team is adept at navigating the complexities
+                      of the supply chain. From procurement to delivery, we
+                      optimise every step, guaranteeing efficiency and timely
+                      delivery. Our meticulous approach ensures that our clients
+                      receive products of the highest standards.
                     </p>
                   </div>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="300">
                   <i className="bi bi-broadcast"></i>
                   <div>
-                    <h5>Voluptatem et qui exercitationem</h5>
+                    <h5>Quality Assurance</h5>
                     <p>
-                      Et velit et eos maiores est tempora et quos dolorem autem
-                      tempora incidunt maxime veniam
+                      Quality is paramount. We implement stringent quality
+                      control measures throughout the supply chain to uphold the
+                      integrity of the products we trade. Our commitment to
+                      excellence is reflected in the satisfaction of our clients
+                      who trust us for superior commodities and raw food
+                      supplies.
                     </p>
                   </div>
                 </li>
@@ -124,7 +135,7 @@ const About = () => {
                   data-purecounter-duration="1"
                   className="purecounter"
                 >
-                 <Number n={100} />
+                  <Number n={100} />
                 </span>
                 <p>Projects</p>
               </div>
@@ -138,7 +149,7 @@ const About = () => {
                   data-purecounter-duration="1"
                   className="purecounter"
                 >
-                <Number n={ 1453} />
+                  <Number n={1453} />
                 </span>
                 <p>Hours Of Support</p>
               </div>
@@ -152,7 +163,7 @@ const About = () => {
                   data-purecounter-duration="1"
                   className="purecounter"
                 >
-                 <Number n={ 50} />
+                  <Number n={50} />
                 </span>
                 <p>Workers</p>
               </div>

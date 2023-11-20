@@ -39,15 +39,14 @@ const Services = () => {
                 <i className="fa-solid fa-cart-flatbed"></i>
               </div>
               <div>
-                <h4 className="title">Lorem Ipsum</h4>
+                <h4 className="title">Quality Assurance</h4>
                 <p className="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati cupiditate non provident
+                   Quality is our hallmark. We rigorously inspect and verify products to ensure they meet the highest standards.
                 </p>
-                <a href="service-details.html" className="readmore stretched-link">
+                <Link href="#" className="readmore stretched-link">
                   <span>Learn More</span>
                   <i className="bi bi-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
             {/* <!-- End Service Item --> */}
@@ -61,15 +60,14 @@ const Services = () => {
                 <i className="fa-solid fa-truck"></i>
               </div>
               <div>
-                <h4 className="title">Dolor Sitema</h4>
+                <h4 className="title">Shipment</h4>
                 <p className="description">
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat tarad limino ata
+                We understand the importance of timely delivery. As soon as you place your order, our efficient shipping kicks into gear
                 </p>
-                <a href="service-details.html" className="readmore stretched-link">
+                <Link href="#" className="readmore stretched-link">
                   <span>Learn More</span>
                   <i className="bi bi-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
             {/* <!-- End Service Item --> */}
@@ -83,15 +81,14 @@ const Services = () => {
                 <i className="fa-solid fa-truck-ramp-box"></i>
               </div>
               <div>
-                <h4 className="title">Sed ut perspiciatis</h4>
+                <h4 className="title">Customised Solutions</h4>
                 <p className="description">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur
+                Our team tailors solutions to meet your specific needs, ensuring a seamless and efficient experience.
                 </p>
-                <a href="service-details.html" className="readmore stretched-link">
+                <Link href="#" className="readmore stretched-link">
                   <span>Learn More</span>
                   <i className="bi bi-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
             {/* <!-- End Service Item --> */}

@@ -60,13 +60,7 @@ function Products() {
           <h3>Trading <br/> Portfolio</h3>
         </header>
         <p className="portfolio_text">
-          Our business is founded on the long-term relationships we've built
-          with our customers, on our expertise, market understanding and
-          reputation for reliably delivering the required products, on time and
-          to specification. With some offices worldwide and a network of teams
-          globally, we understand that every market is different. We work with
-          our customers to identify and develop solutions which work best for
-          them, helping them manage physical risk and optimise opportunities.
+        Bhagirath BVM Grand (HK) Limited Trading Portfolio. We serve as the catalysts of global trade, connecting the world through commerce. Our passion for trade transcends borders, and we're your trusted partner for all things products. From sourcing to supply, we inspire global trade, providing a reliable gateway to a world of possibilities. Our commitment to excellence and relentless pursuit of quality make us the preferred choice for businesses looking to explore, expand, and excel in international trade. Join us on this journey, and together, let's shape a future of global trade that makes things deliver at your doorstep.
         </p>
         <ul className="portfolio_ul">
           {list.map((item) => (

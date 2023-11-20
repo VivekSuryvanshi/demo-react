@@ -14,8 +14,7 @@ const Footer = () => {
                 <img src="../assets/images/logos/bbvmg_logo_white.webp" alt="logo" width="130px" className="pb-3"/>
               </div>
                 <p>
-                The company maximizes returns for the benefit of its stakeholders, associates and customers by pursuing sustainable growth and profit opportunities that leverage on its trading expertise, logistics network.
-                </p>
+                At Bhagirath BVM Grand (HK) Limited, we are the catalysts of global trade, a company that thrives on connecting the world through commerce.                </p>
               </div>
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Useful Links</h4>
@@ -71,7 +70,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 footer-newsletter">
-                <h4>Our Newsletter</h4>
+                <h4>Coming Soon</h4>
                 <p>
                   Tamen quem nulla quae legam multos aute sint culpa legam
                   noster magna veniam enim veniam illum dolore legam minim
@@ -80,7 +79,7 @@ const Footer = () => {
                 </p>
                 <form action="" method="post">
                   <input type="email" name="email" />
-                  <input type="submit" value="Subscribe" />
+                  <input type="submit" value="Get in Touch" />
                 </form>
               </div>
             </div>
@@ -89,11 +88,11 @@ const Footer = () => {
 
         <div className="container">
           <div className="copyright">
-            &copy; Copyright <strong>Bhagirath Technologies</strong>. All Rights Reserved
+            &copy; Copyright <strong>Bhagirath BVM Grand (HK) Limited</strong>. All Rights Reserved
           </div>
           <div className="credits">
-            Designed by{" "}
-            <Link to="/" style={{color:"#5ca595"}}>Bhagirath Technologies</Link>
+            Designed & maintained by 
+            <Link to="/" style={{color:"#5ca595"}}> Bhagirath Technologies</Link>
           </div>
         </div>
       </footer>

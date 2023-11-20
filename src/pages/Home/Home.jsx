@@ -411,8 +411,7 @@ function Home() {
           <div className="container text-center" data-aos="zoom-in">
             <h3>Reach out to us</h3>
             <p>
-            Ready to elevate your global trade experience? Let's work together to fulfill your sourcing needs, simplify logistics, and ensure quality. Contact us today to discover the world of possibilities waiting for you. Your success is just a click away.
-            </p>
+            Are you willing to make your global trade experience even more worthy? Let's work together to fulfil your sourcing needs, simplify logistics, and ensure quality standards. Contact us today to discover the world of possibilities waiting for you. More exciting things that you are looking for. Just a click and we will contact you. Make an effort and enjoy all the global trading sources. We are inviting you to join our trading method and explore various diverse services that can help you for your personal services.looking for. Just a click and we will contact you.            </p>
             <NavLink className="cta-btn" to="#">
               Contact Us
             </NavLink>

@@ -26,7 +26,7 @@ const Faq = () => {
                       data-bs-target="#faq-content-1"
                     >
                       <i className="bi bi-question-circle question-icon"></i>
-                      Non consectetur a erat nam at lectus urna duis?
+                      1. What is BVM Grand's role in global trade?
                     </button>
                   </h3>
                   <div
@@ -35,10 +35,7 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div className="accordion-body">
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
-                      id volutpat lacus laoreet non curabitur gravida. Venenatis
-                      lectus magna fringilla urna porttitor rhoncus dolor purus
-                      non.
+                    BVM Grand connects the world through commerce, facilitating trade in various crude products.
                     </div>
                   </div>
                 </div>
@@ -52,8 +49,7 @@ const Faq = () => {
                       data-bs-target="#faq-content-2"
                     >
                       <i className="bi bi-question-circle question-icon"></i>
-                      Feugiat scelerisque varius morbi enim nunc faucibus a
-                      pellentesque?
+                      2. How does BVM Grand ensure product quality?
                     </button>
                   </h3>
                   <div
@@ -62,12 +58,8 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div className="accordion-body">
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi. Id interdum velit laoreet id donec
-                      ultrices. Fringilla phasellus faucibus scelerisque
-                      eleifend donec pretium. Est pellentesque elit ullamcorper
-                      dignissim. Mauris ultrices eros in cursus turpis massa
-                      tincidunt dui.
+                    We maintain strict quality control measures throughout sourcing and supply.
+
                     </div>
                   </div>
                 </div>
@@ -81,8 +73,8 @@ const Faq = () => {
                       data-bs-target="#faq-content-3"
                     >
                       <i className="bi bi-question-circle question-icon"></i>
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi?
+                      3. What types of crude products does BVM Grand trade in?
+
                     </button>
                   </h3>
                   <div
@@ -91,12 +83,8 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div className="accordion-body">
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                      sagittis orci. Faucibus pulvinar elementum integer enim.
-                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                      tellus pellentesque eu tincidunt. Lectus urna duis
-                      convallis convallis tellus. Urna molestie at elementum eu
-                      facilisis sed odio morbi quis
+                    BVM Grand trades in a diverse portfolio of crude products.
+
                     </div>
                   </div>
                 </div>
@@ -110,7 +98,7 @@ const Faq = () => {
                       data-bs-target="#faq-content-4"
                     >
                       <i className="bi bi-question-circle question-icon"></i>
-                      Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                      4. Is Bhagirath BVM Grand transport service good?
                     </button>
                   </h3>
                   <div
@@ -120,12 +108,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <i className="bi bi-question-circle question-icon"></i>
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi. Id interdum velit laoreet id donec
-                      ultrices. Fringilla phasellus faucibus scelerisque
-                      eleifend donec pretium. Est pellentesque elit ullamcorper
-                      dignissim. Mauris ultrices eros in cursus turpis massa
-                      tincidunt dui.
+                      Yes, the service that BVM provides is highly recommended in terms of transportation. Effortless doorstep delivery without any inconvenience. 
                     </div>
                   </div>
                 </div>
@@ -139,8 +122,7 @@ const Faq = () => {
                       data-bs-target="#faq-content-5"
                     >
                       <i className="bi bi-question-circle question-icon"></i>
-                      Tempus quam pellentesque nec nam aliquam sem et tortor
-                      consequat?
+                      5. What is BVM Grand's vision for the future of global trade?
                     </button>
                   </h3>
                   <div
@@ -149,11 +131,7 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div className="accordion-body">
-                      Molestie a iaculis at erat pellentesque adipiscing
-                      commodo. Dignissim suspendisse in est ante in. Nunc vel
-                      risus commodo viverra maecenas accumsan. Sit amet nisl
-                      suscipit adipiscing bibendum est. Purus gravida quis
-                      blandit turpis cursus in
+                    We envision a future where products are delivered worldwide, shaping it through trade connections and excellence.
                     </div>
                   </div>
                 </div>
