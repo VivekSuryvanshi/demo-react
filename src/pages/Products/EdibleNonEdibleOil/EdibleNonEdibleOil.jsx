@@ -87,12 +87,7 @@ const EdibleNonEdibleOil = () => {
           <header className="section-header">
             <h3>Products We Serves</h3>
             <p className="col-lg-10 col-12 mx-auto">
-              Discover top-quality polymers at Bhagirath BVM Grand. As leading
-              suppliers, we provide a wide range of innovative polymer
-              solutions. Our commitment to excellence ensures industries receive
-              premium-grade materials, promoting efficiency and sustainability.
-              Partner with us for all your polymer needs, driving progress
-              through advanced chemical solutions.
+            At BVM, our commitment to excellence shines through our wide range of high-quality edible and non-edible oils. From Groundnut, Soybean, Castor, Sunflower, Mustard, to Palm oil, we offer a comprehensive selection of raw materials to meet global needs. Whether for food, manufacturing, or beyond, BVM is your trusted source.
             </p>
           </header>
           {/* <LeftContent
