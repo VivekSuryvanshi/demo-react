@@ -88,12 +88,7 @@ const PetroleumProducts = () => {
           <header className="section-header">
             <h3>Products We Serves</h3>
             <p className="col-lg-10 col-12 mx-auto">
-              Discover top-quality polymers at Bhagirath BVM Grand. As leading
-              suppliers, we provide a wide range of innovative polymer
-              solutions. Our commitment to excellence ensures industries receive
-              premium-grade materials, promoting efficiency and sustainability.
-              Partner with us for all your polymer needs, driving progress
-              through advanced chemical solutions.
+            At Bhagirath BVM Grand, we take immense pride in our expertise in the sourcing, supply, and quality assurance of petroleum and fuel related products. With a strong commitment to excellence and reliability, we have become a trusted partner for businesses across the globe seeking to meet their energy needs and fuel the engines of industry and transportation.
             </p>
           </header>
           {/* new code */}

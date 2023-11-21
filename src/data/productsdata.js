@@ -175,13 +175,13 @@ const productsData = {
       image:
         "../assets/images/Products-all-img/petroleum oil product/Aviation fuel.webp",
       icon: "../assets/images/icons/Petroleum & Oil Products/Aviation fuel jet fuel.webp",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      desc: "Fueling the skies with high-octane precision.",
       properties: [
-        "Ullamco laboris nisi ut aliquip consequat",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "In dignissimos libero aliquid non illo.",
-        "sint accusamus placeat molestias corporis!",
-        "voluptatum nesciunt ex architecto neque exerct.",
+        "High octane for aircraft safety.",
+        " Precise formulation for engine performance.        ",
+        "Stringent quality standards for aviation.",
+        "Clean-burning to reduce emissions.",
+        "Vital for global air transportation.        ",
       ],
     },
     {
@@ -189,13 +189,13 @@ const productsData = {
       image:
         "../assets/images/Products-all-img/petroleum oil product/d2 gas oil.webp",
       icon: "../assets/images/icons/Petroleum & Oil Products/D2 gas oil.webp",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
+      desc: "Powering transportation and industries with efficiency.      ",
       properties: [
-        "Ullamco laboris nisi ut aliquip consequat",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "In dignissimos libero aliquid non illo.",
-        "sint accusamus placeat molestias corporis!",
-        "voluptatum nesciunt ex architecto neque exerct.",
+        "High energy density for efficiency.",
+        "Cold weather performance.",
+        "Versatile for various diesel engines.        ",
+        "Low sulphur options available.",
+        "Reliable power for transportation and industries.        ",
       ],
     },
     {
