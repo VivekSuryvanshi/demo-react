@@ -1,6 +1,7 @@
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Whatsapp from "./components/Whatsapp_icon/Whatsapp";
 import GoToTop from "./components/GoToTop/GoToTop";
 import Chemicals from "./pages/Products/Chemicals/Chemicals";
 import Header from "./components/Header/Header";
@@ -89,6 +90,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
+      <Whatsapp/>
       <GoToTop />
     </BrowserRouter>
   );

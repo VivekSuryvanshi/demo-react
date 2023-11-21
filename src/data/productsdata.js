@@ -613,7 +613,7 @@ const productsData = {
       id: "FERRO CROME",
       title: "FERRO CROME",
       image:
-      "../assets/images/Products-all-img/Mineral & ores image/Ferro Crome.webp",
+        "../assets/images/Products-all-img/Mineral & ores image/Ferro Crome.webp",
       icon: "../assets/images/icons/Minerals & Ores/Ferro Crome.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -628,7 +628,7 @@ const productsData = {
       id: "IRON ORE",
       title: "IRON ORE",
       image:
-      "../assets/images/Products-all-img/Mineral & ores image/Iron Ore.webp",
+        "../assets/images/Products-all-img/Mineral & ores image/Iron Ore.webp",
       icon: "../assets/images/icons/Minerals & Ores/Iron Ore.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -642,8 +642,7 @@ const productsData = {
     {
       id: "COAL",
       title: "COAL",
-      image:
-      "../assets/images/Products-all-img/Mineral & ores image/Coal.webp",
+      image: "../assets/images/Products-all-img/Mineral & ores image/Coal.webp",
       icon: "../assets/images/icons/Minerals & Ores/Coal.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -658,7 +657,7 @@ const productsData = {
       id: "CROME CONCENTRATE",
       title: "CROME CONCENTRATE",
       image:
-      "../assets/images/Products-all-img/Mineral & ores image/Crome Concentrate.webp",
+        "../assets/images/Products-all-img/Mineral & ores image/Crome Concentrate.webp",
       icon: "../assets/images/icons/Minerals & Ores/Crome Concentrate.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -673,7 +672,7 @@ const productsData = {
       id: "BAUXITE",
       title: "BAUXITE",
       image:
-      "../assets/images/Products-all-img/Mineral & ores image/bauxite.webp",
+        "../assets/images/Products-all-img/Mineral & ores image/bauxite.webp",
       icon: "../assets/images/icons/Minerals & Ores/bauxite.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -748,7 +747,8 @@ const productsData = {
     {
       id: "COPPER CATHODE",
       title: "COPPER CATHODE",
-      image: "../assets/images/Products-all-img/Metals images/copper-pipes.webp",
+      image:
+        "../assets/images/Products-all-img/Metals images/copper-pipes.webp",
       icon: "../assets/images/icons/Metals/Copper Cathode.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -762,7 +762,8 @@ const productsData = {
     {
       id: "COPPER SCRAPE",
       title: "COPPER SCRAPE",
-      image: "../assets/images/Products-all-img/Metals images/copper scrape.webp",
+      image:
+        "../assets/images/Products-all-img/Metals images/copper scrape.webp",
       icon: "../assets/images/icons/Metals/copper scrap.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -790,7 +791,8 @@ const productsData = {
     {
       id: "IRON",
       title: "IRON",
-      image: "../assets/images/Products-all-img/Metals images/construction-armature.webp",
+      image:
+        "../assets/images/Products-all-img/Metals images/construction-armature.webp",
       icon: "../assets/images/icons/Metals/iron.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -801,9 +803,11 @@ const productsData = {
         "voluptatum nesciunt ex architecto neque exerct.",
       ],
     },
-    {  id: "RAIL TRACK",
+    {
+      id: "RAIL TRACK",
       title: "RAIL TRACK",
-      image: "../assets/images/Products-all-img/Metals images/Railway track.webp",
+      image:
+        "../assets/images/Products-all-img/Metals images/Railway track.webp",
       icon: "../assets/images/icons/Metals/Rail track.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -820,7 +824,7 @@ const productsData = {
       id: "STEEL",
       title: "STEEL",
       image:
-      "../assets/images/Products-all-img/Building Material & chemical/steel.webp",
+        "../assets/images/Products-all-img/Building Material & chemical/steel.webp",
       icon: "../assets/images/icons/Building Materials & Chemicals/steel.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -835,7 +839,7 @@ const productsData = {
       id: "CEMENT",
       title: "CEMENT",
       image:
-      "../assets/images/Products-all-img/Building Material & chemical/cement.webp",
+        "../assets/images/Products-all-img/Building Material & chemical/cement.webp",
       icon: "../assets/images/icons/Building Materials & Chemicals/Cement.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -850,7 +854,7 @@ const productsData = {
       id: "CLINKERS",
       title: "CLINKERS",
       image:
-      "../assets/images/Products-all-img/Building Material & chemical/clinkers.webp",
+        "../assets/images/Products-all-img/Building Material & chemical/clinkers.webp",
       icon: "../assets/images/icons/Building Materials & Chemicals/Clinckers.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -865,7 +869,7 @@ const productsData = {
       id: "WHITE CLINKERS",
       title: "WHITE CLINKERS",
       image:
-      "../assets/images/Products-all-img/Building Material & chemical/White clinkers.webp",
+        "../assets/images/Products-all-img/Building Material & chemical/White clinkers.webp",
       icon: "../assets/images/icons/Building Materials & Chemicals/White clinckers.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
@@ -880,7 +884,7 @@ const productsData = {
       id: "SODIUM SULPHATE",
       title: "SODIUM SULPHATE",
       image:
-      "../assets/images/Products-all-img/Building Material & chemical/Sodium Sulphate.webp",
+        "../assets/images/Products-all-img/Building Material & chemical/Sodium Sulphate.webp",
       icon: "../assets/images/icons/Building Materials & Chemicals/Sodium Sulphate.webp",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, natus",
       properties: [
