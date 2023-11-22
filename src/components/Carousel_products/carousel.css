@@ -54,10 +54,10 @@ html {
   background: #f9f9f9;
 }
 
-body {
+/* body {
   font-size: 3rem;
   background: var(--bg);
-}
+} */
 
 .container_for_swiper {
   max-width: 124rem;
