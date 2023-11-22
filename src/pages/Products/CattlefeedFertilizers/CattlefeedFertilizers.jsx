@@ -88,12 +88,8 @@ const CattlefeedFertilizers = () => {
           <header className="section-header">
             <h3>Products We Serves</h3>
             <p className="col-lg-10 col-12 mx-auto">
-              Discover top-quality polymers at Bhagirath BVM Grand. As leading
-              suppliers, we provide a wide range of innovative polymer
-              solutions. Our commitment to excellence ensures industries receive
-              premium-grade materials, promoting efficiency and sustainability.
-              Partner with us for all your polymer needs, driving progress
-              through advanced chemical solutions.
+            At Bhagirath BVM Grand, we are committed to delivering top-quality cattle feed and fertiliser products that empower agriculture and enhance livestock management. Our extensive portfolio ensures that you have access to a wide range of options to meet your agricultural and livestock needs.
+
             </p>
           </header>
           {/* new code */}

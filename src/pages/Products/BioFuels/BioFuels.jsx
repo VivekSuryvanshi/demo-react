@@ -88,12 +88,8 @@ const BioFuels = () => {
           <header className="section-header">
             <h3>Products We Serves</h3>
             <p className="col-lg-10 col-12 mx-auto">
-              Discover top-quality polymers at Bhagirath BVM Grand. As leading
-              suppliers, we provide a wide range of innovative polymer
-              solutions. Our commitment to excellence ensures industries receive
-              premium-grade materials, promoting efficiency and sustainability.
-              Partner with us for all your polymer needs, driving progress
-              through advanced chemical solutions.
+            Discover the future of sustainable energy at Bhagirath BVM Grand with our Biofuel offering. We proudly present a comprehensive range of environmentally-conscious biofuel options, including Bio Diesel, Ethanol, Bio LNG, Fatty Acids & Sterne, and Palm Oil & Used Cooking Oil. These alternatives not only reduce carbon emissions but also contribute to a greener planet.
+
             </p>
           </header>
           {/* new code */}

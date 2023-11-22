@@ -87,12 +87,8 @@ const MineralsOres = () => {
           <header className="section-header">
             <h3>Products We Serves</h3>
             <p className="col-lg-10 col-12 mx-auto">
-              Discover top-quality polymers at Bhagirath BVM Grand. As leading
-              suppliers, we provide a wide range of innovative polymer
-              solutions. Our commitment to excellence ensures industries receive
-              premium-grade materials, promoting efficiency and sustainability.
-              Partner with us for all your polymer needs, driving progress
-              through advanced chemical solutions.
+            Welcome to Bhagirath BVM Grand's Minerals & Ores selection. We are the driving force behind global trade, connecting nations and industries. With products including Ferro Chrome, Iron Ore, Coal, Chrome Concentrate, Bauxite, Calamine, Manganese, and Lithium, we're your reliable source for raw materials. Trust us to open doors to a world of trade opportunities.
+
             </p>
           </header>
           <div class="timeline container col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-12">
