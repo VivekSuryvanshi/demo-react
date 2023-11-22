@@ -1,96 +1,93 @@
-import "./App.css";
+import { React, lazy, Suspense } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Whatsapp from "./components/Whatsapp_icon/Whatsapp";
-import GoToTop from "./components/GoToTop/GoToTop";
-import Chemicals from "./pages/Products/Chemicals/Chemicals";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import About from "./pages/About/About";
-import AgroCommodities from "./pages/Products/AgroCommodities/AgroCommodities";
+import GoToTop from "./components/GoToTop/GoToTop";
+import Whatsapp from "./components/Whatsapp_icon/Whatsapp";
+// import Home from "./pages/Home/Home";
+// import About from "./pages/About/About";
+// import Services from "./pages/Servicess/Services";
+// import Contact from "./pages/Contact/Contact";
+// import AgroCommodities from "./pages/Products/AgroCommodities/AgroCommodities";
+// import EdibleNonEdibleOil from "./pages/Products/EdibleNonEdibleOil/EdibleNonEdibleOil";
+// import Chemicals from "./pages/Products/Chemicals/Chemicals";
+// import PetroleumProducts from "./pages/Products/PetroleumProducts/PetroleumProducts";
+// import CattlefeedFertilizers from "./pages/Products/CattlefeedFertilizers/CattlefeedFertilizers";
+// import BioFuels from "./pages/Products/BioFuels/BioFuels";
+// import MineralsOres from "./pages/Products/MineralsOres/MineralsOres";
+// import Metals from "./pages/Products/Metals/Metals";
+// import BuildingMaterials from "./pages/Products/BuildingMaterials/BuildingMaterials";
 // import Products from "./pages/Products/Products";
-import EdibleNonEdibleOil from "./pages/Products/EdibleNonEdibleOil/EdibleNonEdibleOil";
-import PetroleumProducts from "./pages/Products/PetroleumProducts/PetroleumProducts";
-import CattlefeedFertilizers from "./pages/Products/CattlefeedFertilizers/CattlefeedFertilizers";
-import BioFuels from "./pages/Products/BioFuels/BioFuels";
-import MineralsOres from "./pages/Products/MineralsOres/MineralsOres";
-import Metals from "./pages/Products/Metals/Metals";
-import BuildingMaterials from "./pages/Products/BuildingMaterials/BuildingMaterials";
-import Services from "./pages/Servicess/Services";
-import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/PageNotFound/NotFound";
+import "./App.css";
+
+const Home = lazy(() => import("./pages/Home/Home"));
+const About = lazy(() => import("./pages/About/About"));
+const Services = lazy(() => import("./pages/Servicess/Services"));
+const Contact = lazy(() => import("./pages/Contact/Contact"));
+const AgroCommodities = lazy(() =>
+import("./pages/Products/AgroCommodities/AgroCommodities")
+);
+const EdibleNonEdibleOil = lazy(() =>
+  import("./pages/Products/EdibleNonEdibleOil/EdibleNonEdibleOil")
+);
+const Chemicals = lazy(() =>
+  import("./pages/Products/Chemicals/Chemicals")
+);
+const PetroleumProducts = lazy(() =>
+  import("./pages/Products/PetroleumProducts/PetroleumProducts")
+);
+const CattlefeedFertilizers = lazy(() =>
+  import("./pages/Products/CattlefeedFertilizers/CattlefeedFertilizers")
+  );
+  const BioFuels = lazy(() => import("./pages/Products/BioFuels/BioFuels"));
+  const MineralsOres = lazy(() =>
+  import("./pages/Products/MineralsOres/MineralsOres")
+  );
+const Metals = lazy(() => import("./pages/Products/Metals/Metals"));
+const BuildingMaterials = lazy(() =>
+  import("./pages/Products/BuildingMaterials/BuildingMaterials")
+);
 
 function App() {
   return (
-    // <BrowserRouter>
-    //  <Header />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/about" element={<About />} />
-    //     <Route path="/products" element={<Products />}>
-    //       <Route path="agro-commodities" element={<AgroCommodities />} />
-    //       <Route
-    //         path="edible-non-edible-oil"
-    //         element={<EdibleNonEdibleOil />}
-    //       />
-    //       <Route path="chemicals" element={<Chemicals />} />
-    //       <Route path="petroleum-products" element={<PetroleumProducts />} />
-    //       <Route
-    //         path="cattlefeed-fertilizers"
-    //         element={<CattlefeedFertilizers />}
-    //       />
-    //       <Route path="bio-fuels" element={<BioFuels />} />
-    //       <Route path="minerals-ores" element={<MineralsOres />} />
-    //       <Route path="metals" element={<Metals />} />
-    //       <Route path="building-materials" element={<BuildingMaterials />} />
-    //     </Route>
-    //     <Route path="/services" element={<Services />} />
-    //     <Route path="/contact" element={<Contact />} />
-    //     <Route path="*" element={<NotFound />} />
-    //   </Routes>
-    //   <GoToTop />
-    // </BrowserRouter>
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/product/AgroCommodities" element={<AgroCommodities />} />
-        <Route
-          path="/product/EdibleNonEdibleOil"
-          element={<EdibleNonEdibleOil />}
-        />
-        <Route
-          path="/product/PetroleumProducts"
-          element={<PetroleumProducts />}
-        />
-         <Route
-          path="/product/CattlefeedFertilizers"
-          element={<CattlefeedFertilizers />}
-        />
-         <Route
-          path="/product/BioFuels"
-          element={<BioFuels />}
-        />
+      <Suspense>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route
-          path="/product/MineralsOres"
-          element={<MineralsOres />}
-        />
+            path="/product/AgroCommodities"
+            element={<AgroCommodities />}
+          />
           <Route
-          path="/product/Metals"
-          element={<Metals />}
-        />
+            path="/product/EdibleNonEdibleOil"
+            element={<EdibleNonEdibleOil />}
+          />
           <Route
-          path="/product/BuildingMaterials"
-          element={<BuildingMaterials />}
-        />
-        <Route path="/chemicals" element={<Chemicals />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+            path="/product/PetroleumProducts"
+            element={<PetroleumProducts />}
+          />
+          <Route
+            path="/product/CattlefeedFertilizers"
+            element={<CattlefeedFertilizers />}
+          />
+          <Route path="/product/BioFuels" element={<BioFuels />} />
+          <Route path="/product/MineralsOres" element={<MineralsOres />} />
+          <Route path="/product/Metals" element={<Metals />} />
+          <Route
+            path="/product/BuildingMaterials"
+            element={<BuildingMaterials />}
+          />
+          <Route path="/chemicals" element={<Chemicals />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Suspense>
       <Footer />
-      <Whatsapp/>
+      <Whatsapp />
       <GoToTop />
     </BrowserRouter>
   );
