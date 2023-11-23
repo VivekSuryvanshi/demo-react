@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
-// import { NavLink } from "react-router-dom";
-import "./chemical.css";
 import "./searchbar.css";
 import Card from "../../../components/Card/Card";
 import SearchInput from "../../../components/SearchInput/SearchInput";
