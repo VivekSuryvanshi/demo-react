@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import GoToTop from "./components/GoToTop/GoToTop";
 import Whatsapp from "./components/Whatsapp_icon/Whatsapp";
-// import Home from "./pages/Home/Home";
+import Home from "./pages/Home/Home";
 // import About from "./pages/About/About";
 // import Services from "./pages/Servicess/Services";
 // import Contact from "./pages/Contact/Contact";
@@ -21,7 +21,7 @@ import Whatsapp from "./components/Whatsapp_icon/Whatsapp";
 import NotFound from "./pages/PageNotFound/NotFound";
 import "./App.css";
 
-const Home = lazy(() => import("./pages/Home/Home"));
+// const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/About"));
 const Services = lazy(() => import("./pages/Servicess/Services"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
@@ -53,9 +53,9 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Suspense>
         <Routes>
           <Route path="/" element={<Home />} />
+      <Suspense>
           <Route path="/about" element={<About />} />
           <Route
             path="/product/AgroCommodities"
@@ -84,8 +84,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
-        </Routes>
       </Suspense>
+        </Routes>
       <Footer />
       <Whatsapp />
       <GoToTop />
