@@ -26,24 +26,22 @@ const About = lazy(() => import("./pages/About/About"));
 const Services = lazy(() => import("./pages/Servicess/Services"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
 const AgroCommodities = lazy(() =>
-import("./pages/Products/AgroCommodities/AgroCommodities")
+  import("./pages/Products/AgroCommodities/AgroCommodities")
 );
 const EdibleNonEdibleOil = lazy(() =>
   import("./pages/Products/EdibleNonEdibleOil/EdibleNonEdibleOil")
 );
-const Chemicals = lazy(() =>
-  import("./pages/Products/Chemicals/Chemicals")
-);
+const Chemicals = lazy(() => import("./pages/Products/Chemicals/Chemicals"));
 const PetroleumProducts = lazy(() =>
   import("./pages/Products/PetroleumProducts/PetroleumProducts")
 );
 const CattlefeedFertilizers = lazy(() =>
   import("./pages/Products/CattlefeedFertilizers/CattlefeedFertilizers")
-  );
-  const BioFuels = lazy(() => import("./pages/Products/BioFuels/BioFuels"));
-  const MineralsOres = lazy(() =>
+);
+const BioFuels = lazy(() => import("./pages/Products/BioFuels/BioFuels"));
+const MineralsOres = lazy(() =>
   import("./pages/Products/MineralsOres/MineralsOres")
-  );
+);
 const Metals = lazy(() => import("./pages/Products/Metals/Metals"));
 const BuildingMaterials = lazy(() =>
   import("./pages/Products/BuildingMaterials/BuildingMaterials")
@@ -53,9 +51,10 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
       <Suspense>
+      <Routes>
+        <Route path="/" element={<Home />} />
+       
           <Route path="/about" element={<About />} />
           <Route
             path="/product/AgroCommodities"
@@ -84,8 +83,9 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
+        
+      </Routes>
       </Suspense>
-        </Routes>
       <Footer />
       <Whatsapp />
       <GoToTop />
