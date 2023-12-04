@@ -68,19 +68,16 @@ const Footer = () => {
                   </Link>
                 </p>
                 <div className="social-links">
-                  <Link to="/" className="twitter">
+                  <Link to="https://twitter.com/bbvmg1223" className="twitter">
                     <i className="bi bi-twitter"></i>
                   </Link>
-                  <Link to="/" className="facebook">
+                  <Link to="https://www.facebook.com/people/Bhagirath-BVM-Grand/61554215402444/" className="facebook">
                     <i className="bi bi-facebook"></i>
                   </Link>
                   <Link to="/" className="instagram">
                     <i className="bi bi-instagram"></i>
                   </Link>
-                  <Link to="/" className="instagram">
-                    <i className="bi bi-instagram"></i>
-                  </Link>
-                  <Link to="/" className="linkedin">
+                  <Link to="https://www.linkedin.com/in/bbvm-grand-4b88472a2" className="linkedin">
                     <i className="bi bi-linkedin"></i>
                   </Link>
                 </div>
