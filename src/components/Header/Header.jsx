@@ -13,7 +13,7 @@ const Header = () => {
         <div class="container-fluid">
           <NavLink class="navbar-brand logo responsive_logo" to="/">
             <img
-              src="../assets/images/logos/bbvmg_logo.webp"
+              src="../assets/images/logos/bbvmg_logo.png"
               alt="logo"
               width="100px"
               loading="lazy"

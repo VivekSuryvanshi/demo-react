@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
+import { HashLink } from "react-router-hash-link";
 const Footer = () => {
   return (
     <>
@@ -12,7 +13,7 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 footer-info">
                 <div className="footer_logo">
                   <img
-                    src="../assets/images/logos/bbvmg_logo_white.webp"
+                    src="../assets/images/logos/bbvmg_logo_white.png"
                     alt="logo"
                     width="130px"
                     className="pb-3"
@@ -41,11 +42,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <Link to="/contact">Terms of service</Link>
+                    <HashLink to="/terms#TermsAndConditions">Terms of service</HashLink>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <Link to="/">Privacy policy</Link>
+                    <HashLink to="/privacy#PrivacyAndPolicy">Privacy policy</HashLink>
                   </li>
                 </ul>
               </div>

@@ -46,6 +46,8 @@ const Metals = lazy(() => import("./pages/Products/Metals/Metals"));
 const BuildingMaterials = lazy(() =>
   import("./pages/Products/BuildingMaterials/BuildingMaterials")
 );
+const Terms = lazy(() => import("./pages/PrivacyAndTerms/Terms"));
+const Privacy = lazy(() => import("./pages/PrivacyAndTerms/Privacy"));
 
 function App() {
   return (
@@ -82,6 +84,8 @@ function App() {
           <Route path="/chemicals" element={<Chemicals />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
