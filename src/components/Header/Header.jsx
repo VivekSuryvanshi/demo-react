@@ -41,7 +41,7 @@ const Header = () => {
           >
             <div class="offcanvas-header ">
               <img
-                src="../assets/images/logos/bbvmg_logo.webp"
+                src="../assets/images/logos/bbvmg_logo.png"
                 alt="logo"
                 width="100px"
                 loading="lazy"
