@@ -93,7 +93,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
-      <CookieConsent debug={true} location="top">This site uses Cookies. See our <Link>Privacy Policy</Link> for more.</CookieConsent>
+      <CookieConsent debug={true} location="top">This site uses Cookies. See our <Link to="#">Privacy Policy</Link> for more.</CookieConsent>
       <Footer />
       <Whatsapp />
       <GoToTop />
