@@ -102,7 +102,7 @@ const productsData = {
       title: "SOYABEAN OIL",
       image:
         "../assets/images/Products-all-img/Edible & Non edible oil/webp/soyabean oil.webp",
-      icon: "../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Soybean oil.webp",
+      icon: "../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/soyabean oil.webp",
       desc: " With its mild taste and nutritional value, Soybean oil is a kitchen staple worldwide.",
       properties: [
         "Mild taste and versatility for cooking and frying.",
