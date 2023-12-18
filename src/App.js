@@ -1,4 +1,4 @@
-import { React, lazy, Suspense } from "react";
+import { React, lazy, Suspense , useEffect } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -50,6 +50,9 @@ const Terms = lazy(() => import("./pages/PrivacyAndTerms/Terms"));
 const Privacy = lazy(() => import("./pages/PrivacyAndTerms/Privacy"));
 
 function App() {
+  // useEffect(() => {
+  //   document.title = "Bhagirath BVM Grand (HK)";  
+  // }, []);
   return (
     <BrowserRouter>
       <Header />
