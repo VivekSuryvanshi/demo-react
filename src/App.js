@@ -1,5 +1,6 @@
-import { React, lazy, Suspense , useEffect } from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { React, lazy, Suspense  } from "react";
+import { Routes, Route, BrowserRouter,Link } from "react-router-dom";
+import CookieConsent from "react-cookie-consent";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import GoToTop from "./components/GoToTop/GoToTop";
@@ -92,6 +93,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
+      <CookieConsent debug={true} location="top">This site uses Cookies. See our <Link>Privacy Policy</Link> for more.</CookieConsent>
       <Footer />
       <Whatsapp />
       <GoToTop />

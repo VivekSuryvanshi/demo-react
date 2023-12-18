@@ -47,7 +47,7 @@ const EdibleNonEdibleOil = () => {
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
               <div className="d-flex sm_flex_col align-items-center justify-content-center">
                 <img
-                  src="../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/Soybean Oil.webp"
+                  src="../assets/images/icons/Edible & Non Edible Oil (Crude)/webp image/soyabean oil.webp"
                   alt=""
                   width="80px"
                 />
