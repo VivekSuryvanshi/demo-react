@@ -93,7 +93,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
-      <CookieConsent debug={true} location="top" buttonStyle={{color:"white", backgroundColor:"rgb(92, 165, 149)"}} style={{backgroundColor:"#000",fontSize:"20px",textAlign:"center",zIndex:"10000"}}>This site uses Cookies. See our <Link to="/privacy#PrivacyAndPolicy" style={{color:"rgb(92, 165, 149)"}}>Privacy Policy</Link> for more.</CookieConsent>
+      <CookieConsent debug={true} location="top" buttonText="I accept" buttonStyle={{color:"white", backgroundColor:"rgb(92, 165, 149)"}} style={{backgroundColor:"#000",fontSize:"20px",textAlign:"center",zIndex:"10000"}}>This site uses Cookies. See our <Link to="/privacy#PrivacyAndPolicy" style={{color:"rgb(92, 165, 149)"}}>Privacy Policy</Link> for more details.</CookieConsent>
       <Footer />
       <Whatsapp />
       <GoToTop />
