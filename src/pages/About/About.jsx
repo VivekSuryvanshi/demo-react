@@ -183,20 +183,22 @@ const About = () => {
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="member hover-item">
                 <img
-                  src="https://img.freepik.com/free-photo/pensive-concentrated-managers-standing-modern-cafe_1262-17088.jpg?size=626&ext=jpg&uid=R115557865&ga=GA1.2.1388915471.1694001144&semt=ais"
+                  src="https://img.freepik.com/free-photo/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray_171337-629.jpg?w=1060&t=st=1703158001~exp=1703158601~hmac=4b6d85079deea37d05ac4851310381144d865b38fb9dd83d780e7802bd9c2d13"
                   className="img-fluid"
                   alt="person"
                 />
                 <div className="member-content">
-                  <h4>Walter White</h4>
-                  <span>CEO</span>
+                  <h4>Mr. Tapas Bodak</h4>
+                  <span>International Trade,Strategic Sales & Business Development</span>
                   <p>
-                    Magni qui quod omnis unde et eos fuga et exercitationem.
-                    Odio veritatis perspiciatis quaerat qui aut aut aut
+                  30+ Years,Import and Export  of Engineering,Chemical,Fertilizers,Minerals & Agro Commodities etc.
+
                   </p>
                   <div className="social">
                     <Link to="/">
-                      <i className="bi bi-twitter"></i>
+                      <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                      </svg>
                     </Link>
                     <Link to="/">
                       <i className="bi bi-facebook"></i>
@@ -215,52 +217,21 @@ const About = () => {
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="member hover-item">
                 <img
-                  src="https://img.freepik.com/free-photo/man-safety-equipment-his-workplace_23-2148976363.jpg?size=626&ext=jpg&uid=R115557865&ga=GA1.2.1388915471.1694001144&semt=ais"
+                  src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=1060&t=st=1703158045~exp=1703158645~hmac=710281905b31b2fce44361c640f800d7584683c0eef57ecf43cfba3e61603282"
                   className="img-fluid"
                   alt="person"
                 />
                 <div className="member-content">
-                  <h4>Sarah Jhinson</h4>
-                  <span>Team Leader</span>
+                  <h4>Vimal Kumar Chandwaney</h4>
+                  <span>International Marketing & Sales & Execution Trade</span>
                   <p>
-                    Repellat fugiat adipisci nemo illum nesciunt voluptas
-                    repellendus. In architecto rerum rerum temporibus
+                  30+ Years,Import and Export of Engineering, Chemicals, Fertilisers, HouseHold Electronic Goods & Capital Goods & Equipment’s, Agro Commodities etc. globally.
                   </p>
                   <div className="social">
                     <Link to="/">
-                      <i className="bi bi-twitter"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-facebook"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-instagram"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-linkedin"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Team Member --> */}
-            <div className="col-lg-4 col-md-6 d-flex">
-              <div className="member hover-item">
-                <img
-                  src="https://img.freepik.com/free-photo/happy-ambitious-hr-manager-choosing-you_1262-19137.jpg?w=900&t=st=1696853965~exp=1696854565~hmac=ee6594190ba3db536a81a9afee6fd98cc8f4bf24207a6e7324cd10a63be73496"
-                  className="img-fluid"
-                  alt="person"
-                />
-                <div className="member-content">
-                  <h4>Vinita Khare</h4>
-                  <span>Manager</span>
-                  <p>
-                    Voluptas necessitatibus occaecati quia. Earum totam
-                    consequuntur qui porro et laborum toro des clara
-                  </p>
-                  <div className="social">
-                    <Link to="/">
-                      <i className="bi bi-twitter"></i>
+                      <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                      </svg>
                     </Link>
                     <Link to="/">
                       <i className="bi bi-facebook"></i>
