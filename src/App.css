@@ -1339,6 +1339,7 @@ section {
 }
 
 #team .member .social a {
+    padding-right:5px;
     transition: none;
     color: #15227e
 }

@@ -192,7 +192,6 @@ const About = () => {
                   <span>International Trade,Strategic Sales & Business Development</span>
                   <p>
                   30+ Years,Import and Export  of Engineering,Chemical,Fertilizers,Minerals & Agro Commodities etc.
-
                   </p>
                   <div className="social">
                     <Link to="/">
