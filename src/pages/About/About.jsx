@@ -190,9 +190,9 @@ const About = () => {
                 <div className="member-content">
                   <h4>Mr. Manish Carpenter</h4>
                   <span>Director & Chief Executive Officer</span>
-                  <p>
+                  {/* <p>
                   30+ Years,Import and Export  of Engineering,Chemical,Fertilizers,Minerals & Agro Commodities etc.
-                  </p>
+                  </p> */}
                   {/* <div className="social">
                     <Link to="/">
                       <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
@@ -223,9 +223,9 @@ const About = () => {
                 <div className="member-content">
                   <h4>Mr. Tapas Bodak</h4>
                   <span>International Trade,Strategic Sales & Business Development</span>
-                  <p>
+                  {/* <p>
                   30+ Years,Import and Export  of Engineering,Chemical,Fertilizers,Minerals & Agro Commodities etc.
-                  </p>
+                  </p> */}
                   {/* <div className="social">
                     <Link to="/">
                       <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
@@ -256,9 +256,9 @@ const About = () => {
                 <div className="member-content">
                   <h4>Vimal Kumar Chandwaney</h4>
                   <span>International Marketing & Sales & Execution Trade</span>
-                  <p>
+                  {/* <p>
                   30+ Years,Import and Export of Engineering, Chemicals, Fertilisers, HouseHold Electronic Goods & Capital Goods & Equipment’s, Agro Commodities etc. globally.
-                  </p>
+                  </p> */}
                   {/* <div className="social">
                     <Link to="/">
                       <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
@@ -289,9 +289,9 @@ const About = () => {
                 <div className="member-content">
                   <h4>Manu Shourie</h4>
                   <span>Honorary Chairman & Strategic Partner</span>
-                  <p>
+                  {/* <p>
                   30+ Years,Import and Export of Engineering, Chemicals, Fertilisers, HouseHold Electronic Goods & Capital Goods & Equipment’s, Agro Commodities etc. globally.
-                  </p>
+                  </p> */}
                   {/* <div className="social">
                     <Link to="/">
                       <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
@@ -322,9 +322,9 @@ const About = () => {
                 <div className="member-content">
                   <h4>Anurag Pandey</h4>
                   <span>Chief Business Officer & Strategic Partner</span>
-                  <p>
+                  {/* <p>
                   30+ Years,Import and Export of Engineering, Chemicals, Fertilisers, HouseHold Electronic Goods & Capital Goods & Equipment’s, Agro Commodities etc. globally.
-                  </p>
+                  </p> */}
                   {/* <div className="social">
                     <Link to="/">
                       <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
