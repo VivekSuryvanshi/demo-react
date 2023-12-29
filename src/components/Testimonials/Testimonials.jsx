@@ -42,7 +42,7 @@ const Testimonials = () => {
                 alt=""
               />
               <h3>Rahul Dubey</h3>
-              <h4>Manager (TCS)</h4>
+              <h4>Managing Director</h4>
               <div className="stars">
                 <i className="bi bi-star-fill"></i>
                 <i className="bi bi-star-fill"></i>
@@ -52,9 +52,7 @@ const Testimonials = () => {
               </div>
               <p>
                 <i className="bi bi-quote quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec
-                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                "Bhagirath BVM Grand (HK) ensures top-notch trading services! Their expertise and reliability make them my go-to for quality goods procurement. Highly recommended!"
                 <i className="bi bi-quote quote-icon-right"></i>
               </p>
             </div>
@@ -80,65 +78,7 @@ const Testimonials = () => {
               </div>
               <p>
                 <i className="bi bi-quote quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec
-                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i className="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
-          {" "}
-          <div className="testimonials">
-            <div className="testimonial-item">
-              <img
-                src="./assets/images/testimonials/testi-4.jpg"
-                className="testimonial-img"
-                alt=""
-              />
-              <h3>Andrew Symonds</h3>
-              <h4>Delivery Manager</h4>
-              <div className="stars">
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i className="bi bi-quote quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec
-                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i className="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
-          {" "}
-          <div className="testimonials">
-            <div className="testimonial-item">
-              <img
-                src="./assets/images/testimonials/testi-5.jpg"
-                className="testimonial-img"
-                alt=""
-              />
-              <h3>Mrs. Shruti Singh</h3>
-              <h4>Ceo &amp; Founder</h4>
-              <div className="stars">
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i className="bi bi-quote quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec
-                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                "Choosing Bhagirath BVM Grand (HK) for trading goods was a game-changer. Exceptional service and remarkable efficiency in every transaction!"
                 <i className="bi bi-quote quote-icon-right"></i>
               </p>
             </div>
@@ -164,37 +104,8 @@ const Testimonials = () => {
               </div>
               <p>
                 <i className="bi bi-quote quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec
-                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i className="bi bi-quote quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="testimonialSwiperSlide  SwiperSlide">
-          {" "}
-          <div className="testimonials">
-            <div className="testimonial-item">
-              <img
-                src="./assets/images/testimonials/testi-7.jpg"
-                className="testimonial-img"
-                alt=""
-              />
-              <h3>Shubham Sharma</h3>
-              <h4>CTO & Manager</h4>
-              <div className="stars">
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-                <i className="bi bi-star-fill"></i>
-              </div>
-              <p>
-                <i className="bi bi-quote quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec
-                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                
+"Bhagirath BVM Grand (HK) exceeds expectations in trading goods. Their professionalism and dedication ensure seamless transactions and superior product quality."
                 <i className="bi bi-quote quote-icon-right"></i>
               </p>
             </div>

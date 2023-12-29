@@ -181,105 +181,7 @@ const About = () => {
             <h3>Our Team</h3>
           </div>
           <div className="row" data-aos="fade-up" data-aos-delay="100">
-          <div className="col-lg-4 col-md-6 d-flex conic_animation conic_animation">
-              <div className="member hover-item">
-                <img
-                  src="../assets/images/About/manish carpenter.jpeg" width="363px" height="242px" className="img-fluid"
-                  alt="person"
-                />
-                <div className="member-content">
-                  <h4>Mr. Manish Carpenter</h4>
-                  <span>Director & Chief Executive Officer</span>
-                  {/* <p>
-                  30+ Years,Import and Export  of Engineering,Chemical,Fertilizers,Minerals & Agro Commodities etc.
-                  </p> */}
-                  {/* <div className="social">
-                    <Link to="/">
-                      <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                      </svg>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-facebook"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-instagram"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-linkedin"></i>
-                    </Link>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Team Member --> */}
-            <div className="col-lg-4 col-md-6 d-flex conic_animation">
-              <div className="member hover-item">
-                <img
-                  src="../assets/images/About/Tapas.jpg"
-                  className="img-fluid"
-                  alt="person"
-                />
-                <div className="member-content">
-                  <h4>Mr. Tapas Bodak</h4>
-                  <span>International Trade,Strategic Sales & Business Development</span>
-                  {/* <p>
-                  30+ Years,Import and Export  of Engineering,Chemical,Fertilizers,Minerals & Agro Commodities etc.
-                  </p> */}
-                  {/* <div className="social">
-                    <Link to="/">
-                      <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                      </svg>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-facebook"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-instagram"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-linkedin"></i>
-                    </Link>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Team Member --> */}
-            <div className="col-lg-4 col-md-6 d-flex conic_animation">
-              <div className="member hover-item">
-                <img
-                  src="../assets/images/About/Vimal.jpeg"
-                  className="img-fluid"
-                  alt="person"
-                />
-                <div className="member-content">
-                  <h4>Vimal Kumar Chandwaney</h4>
-                  <span>International Marketing & Sales & Execution Trade</span>
-                  {/* <p>
-                  30+ Years,Import and Export of Engineering, Chemicals, Fertilisers, HouseHold Electronic Goods & Capital Goods & Equipment’s, Agro Commodities etc. globally.
-                  </p> */}
-                  {/* <div className="social">
-                    <Link to="/">
-                      <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                      </svg>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-facebook"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-instagram"></i>
-                    </Link>
-                    <Link to="/">
-                      <i className="bi bi-linkedin"></i>
-                    </Link>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Team Member --> */}
-            <div className="col-lg-4 col-md-6 d-flex conic_animation">
+          <div className="col-lg-4 col-md-6 d-flex conic_animation">
               <div className="member hover-item">
                 <img
                   src="../assets/images/About/Manu-shourie.jpg"
@@ -315,6 +217,39 @@ const About = () => {
             <div className="col-lg-4 col-md-6 d-flex conic_animation">
               <div className="member hover-item">
                 <img
+                  src="../assets/images/About/Vimal.jpeg"
+                  className="img-fluid"
+                  alt="person"
+                />
+                <div className="member-content">
+                  <h4>Vimal Kumar Chandwaney</h4>
+                  <span>Managing Director</span>
+                  {/* <p>
+                  30+ Years,Import and Export of Engineering, Chemicals, Fertilisers, HouseHold Electronic Goods & Capital Goods & Equipment’s, Agro Commodities etc. globally.
+                  </p> */}
+                  {/* <div className="social">
+                    <Link to="/">
+                      <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                      </svg>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-facebook"></i>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-instagram"></i>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-linkedin"></i>
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+            {/* <!-- End Team Member --> */}
+            <div className="col-lg-4 col-md-6 d-flex conic_animation">
+              <div className="member hover-item">
+                <img
                   src="../assets/images/About/Anurag-pandey.jpeg"
                   className="img-fluid"
                   alt="person"
@@ -324,6 +259,71 @@ const About = () => {
                   <span>Chief Business Officer & Strategic Partner</span>
                   {/* <p>
                   30+ Years,Import and Export of Engineering, Chemicals, Fertilisers, HouseHold Electronic Goods & Capital Goods & Equipment’s, Agro Commodities etc. globally.
+                  </p> */}
+                  {/* <div className="social">
+                    <Link to="/">
+                      <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                      </svg>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-facebook"></i>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-instagram"></i>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-linkedin"></i>
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+            {/* <!-- End Team Member --> */}
+          <div className="col-lg-4 col-md-6 d-flex conic_animation conic_animation">
+              <div className="member hover-item">
+                <img
+                  src="../assets/images/About/manish carpenter.jpeg" width="363px" height="242px" className="img-fluid"
+                  alt="person"
+                />
+                <div className="member-content">
+                  <h4>Manish Carpenter</h4>
+                  <span>Director & Chief Executive Officer</span>
+                  {/* <p>
+                  30+ Years,Import and Export  of Engineering,Chemical,Fertilizers,Minerals & Agro Commodities etc.
+                  </p> */}
+                  {/* <div className="social">
+                    <Link to="/">
+                      <svg style={{ verticalAlign: 'text-bottom' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                      </svg>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-facebook"></i>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-instagram"></i>
+                    </Link>
+                    <Link to="/">
+                      <i className="bi bi-linkedin"></i>
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+            {/* <!-- End Team Member --> */}
+            <div className="col-lg-4 col-md-6 d-flex conic_animation">
+              <div className="member hover-item">
+                <img
+                  src="../assets/images/About/Tapas.jpg"
+                  className="img-fluid"
+                  alt="person"
+                />
+                <div className="member-content">
+                  <h4>Tapas Bodak</h4>
+                  <span>Director & Chief Operating Officer</span>
+                  {/* <p>
+                  30+ Years,Import and Export  of Engineering,Chemical,Fertilizers,Minerals & Agro Commodities etc.
                   </p> */}
                   {/* <div className="social">
                     <Link to="/">
